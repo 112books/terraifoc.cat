@@ -3,95 +3,134 @@
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-inner">
-    <div class="hero-brand-wrap"><h1 class="hero-brand">Terra <span class="hero-brand-amp">&</span> Foc</h1></div>
+    <img src="/img/terraifoc-logo.svg" alt="Terra i Foc" class="hero-logo">
     <p class="hero-tagline">{{ i18n "hero_tagline" }}</p>
-    <p class="hero-desc">{{ replace (i18n "hero_desc") "|" "<br>" | safeHTML }}</p>
+    <div class="hero-line"></div>
+    <p class="hero-desc">{{ i18n "hero_desc" }}</p>
   </div>
 </section>
 
-<section class="section section--dark section-reveal" id="quisom">
+<section class="section section--border section-reveal" id="joan">
   <div class="section-inner">
-    <p class="section-label">{{ i18n "section_quisom_label" }}</p>
-    <h2 class="section-title">{{ i18n "section_quisom_title" }}</h2>
-    <p class="section-tagline">{{ i18n "section_quisom_tagline" | safeHTML }}</p>
+    <p class="section-label">{{ i18n "section_joan_label" }}</p>
+    <h2 class="section-title section-title--large">{{ i18n "section_joan_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "section_joan_subtitle" }}</p>
+    <div class="cols cols--split">
+      <div class="profile">
+        <div class="profile-photo">
+          <img src="/img/placeholder-joan.jpg" alt="Joan Martínez Peidro" loading="lazy">
+        </div>
+        <h3 class="profile-name">Joan Martínez Peidro</h3>
+        <p class="profile-role">{{ i18n "profile_role" | default "Ceramista · Fundador" }}</p>
+      </div>
+      <div>
+        <p class="content-text">{{ i18n "joan_intro" }}</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section section-reveal" id="familia">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_familia_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_familia_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "section_familia_subtitle" }}</p>
     <div class="content-text">
-      <p>{{ i18n "quisom_text" }}</p>
+      <p>{{ i18n "familia_text" }}</p>
     </div>
   </div>
 </section>
 
-<section class="section section--alt section-reveal" id="historia">
+<div class="section-divider"></div>
+
+<section class="section section--alt section-reveal" id="taller">
   <div class="section-inner">
-    <p class="section-label">{{ i18n "section_historia_label" }}</p>
-    <h2 class="section-title">{{ i18n "section_historia_title" }}</h2>
-    <p class="section-tagline">{{ i18n "section_historia_tagline" | safeHTML }}</p>
-    <p class="content-text content-text--subtle">{{ i18n "historia_intro" }}</p>
-    <div class="timeline">
-      {{ range .Params.historia_moments }}
-      <div class="timeline-item">
-        <div class="timeline-year">{{ .any }}</div>
-        <div class="timeline-dot"></div>
-        <div class="timeline-body">
-          <p>{{ .text }}</p>
-        </div>
+    <p class="section-label">{{ i18n "section_taller_label" }}</p>
+    <h2 class="section-title section-title--large">{{ i18n "section_taller_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "section_taller_subtitle" }}</p>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;">
+      <div>
+        <h3 class="col-title">{{ i18n "taller_evo_title" }}</h3>
+        <p class="content-text">{{ i18n "taller_evo_text" }}</p>
+      </div>
+      <div>
+        <h3 class="col-title">{{ i18n "taller_estructura_title" }}</h3>
+        <p class="content-text">{{ i18n "taller_estructura_text" }}</p>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 48px;">
+      <div>
+        <h3 class="col-title">{{ i18n "taller_construccions_title" }}</h3>
+        <p class="content-text">{{ i18n "taller_construccions_text" }}</p>
+      </div>
+      <div>
+        <h3 class="col-title">{{ i18n "taller_dades_title" }}</h3>
+        <p class="content-text" style="margin-bottom: 24px;">{{ i18n "taller_dades_intro" }}</p>
+        <table class="data-table">
+          <thead>
+            <tr>
+              <th>{{ i18n "taller_table_any" }}</th>
+              <th>{{ i18n "taller_table_fet" }}</th>
+              <th>{{ i18n "taller_table_forn" }}</th>
+              <th>{{ i18n "taller_table_produccio" }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            {{ range .Params.dades_taller }}
+            <tr>
+              <td><strong>{{ .any }}</strong></td>
+              <td>{{ .fita }}</td>
+              <td>{{ .forn }}</td>
+              <td>{{ .produccio }}</td>
+            </tr>
+            {{ end }}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section section-reveal" id="collaboracions">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_collab_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_collab_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "section_collab_subtitle" }}</p>
+    <div class="content-text">
+      <p>{{ i18n "collab_text" }}</p>
+    </div>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section section--alt section-reveal" id="glossari">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_glossari_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_glossari_title" }}</h2>
+    <p class="section-subtitle">{{ i18n "section_glossari_subtitle" }}</p>
+    <div class="glossary">
+      {{ $glossari := (i18n "glossari_entries") | default slice }}
+      {{ range $glossari }}
+      <div class="glossary-item">
+        <dt class="glossary-term">{{ .term }}</dt>
+        <dd class="glossary-def">{{ .def }}</dd>
       </div>
       {{ end }}
-    </div>
-  </div>
-</section>
-
-<section class="section section--dark section-reveal" id="protagonistes">
-  <div class="section-inner">
-    <p class="section-label">{{ i18n "section_protagonistes_label" }}</p>
-    <h2 class="section-title">{{ i18n "section_protagonistes_title" }}</h2>
-    <p class="section-tagline">{{ i18n "section_protagonistes_tagline" | safeHTML }}</p>
-    <div class="protagonists">
-      {{ range .Params.protagonistes }}
-      <div class="protagonist-card">
-        <div class="protagonist-photo">
-          <img src="{{ .foto }}" alt="{{ .nom }}" loading="lazy">
-        </div>
-        <h3 class="protagonist-name">{{ .nom }}</h3>
-        <span class="protagonist-role">{{ .rol }}</span>
-        <p class="protagonist-desc">{{ .desc }}</p>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</section>
-
-<section class="section section--alt section-reveal" id="fotografies">
-  <div class="section-inner">
-    <p class="section-label">{{ i18n "section_fotografies_label" }}</p>
-    <h2 class="section-title">{{ i18n "section_fotografies_title" }}</h2>
-    <p class="section-tagline">{{ i18n "section_fotografies_tagline" | safeHTML }}</p>
-  </div>
-  <div class="gallery">
-    <div class="gallery-item">
-      <img src="/img/placeholder-1.jpg" alt="Peça de ceràmica" loading="lazy">
-    </div>
-    <div class="gallery-item gallery-item--tall">
-      <img src="/img/placeholder-2.jpg" alt="Procés de torn" loading="lazy">
-    </div>
-    <div class="gallery-item">
-      <img src="/img/placeholder-3.jpg" alt="Esmaltat" loading="lazy">
-    </div>
-    <div class="gallery-item gallery-item--wide">
-      <img src="/img/placeholder-4.jpg" alt="Forn de ceràmica" loading="lazy">
-    </div>
-    <div class="gallery-item">
-      <img src="/img/placeholder-5.jpg" alt="Peça acabada" loading="lazy">
-    </div>
-    <div class="gallery-item">
-      <img src="/img/placeholder-6.jpg" alt="Detall d'esmalt" loading="lazy">
     </div>
   </div>
 </section>
 
 <section class="section-contact section-reveal" id="contacte">
   <div class="contact-inner">
-    <p class="section-label section-label--light">{{ i18n "section_contact_label" }}</p>
-    <h2 class="section-title section-title--light">{{ i18n "section_contact_title" }}</h2>
+    <p class="section-label">{{ i18n "section_contact_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_contact_title" }}</h2>
     <p class="contact-text">{{ i18n "contact_text" }}</p>
     <div class="contact-info">
       <p class="contact-address">{{ i18n "contact_address" }}</p>
@@ -116,7 +155,7 @@
       <div class="contact-status" id="contactStatus" role="status" aria-live="polite" aria-atomic="true"></div>
     </form>
     <script>
-    (function() {
+    (function(){
       var form = document.getElementById('contactForm');
       var status = document.getElementById('contactStatus');
       var submit = document.getElementById('contactSubmit');

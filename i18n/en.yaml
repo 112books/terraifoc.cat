@@ -1,33 +1,73 @@
 hero_brand: Terra i Foc
 hero_tagline: Artisan Ceramics Workshop
-hero_desc: Handmade pieces with clay, glaze and fire|in Penedès
+hero_desc: Handmade pieces with clay, glaze and fire. In Penedès since 1969.
 
-nav_quisom: About us
-nav_historia: History
-nav_protagonistes: Protagonists
-nav_fotografies: Gallery
+nav_joan: Joan
+nav_familia: Family
+nav_taller: Workshop
+nav_collaboracions: Collaborations
+nav_glossari: Glossary
 nav_contacte: Contact
 nav_lang: CA
 
-section_quisom_label: — 01
-section_quisom_title: About us
-section_quisom_tagline: "Handcrafted ceramics in the <span>Penedès</span>. A lifetime craft."
-quisom_text: "Terra i Foc is an artisan ceramics workshop at Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona. Founded in 1969 by Joan Martínez Peidro, the workshop has been a reference point for handmade ceramics in Penedès for decades. Each piece is crafted with care, from kneading the clay to the final firing in the kiln. Today, his son sporadically continues the craft, keeping the fire of tradition alive."
+section_joan_label: — 01
+section_joan_title: Joan
+section_joan_subtitle: "A lifetime dedicated to artisan ceramics."
+joan_intro: "Joan Martínez Peidro dedicated 41 years of his life to the ceramic craft. From the wood-fired kiln to the electric kiln, he built a workshop that is a reference in Penedès. He retired in 2010, and today his son sporadically continues the craft, keeping the fire of tradition alive."
 
-section_historia_label: — 02
-section_historia_title: History
-section_historia_tagline: "In 1969 we lit the kiln for the first time. The rest is <span>earth and fire</span>."
-historia_intro: "In 1969, Joan Martínez Peidro opened the Terra i Foc ceramics workshop in El Pago. For 41 years he dedicated himself to the ceramic craft, creating unique pieces and working on commission. After his retirement in 2010, his son has kept the essence of the workshop alive, taking on occasional commissions and preserving the legacy of a life dedicated to ceramics."
+section_familia_label: — 02
+section_familia_title: A family of potters
+section_familia_subtitle: "Ceramics as a family legacy."
+familia_text: "The ceramic tradition in the Martínez family runs deep. The Terra i Foc workshop has been a meeting point where the knowledge of the craft has been passed down through generations. Each piece that leaves the workshop carries the imprint of a family that has made earth and fire their way of life."
 
-section_protagonistes_label: — 03
-section_protagonistes_title: Protagonists
-section_protagonistes_tagline: "A lifetime dedicated to the craft. <span>Earth and fire</span>."
+section_taller_label: — 03
+section_taller_title: The workshop
+section_taller_subtitle: "From the potter's workshop to the ceramist's studio."
 
-section_fotografies_label: — 04
-section_fotografies_title: Gallery
-section_fotografies_tagline: "Light, clay and <span>fire</span>. The process in images."
+taller_evo_title: Evolution
+taller_evo_text: "What started as a traditional potter's workshop has evolved into a contemporary ceramist's studio where ancient techniques coexist with new tools. The original wood-fired kiln, manual wheels and new electric kilns share a space that has grown over the years."
 
-section_contact_label: — 05
+taller_estructura_title: Structure
+taller_estructura_text: "The workshop has dedicated spaces for each phase of the process: clay storage, kneading and wheel area, drying area, glazing and finally the kiln area. Every corner of the workshop serves a specific purpose, the result of decades of experience."
+
+taller_construccions_title: Constructions
+taller_construccions_text: "The workshop constructions have adapted to changing needs. From the primitive wood-fired kiln built with refractory bricks to the modern electrical installations, each expansion tells a chapter of the workshop's story."
+
+taller_dades_title: Data
+taller_dades_intro: "Figures that tell the evolution of the workshop."
+
+taller_table_any: Year
+taller_table_fet: Milestone
+taller_table_forn: Kiln
+taller_table_produccio: Production
+
+section_collab_label: — 04
+section_collab_title: Collaborations
+section_collab_subtitle: "Artists, artisans and commissions that have shaped the journey."
+
+collab_text: "Over the years, Terra i Foc has collaborated with artists, designers and artisans from various fields. Each collaboration has been an exchange — a way to learn and create pieces that could not arise from a single perspective."
+
+section_glossari_label: — 05
+section_glossari_title: Glossary
+section_glossari_subtitle: "Terms of the ceramic craft."
+
+glossari_entries:
+  - term: Clay
+    def: Natural material extracted from the earth. Mixed with water it becomes plastic and can be shaped. Once fired in the kiln it becomes hard and permanent.
+  - term: Glaze
+    def: Vitreous layer that fuses onto the piece during firing. Provides color, texture and waterproofing.
+  - term: Wood kiln
+    def: Traditional kiln that uses wood as fuel. Ash and flame create unique, unrepeatable effects on the glaze.
+  - term: Wheel
+    def: Machine that spins the clay while the artisan shapes it with their hands. Used to create symmetrical, rotational pieces.
+  - term: Stoneware
+    def: Type of clay fired at high temperature (1250-1300 °C). Once fired it is waterproof and very strong.
+  - term: Bisque
+    def: First firing of the piece without glaze. Makes it porous and ready to receive glaze.
+  - term: Refractory
+    def: Material that withstands very high temperatures without deforming. Used to build kilns.
+
+section_contact_label: — 06
 section_contact_title: Contact
 contact_text: "If you'd like to visit the workshop, commission a piece, or just learn more, drop us a line."
 contact_email: hola@terraifoc.cat
