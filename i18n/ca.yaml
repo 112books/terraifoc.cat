@@ -7,11 +7,12 @@ nav_familia: Família
 nav_taller: Taller
 nav_collaboracions: Col·laboracions
 nav_glossari: Glossari
+nav_galeria: Galeria
 nav_contacte: Contacte
 nav_lang: EN
 
 section_joan_label: — 01
-section_joan_title: El Joan
+section_joan_title: En Joan
 section_joan_subtitle: "Una vida dedicada a la ceràmica artesanal."
 joan_intro: "Joan Martínez Peidro va dedicar 41 anys de la seva vida a l'ofici de ceramista. Del forn de llenya al forn elèctric, va construir un obrador que és referència al Penedès. Es va jubilar el 2010, i avui el seu fill en continua l'ofici de forma esporàdica, mantenint viu el foc de la tradició."
 
@@ -51,7 +52,11 @@ section_glossari_label: — 05
 section_glossari_title: Glossari
 section_glossari_subtitle: "Termes de l'ofici de ceramista."
 
-section_contact_label: — 06
+section_galeria_label: — 06
+section_galeria_title: Galeria
+section_galeria_subtitle: "Instantànies Automat."
+
+section_contact_label: — 07
 section_contact_title: Contacte
 contact_text: "Si vols visitar l'obrador, encarregar una peça o simplement saber-ne més, escriu-nos."
 contact_email: hola@terraifoc.cat

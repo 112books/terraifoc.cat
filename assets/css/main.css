@@ -413,7 +413,6 @@ main[tabindex="-1"]:focus { outline: none; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 4px;
-  max-width: 680px;
 }
 
 .mini-gallery img {
@@ -455,6 +454,7 @@ main[tabindex="-1"]:focus { outline: none; }
 .gallery-item:hover img { transform: scale(1.04); }
 
 .gallery-item--wide { grid-column: span 2; }
+.gallery-item--full { grid-column: 1 / -1; }
 .gallery-item--tall { grid-row: span 2; }
 
 /* LIGHTBOX */
@@ -773,6 +773,7 @@ main[tabindex="-1"]:focus { outline: none; }
   }
 
   .gallery-item--wide,
+  .gallery-item--full,
   .gallery-item--tall {
     grid-column: span 1;
     grid-row: span 1;
