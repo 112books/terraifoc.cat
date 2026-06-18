@@ -1,0 +1,44 @@
+hero_brand: Terra i Foc
+hero_tagline: Obrador de ceràmica artesanal
+hero_desc: Peces fetes a mà amb argila, esmalt i foc|al Penedès
+
+nav_quisom: Qui som
+nav_historia: Història
+nav_protagonistes: Protagonistes
+nav_fotografies: Fotografies
+nav_contacte: Contacte
+nav_lang: EN
+
+section_quisom_label: — 01
+section_quisom_title: Qui som
+section_quisom_tagline: "Ceràmica artesanal al <span>Penedès</span>. Un ofici de tota la vida."
+quisom_text: "Terra i Foc és un obrador de ceràmica artesanal situat al carrer de la Verge de Montserrat, 17, al Pago (Subirats). Fundat el 1969 per Joan Martínez Peidro, l'obrador ha estat durant dècades un punt de referència de la ceràmica feta a mà al Penedès. Cada peça es treballa amb cura, de l'amassat de l'argila a la cuita final al forn. Avui, el seu fill en continua l'ofici de forma esporàdica, mantenint viu el foc de la tradició."
+
+section_historia_label: — 02
+section_historia_title: Història
+section_historia_tagline: "El 1969 vam encendre el forn per primera vegada. La resta és <span>terra i foc</span>."
+historia_intro: "L'any 1969, Joan Martínez Peidro va obrir l'obrador de ceràmica Terra i Foc al Pago. Durant 41 anys va dedicar-se a l'ofici de ceramista, creant peces úniques i treballant per encàrrec. Després de la seva jubilació el 2010, el seu fill ha mantingut viva l'essència de l'obrador, assumint encàrrecs puntuals i preservant el llegat d'una vida dedicada a la ceràmica."
+
+section_protagonistes_label: — 03
+section_protagonistes_title: Protagonistes
+section_protagonistes_tagline: "Una vida dedicada a l'ofici. <span>La terra i el foc</span>."
+
+section_fotografies_label: — 04
+section_fotografies_title: Fotografies
+section_fotografies_tagline: "La llum, l'argila i <span>el foc</span>. El procés en imatges."
+
+section_contact_label: — 05
+section_contact_title: Contacte
+contact_text: "Si vols visitar l'obrador, encarregar una peça o simplement saber-ne més, escriu-nos."
+contact_email: hola@terraifoc.cat
+contact_address: "Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona"
+contact_cta: Enviar
+form_name: Nom
+form_email: Correu electrònic
+form_message: Missatge
+form_ok: Gràcies! T'hem rebut correctament.
+form_error: No s'ha pogut enviar. Prova-ho de nou.
+
+footer_desc: Obrador de ceràmica artesanal
+footer_address: "C. Verge de Montserrat, 17 · El Pago (Subirats) · Barcelona"
+footer_email: hola@terraifoc.cat

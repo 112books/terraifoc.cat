@@ -1,0 +1,157 @@
+{{ define "main" }}
+
+<section class="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-inner">
+    <div class="hero-brand-wrap"><h1 class="hero-brand">Terra <span class="hero-brand-amp">&</span> Foc</h1></div>
+    <p class="hero-tagline">{{ i18n "hero_tagline" }}</p>
+    <p class="hero-desc">{{ replace (i18n "hero_desc") "|" "<br>" | safeHTML }}</p>
+  </div>
+</section>
+
+<section class="section section--dark section-reveal" id="quisom">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_quisom_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_quisom_title" }}</h2>
+    <p class="section-tagline">{{ i18n "section_quisom_tagline" | safeHTML }}</p>
+    <div class="content-text">
+      <p>{{ i18n "quisom_text" }}</p>
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt section-reveal" id="historia">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_historia_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_historia_title" }}</h2>
+    <p class="section-tagline">{{ i18n "section_historia_tagline" | safeHTML }}</p>
+    <p class="content-text content-text--subtle">{{ i18n "historia_intro" }}</p>
+    <div class="timeline">
+      {{ range .Params.historia_moments }}
+      <div class="timeline-item">
+        <div class="timeline-year">{{ .any }}</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-body">
+          <p>{{ .text }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--dark section-reveal" id="protagonistes">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_protagonistes_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_protagonistes_title" }}</h2>
+    <p class="section-tagline">{{ i18n "section_protagonistes_tagline" | safeHTML }}</p>
+    <div class="protagonists">
+      {{ range .Params.protagonistes }}
+      <div class="protagonist-card">
+        <div class="protagonist-photo">
+          <img src="{{ .foto }}" alt="{{ .nom }}" loading="lazy">
+        </div>
+        <h3 class="protagonist-name">{{ .nom }}</h3>
+        <span class="protagonist-role">{{ .rol }}</span>
+        <p class="protagonist-desc">{{ .desc }}</p>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+
+<section class="section section--alt section-reveal" id="fotografies">
+  <div class="section-inner">
+    <p class="section-label">{{ i18n "section_fotografies_label" }}</p>
+    <h2 class="section-title">{{ i18n "section_fotografies_title" }}</h2>
+    <p class="section-tagline">{{ i18n "section_fotografies_tagline" | safeHTML }}</p>
+  </div>
+  <div class="gallery">
+    <div class="gallery-item">
+      <img src="/img/placeholder-1.jpg" alt="Peça de ceràmica" loading="lazy">
+    </div>
+    <div class="gallery-item gallery-item--tall">
+      <img src="/img/placeholder-2.jpg" alt="Procés de torn" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="/img/placeholder-3.jpg" alt="Esmaltat" loading="lazy">
+    </div>
+    <div class="gallery-item gallery-item--wide">
+      <img src="/img/placeholder-4.jpg" alt="Forn de ceràmica" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="/img/placeholder-5.jpg" alt="Peça acabada" loading="lazy">
+    </div>
+    <div class="gallery-item">
+      <img src="/img/placeholder-6.jpg" alt="Detall d'esmalt" loading="lazy">
+    </div>
+  </div>
+</section>
+
+<section class="section-contact section-reveal" id="contacte">
+  <div class="contact-inner">
+    <p class="section-label section-label--light">{{ i18n "section_contact_label" }}</p>
+    <h2 class="section-title section-title--light">{{ i18n "section_contact_title" }}</h2>
+    <p class="contact-text">{{ i18n "contact_text" }}</p>
+    <div class="contact-info">
+      <p class="contact-address">{{ i18n "contact_address" }}</p>
+      <p class="contact-email"><a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></p>
+    </div>
+    <form class="contact-form" id="contactForm" action="https://formspree.io/f/xqeoyjjr" method="POST">
+      <input type="hidden" name="_language" value="{{ .Site.Language.Lang }}">
+      <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off">
+      <div class="contact-field">
+        <label for="contact-name">{{ i18n "form_name" }}</label>
+        <input type="text" id="contact-name" name="name" required>
+      </div>
+      <div class="contact-field">
+        <label for="contact-email">{{ i18n "form_email" }}</label>
+        <input type="email" id="contact-email" name="_replyto" required>
+      </div>
+      <div class="contact-field">
+        <label for="contact-msg">{{ i18n "form_message" }}</label>
+        <textarea id="contact-msg" name="message" rows="5" required></textarea>
+      </div>
+      <button type="submit" class="contact-submit" id="contactSubmit">{{ i18n "contact_cta" }}</button>
+      <div class="contact-status" id="contactStatus" role="status" aria-live="polite" aria-atomic="true"></div>
+    </form>
+    <script>
+    (function() {
+      var form = document.getElementById('contactForm');
+      var status = document.getElementById('contactStatus');
+      var submit = document.getElementById('contactSubmit');
+      if (!form) return;
+      form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        status.textContent = '';
+        status.className = 'contact-status';
+        submit.disabled = true;
+        submit.textContent = '…';
+        var data = new FormData(form);
+        fetch(form.action, {
+          method: 'POST',
+          body: data,
+          headers: { 'Accept': 'application/json' }
+        }).then(function(r) {
+          if (r.ok) {
+            status.textContent = '{{ i18n "form_ok" }}';
+            status.className = 'contact-status contact-status--ok';
+            form.reset();
+          } else {
+            status.textContent = '{{ i18n "form_error" }}';
+            status.className = 'contact-status contact-status--err';
+          }
+        }).catch(function() {
+          status.textContent = '{{ i18n "form_error" }}';
+          status.className = 'contact-status contact-status--err';
+        }).then(function() {
+          submit.disabled = false;
+          submit.textContent = '{{ i18n "contact_cta" }}';
+        });
+      });
+    })();
+    </script>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script>(function(){var p=sessionStorage.getItem('tf_pass');if(p!=='ok'){var r=prompt('Terra i Foc · obrador de ceràmica\nIntrodueix la contrasenya:');if(r==='LinuxBCN2026'){sessionStorage.setItem('tf_pass','ok')}else{document.body.innerHTML='<style>body{background:#2a1f1a;color:#e3d5c8;font-family:sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;text-align:center;padding:2em;}</style><div><h1>Terra i Foc</h1><p>Lloc web en construcció.</p></div>';throw new Error('Accés denegat')}}})()</script>
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'">
+  <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
+  <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{ range .Translations }}
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
+  {{ end }}
+  <link rel="alternate" hreflang="x-default" href="{{ .Site.BaseURL }}">
+  <meta property="og:title" content="{{ if .IsHome }}{{ i18n "hero_brand" }}{{ else }}{{ .Title }}{{ end }}">
+  <meta property="og:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="{{ if eq .Language.Lang "ca" }}ca_ES{{ else }}en_GB{{ end }}">
+  <meta property="og:site_name" content="{{ i18n "hero_brand" }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ if .IsHome }}{{ i18n "hero_brand" }}{{ else }}{{ .Title }}{{ end }}">
+  <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
+  <meta name="theme-color" content="#8b5e3c">
+  <link rel="icon" href="/img/terraifoc-mark.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="/img/terraifoc-mark.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap"
+    onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Syne:wght@700;800&display=swap">
+  </noscript>
+  {{ $css := resources.Get "css/main.css" | resources.Minify }}
+  <link rel="stylesheet" href="{{ $css.RelPermalink }}">
+  <noscript><style>.hero-tagline { visibility: visible; }</style></noscript>
+</head>
+<body>
+  <a href="#main-content" class="skip-link">{{ if eq .Language.Lang "ca" }}Salta al contingut{{ else }}Skip to content{{ end }}</a>
+  {{ partial "header.html" . }}
+  <main id="main-content" tabindex="-1">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+  {{ partial "progress.html" . }}
+
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="{{ if eq .Language.Lang "ca" }}Visualització ampliada{{ else }}Image preview{{ end }}">
+  <button class="lightbox-close" id="lightboxClose" type="button" aria-label="{{ if eq .Language.Lang "ca" }}Tancar{{ else }}Close{{ end }}">×</button>
+  <img id="lightboxImg" src="" alt="">
+</div>
+  <script>
+  (function(){
+    var tagline = document.querySelector('.hero-tagline');
+    if (tagline) {
+      var fullText = tagline.textContent.trim();
+      tagline.textContent = '';
+      tagline.style.visibility = 'visible';
+      tagline.classList.add('typing-cursor');
+      var i = 0;
+      function typeChar() {
+        if (i < fullText.length) {
+          tagline.textContent = fullText.slice(0, i + 1);
+          i++;
+          setTimeout(typeChar, 35 + Math.floor(Math.random() * 26));
+        } else {
+          tagline.classList.add('typing-done');
+          tagline.classList.remove('typing-cursor');
+        }
+      }
+      setTimeout(typeChar, 800);
+    }
+
+    var gcLangPrefix = document.documentElement.lang === 'en' ? '/en/' : '/';
+    var revealObserver = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('section--visible');
+          revealObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.15 });
+
+    var sections = document.querySelectorAll('.section-reveal');
+    sections.forEach(function(s) { revealObserver.observe(s); });
+
+    var header = document.querySelector('.site-header');
+    if (header) {
+      function onScroll() {
+        header.classList.toggle('header-scrolled', window.scrollY > 80);
+      }
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
+
+    /* Gallery lightbox */
+    var galleryImages = document.querySelectorAll('.gallery-item img');
+    var lightbox = document.getElementById('lightbox');
+    var lightboxImg = document.getElementById('lightboxImg');
+    var lightboxClose = document.getElementById('lightboxClose');
+    if (galleryImages.length && lightbox && lightboxImg && lightboxClose) {
+      galleryImages.forEach(function(img) {
+        img.addEventListener('click', function() {
+          lightboxImg.src = this.src;
+          lightboxImg.alt = this.alt;
+          lightbox.classList.add('lightbox--open');
+          document.body.style.overflow = 'hidden';
+        });
+      });
+      function closeLightbox() {
+        lightbox.classList.remove('lightbox--open');
+        document.body.style.overflow = '';
+      }
+      lightboxClose.addEventListener('click', closeLightbox);
+      lightbox.addEventListener('click', function(e) {
+        if (e.target === lightbox) closeLightbox();
+      });
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeLightbox();
+      });
+    }
+  })();
+  </script>
+</body>
+</html>

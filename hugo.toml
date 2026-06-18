@@ -1,0 +1,29 @@
+baseURL = "https://terraifoc.cat/"
+title = "Terra i Foc"
+defaultContentLanguage = "ca"
+disableKinds = ["taxonomy", "term", "RSS"]
+enableRobotsTXT = true
+
+[params]
+  description = "Obrador de ceràmica artesanal"
+  author = "Terra i Foc"
+  email = "hola@terraifoc.cat"
+  address = "Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona"
+  instagram = "https://www.instagram.com/terraifoc/"
+  logo = "/img/terraifoc-logo.svg"
+
+[languages]
+  [languages.ca]
+    languageName = "Català"
+    contentDir = "content"
+    weight = 1
+  [languages.en]
+    languageName = "English"
+    contentDir = "content/en"
+    weight = 2
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[build]
+  writeStats = false

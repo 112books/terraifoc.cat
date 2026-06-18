@@ -1,0 +1,44 @@
+hero_brand: Terra i Foc
+hero_tagline: Artisan Ceramics Workshop
+hero_desc: Handmade pieces with clay, glaze and fire|in Penedès
+
+nav_quisom: About us
+nav_historia: History
+nav_protagonistes: Protagonists
+nav_fotografies: Gallery
+nav_contacte: Contact
+nav_lang: CA
+
+section_quisom_label: — 01
+section_quisom_title: About us
+section_quisom_tagline: "Handcrafted ceramics in the <span>Penedès</span>. A lifetime craft."
+quisom_text: "Terra i Foc is an artisan ceramics workshop at Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona. Founded in 1969 by Joan Martínez Peidro, the workshop has been a reference point for handmade ceramics in Penedès for decades. Each piece is crafted with care, from kneading the clay to the final firing in the kiln. Today, his son sporadically continues the craft, keeping the fire of tradition alive."
+
+section_historia_label: — 02
+section_historia_title: History
+section_historia_tagline: "In 1969 we lit the kiln for the first time. The rest is <span>earth and fire</span>."
+historia_intro: "In 1969, Joan Martínez Peidro opened the Terra i Foc ceramics workshop in El Pago. For 41 years he dedicated himself to the ceramic craft, creating unique pieces and working on commission. After his retirement in 2010, his son has kept the essence of the workshop alive, taking on occasional commissions and preserving the legacy of a life dedicated to ceramics."
+
+section_protagonistes_label: — 03
+section_protagonistes_title: Protagonists
+section_protagonistes_tagline: "A lifetime dedicated to the craft. <span>Earth and fire</span>."
+
+section_fotografies_label: — 04
+section_fotografies_title: Gallery
+section_fotografies_tagline: "Light, clay and <span>fire</span>. The process in images."
+
+section_contact_label: — 05
+section_contact_title: Contact
+contact_text: "If you'd like to visit the workshop, commission a piece, or just learn more, drop us a line."
+contact_email: hola@terraifoc.cat
+contact_address: "Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona"
+contact_cta: Send
+form_name: Name
+form_email: Email
+form_message: Message
+form_ok: Thanks! We received your message.
+form_error: Could not send. Please try again.
+
+footer_desc: Artisan Ceramics Workshop
+footer_address: "C. Verge de Montserrat, 17 · El Pago (Subirats) · Barcelona"
+footer_email: hola@terraifoc.cat
