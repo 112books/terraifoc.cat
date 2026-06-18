@@ -1,0 +1,33 @@
+ca:
+  entries:
+    - term: Argila
+      def: Material natural que s'extreu de la terra. Barrejada amb aigua es torna plàstica i permet modelar-la. Un cop cuita al forn es torna dura i permanent.
+    - term: Esmalt
+      def: Capa vitria que es fon sobre la peça durant la cuita. Dóna color, textura i impermeabilitat.
+    - term: Forn de llenya
+      def: Forn tradicional que utilitza la llenya com a combustible. La cendra i la flama creen efectes únics i irrepetibles sobre l'esmalt.
+    - term: Torn
+      def: Màquina que fa girar l'argila mentre l'artesà li dóna forma amb les mans. Permet crear peces simètriques i de revolució.
+    - term: Gres
+      def: Tipus d'argila que es cou a alta temperatura (1250-1300 °C). Un cop cuit és impermeable i molt resistent.
+    - term: Bix
+      def: Primera cuita de la peça sense esmalt. La deixa porosa i preparada per rebre l'esmalt.
+    - term: Refractari
+      def: Material que suporta temperatures molt elevades sense deformar-se. S'utilitza per construir forns.
+
+en:
+  entries:
+    - term: Clay
+      def: Natural material extracted from the earth. Mixed with water it becomes plastic and can be shaped. Once fired in the kiln it becomes hard and permanent.
+    - term: Glaze
+      def: Vitreous layer that fuses onto the piece during firing. Provides color, texture and waterproofing.
+    - term: Wood kiln
+      def: Traditional kiln that uses wood as fuel. Ash and flame create unique, unrepeatable effects on the glaze.
+    - term: Wheel
+      def: Machine that spins the clay while the artisan shapes it with their hands. Used to create symmetrical, rotational pieces.
+    - term: Stoneware
+      def: Type of clay fired at high temperature (1250-1300 °C). Once fired it is waterproof and very strong.
+    - term: Bisque
+      def: First firing of the piece without glaze. Makes it porous and ready to receive glaze.
+    - term: Refractory
+      def: Material that withstands very high temperatures without deforming. Used to build kilns.

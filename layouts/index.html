@@ -3,7 +3,7 @@
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-inner">
-    <img src="/img/terraifoc-logo.svg" alt="Terra i Foc" class="hero-logo">
+    <h1 class="hero-title"><img src="/img/terraifoc-logo.svg" alt="Terra i Foc" class="hero-logo"></h1>
     <p class="hero-tagline">{{ i18n "hero_tagline" }}</p>
     <div class="hero-line"></div>
     <p class="hero-desc">{{ i18n "hero_desc" }}</p>
@@ -18,7 +18,7 @@
     <div class="cols cols--split">
       <div class="profile">
         <div class="profile-photo">
-          <img src="/img/placeholder-joan.jpg" alt="Joan Martínez Peidro" loading="lazy">
+          <img src="/img/portada.jpg" alt="Joan Martínez Peidro" loading="lazy">
         </div>
         <h3 class="profile-name">Joan Martínez Peidro</h3>
         <p class="profile-role">{{ i18n "profile_role" | default "Ceramista · Fundador" }}</p>
@@ -26,6 +26,11 @@
       <div>
         <p class="content-text">{{ i18n "joan_intro" }}</p>
       </div>
+    </div>
+    <div class="mini-gallery" style="margin-top: 48px;">
+      <img src="/img/joan-retrats/img_6732.jpg" alt="Retrat de Joan" loading="lazy">
+      <img src="/img/joan-retrats/img_8406.jpg" alt="Retrat de Joan" loading="lazy">
+      <img src="/img/joan-retrats/img_8445.jpg" alt="Retrat de Joan" loading="lazy">
     </div>
   </div>
 </section>
@@ -37,8 +42,22 @@
     <p class="section-label">{{ i18n "section_familia_label" }}</p>
     <h2 class="section-title">{{ i18n "section_familia_title" }}</h2>
     <p class="section-subtitle">{{ i18n "section_familia_subtitle" }}</p>
-    <div class="content-text">
-      <p>{{ i18n "familia_text" }}</p>
+    <div class="cols cols--gap-lg" style="margin-top: 32px;">
+      <div class="content-text">
+        <p>{{ i18n "familia_text" }}</p>
+      </div>
+      <div>
+        <img src="/img/familia/familia.jpg" alt="Família Martínez" style="width:100%;height:auto;border-radius:4px;" loading="lazy">
+      </div>
+    </div>
+    <div class="gallery-grid" style="margin-top: 48px;">
+      <div class="gallery-item gallery-item--wide"><img src="/img/historiques/IMG_6015.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
+      <div class="gallery-item"><img src="/img/historiques/IMG_6010.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
+      <div class="gallery-item"><img src="/img/historiques/IMG_6017.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
+      <div class="gallery-item"><img src="/img/historiques/IMG_6012.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
+      <div class="gallery-item"><img src="/img/historiques/IMG_6014.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
+      <div class="gallery-item"><img src="/img/historiques/IMG_6018.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
+      <div class="gallery-item"><img src="/img/historiques/IMG_6019.jpg" alt="Fotografia històrica del taller" loading="lazy"></div>
     </div>
   </div>
 </section>
@@ -93,6 +112,21 @@
       </div>
     </div>
   </div>
+  <div class="gallery-grid" style="margin-top: 80px;">
+    <div class="gallery-item gallery-item--wide"><img src="/img/taller/IMG_8570.jpg" alt="Vista del taller" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-005.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/mans/IMG_8525.jpg" alt="Mans treballant" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-001.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-012.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/fent-feina/IMG_8598.jpg" alt="Joan treballant al taller" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-017.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/mans/IMG_8532.jpg" alt="Mans treballant" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-018.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-026.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/automat/automat-036.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/fent-feina/IMG_8638.jpg" alt="Joan treballant al taller" loading="lazy"></div>
+    <div class="gallery-item"><img src="/img/tarja.jpg" alt="Targeta de visita històrica de Terra i Foc" loading="lazy"></div>
+  </div>
 </section>
 
 <div class="section-divider"></div>
@@ -116,8 +150,8 @@
     <h2 class="section-title">{{ i18n "section_glossari_title" }}</h2>
     <p class="section-subtitle">{{ i18n "section_glossari_subtitle" }}</p>
     <div class="glossary">
-      {{ $glossari := (i18n "glossari_entries") | default slice }}
-      {{ range $glossari }}
+      {{ $entries := index hugo.Data.glossary .Language.Lang "entries" }}
+      {{ range $entries }}
       <div class="glossary-item">
         <dt class="glossary-term">{{ .term }}</dt>
         <dd class="glossary-def">{{ .def }}</dd>

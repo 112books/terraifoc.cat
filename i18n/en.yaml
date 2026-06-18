@@ -51,22 +51,6 @@ section_glossari_label: — 05
 section_glossari_title: Glossary
 section_glossari_subtitle: "Terms of the ceramic craft."
 
-glossari_entries:
-  - term: Clay
-    def: Natural material extracted from the earth. Mixed with water it becomes plastic and can be shaped. Once fired in the kiln it becomes hard and permanent.
-  - term: Glaze
-    def: Vitreous layer that fuses onto the piece during firing. Provides color, texture and waterproofing.
-  - term: Wood kiln
-    def: Traditional kiln that uses wood as fuel. Ash and flame create unique, unrepeatable effects on the glaze.
-  - term: Wheel
-    def: Machine that spins the clay while the artisan shapes it with their hands. Used to create symmetrical, rotational pieces.
-  - term: Stoneware
-    def: Type of clay fired at high temperature (1250-1300 °C). Once fired it is waterproof and very strong.
-  - term: Bisque
-    def: First firing of the piece without glaze. Makes it porous and ready to receive glaze.
-  - term: Refractory
-    def: Material that withstands very high temperatures without deforming. Used to build kilns.
-
 section_contact_label: — 06
 section_contact_title: Contact
 contact_text: "If you'd like to visit the workshop, commission a piece, or just learn more, drop us a line."

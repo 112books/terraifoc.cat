@@ -51,22 +51,6 @@ section_glossari_label: — 05
 section_glossari_title: Glossari
 section_glossari_subtitle: "Termes de l'ofici de ceramista."
 
-glossari_entries:
-  - term: Argila
-    def: Material natural que s'extreu de la terra. Barrejada amb aigua es torna plàstica i permet modelar-la. Un cop cuita al forn es torna dura i permanent.
-  - term: Esmalt
-    def: Capa vitria que es fon sobre la peça durant la cuita. Dóna color, textura i impermeabilitat.
-  - term: Forn de llenya
-    def: Forn tradicional que utilitza la llenya com a combustible. La cendra i la flama creen efectes únics i irrepetibles sobre l'esmalt.
-  - term: Torn
-    def: Màquina que fa girar l'argila mentre l'artesà li dóna forma amb les mans. Permet crear peces simètriques i de revolució.
-  - term: Gres
-    def: Tipus d'argila que es cou a alta temperatura (1250-1300 °C). Un cop cuit és impermeable i molt resistent.
-  - term: Bix
-    def: Primera cuita de la peça sense esmalt. La deixa porosa i preparada per rebre l'esmalt.
-  - term: Refractari
-    def: Material que suporta temperatures molt elevades sense deformar-se. S'utilitza per construir forns.
-
 section_contact_label: — 06
 section_contact_title: Contacte
 contact_text: "Si vols visitar l'obrador, encarregar una peça o simplement saber-ne més, escriu-nos."
