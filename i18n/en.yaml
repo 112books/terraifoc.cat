@@ -1,6 +1,7 @@
 hero_brand: Terra i Foc
 hero_tagline: Artisan Ceramics Workshop
 hero_desc: Handmade pieces with clay, glaze and fire. In Penedès since 1969.
+hero_cita: "Craftsmanship is the human capacity to produce objects by hand or with the help of simple tools or machines. Artisans can also produce serial works, but they differ from industrial production in that each piece is made by hand, one by one, and this makes every object unique."
 
 nav_joan: Joan
 nav_familia: Family
@@ -12,27 +13,179 @@ nav_contacte: Contact
 nav_lang: CA
 
 section_joan_label: — 01
-section_joan_title: Joan
+section_joan_title: "Joan and his résumé"
 section_joan_subtitle: "A lifetime dedicated to artisan ceramics."
-joan_intro: "Joan Martínez Peidro dedicated 41 years of his life to the ceramic craft. From the wood-fired kiln to the electric kiln, he built a workshop that is a reference in Penedès. He retired in 2010, and today his son sporadically continues the craft, keeping the fire of tradition alive."
+joan_intro: "Joan Martínez Peidro, born in Barcelona in 1945, son, grandson and great-grandson of potters, established himself in 1969 at Carrer Escultor Ordóñez 32-34 in Barcelona, in the premises owned by his parents, to create his workplace — a ceramics workshop that would be called Terra i Foc. This happened in 1969 when he married Isabel Serres and they went to live in the building next door, at numbers 28-30, renting a flat owned by his parents. This is his story.\n\nIn 1966, on the land where his father's pottery had stood, two blocks of flats were built with four doors per landing and their corresponding premises. Four years after Joan and Isabel settled in, the workshop became too small and in 1973 they moved permanently to El Pago, municipality of Subirats in the Alt Penedès region."
+joan_curriculum_title: Résumé
+joan_curriculum: "1945 – Joan Martínez Peidro is born in the Sagrera neighbourhood, Barcelona\n— (1959) – Primary education at Acadèmia Sta. Eulàlia in Vilapicina. In 1959 he earns his commerce diploma at Escola Pràctica\n1960-1967 – Studies at Escola Massana on a special scholarship\n1962 – Works at Moldesa\n1965 – Joins the Loki ceramics workshop of ceramist Francesc Albors\n1966 – Joins Cerámicas San Joaquin in Badalona\n1967 – Completes military service\n1969 – Marries Isabel Serres and founds his own workshop Terra i Foc, Barcelona\n1973-1974 – Moves the Terra i Foc workshop to El Pago, municipality of Subirats, forming an S.A.\n1975 – The S.A. is dissolved and Joan continues at Terra i Foc until retirement\n1987 – Participates in the 7th design competition at Expohogar Barcelona and wins a medal for his designs\n1987-1997 – Collaborates with several companies on production: Casa Bohèmia, Carosa disseny, Elisa...\n1994 – Exhibits with the Ceramistes Catalans collective in Madrid\n1995-1997 – Exhibits at the ceramics and gift fair in Madrid with the Ceràmica Artística Catalana group\n2007-2010 – Produces bisque for Manel Serran in addition to incoming commissions\n2010 – Retires"
 
 section_familia_label: — 02
 section_familia_title: A family of potters
 section_familia_subtitle: "Ceramics as a family legacy."
-familia_text: "The ceramic tradition in the Martínez family runs deep. The Terra i Foc workshop has been a meeting point where the knowledge of the craft has been passed down through generations. Each piece that leaves the workshop carries the imprint of a family that has made earth and fire their way of life."
+familia_text: "A family of potters: Joan's great-grandparents — Josep Ma Martínez Alzina and Josepa Romeu Sitja — arrived in Barcelona on foot from La Selva del Camp during the Carlist Uprising of 1855–1856 and settled in the Sagrera neighbourhood. The house was popularly known as Can Fatxenda. They lived directly above the workshop and, like all potters, had the shop next door.\n\nJoan Martínez i Romeu, Joan's grandfather, was born on 1 September 1872. He was a potter, making all kinds of earthenware except fireproof pieces. He suffered from phlebitis and worked with an electric wheel. At the beginning of the 20th century he bought a premises at Carrer Portugal number 8 in Sagrera, which he later had to mortgage due to his illness. He married Leonor González Boada. They died young — she in 1930 and he in 1936. They had two children: Joan and Josepa.\n\nJoan's father — Joan Martínez i González, born in 1909 — soon began working to replace his father in the workshop. He refused to marry until he had paid off the mortgage his father had left. He married on 22 May 1942 to Dolors Peidro Corbera (known familiarly as Lola) and they became the parents of Joan and three more children: Leonor, Núria and Pere. His father's first pottery was at Carrer Portugal, number 8, in the Sagrera neighbourhood. Around 1950 things changed when his workshop was expropriated by the company Enasa, which was next door. This forced him to start again at Passatge Porta in the Vilapicina neighbourhood. Curiously, this land remained unused until recently.\n\nOn the occasion of the 12th Official International Trade Fair of Barcelona, from 10 to 25 June 1944, the father participated at the organisation's request as a representative of the craft, throwing on the wheel daily in front of the public."
+familia_pare_visio_title: "The father in the 1950s"
+familia_pare_visio_text: "In the 1950s, the father had very clear expectations for his children. He already foresaw that they could not stay at Passatge Porta — the city was growing, the smoke from firing would disturb the neighbours, and the large space they occupied was very tempting for development. It was the beginning of the construction boom. In the new space, which he imagined on the outskirts of Barcelona, the father thought that Leonor would handle the accounts, Joan would manage production, Núria would run the factory shop, and Pere would distribute the output."
+familia_pare_feina_title: "The father's and mother's work"
+familia_pare_feina_text: "From 1950 onwards, the father mostly threw on the wheel: jars for honey and for storing oil; pitchers; piggy banks; mató moulds; flameres; pots for the laboratory of the Santa Creu mental institute at the end of Carrer Pi i Molist; feeders and drinkers for rabbits; brooders; round anthills and flowerpots of all sizes. He was also a potter for cooking vessels, but only threw the smaller pieces; the rest kept him busy enough. Pots and casseroles were made by a specialised worker named Vernis.\n\nThe mother, Dolors Peidro Corbera, made pieces using the estec technique (mechanical throwing with a plaster mould): mortars, small dishes for eating baby eels, all the Three Kings' fair items and especially washbowls for doing the dishes. This is what Joan remembers."
+familia_pare_malaltia_text: "The father, Joan Martínez i González, had to stop working at his pottery on Passatge Porta due to illness from 1958 to 1963, and the 4 children were still too young to replace him. Even so, the mother, Lola, and Joan managed for a time, hoping the father would recover. This is why Joan began to learn the craft at a very young age.\n\nIn 1966, Joan's father was offered the purchase of the entire workshop land to build 2 blocks with 4 flats per landing. In exchange, he was given various shops and flats. Joan's father became the last potter in the city of Barcelona.\n\nAt Passatge Porta, where the house and shop were, Joan's sister Núria now lives with her partner Juan. The flat that Joan and Isabel occupied when they lived in Barcelona went to his older sister Leonor, who still lives there with Jordi. The youngest brother, Pere, has always lived in Tavertet with Carme."
 
+familia_pecoes_title: "Pieces made at the father's workshop"
+familia_pecoes_text: "From 1955 onwards, they mainly produced flowerpots using a machine they bought in 1954 from the Miquel Massana pottery in Sabadell for 20,000 pesetas. It took more than a year to get it working properly and it became the first pot-making machine in Catalonia, capable of producing up to 12 pieces per minute and/or 4,000 per day. It was the admiration of all potters, and the father let anyone who asked copy it, even helping them set it up. There was work for everyone."
 section_taller_label: — 03
 section_taller_title: The workshop
 section_taller_subtitle: "From the potter's workshop to the ceramist's studio."
 
-taller_evo_title: Evolution
-taller_evo_text: "What started as a traditional potter's workshop has evolved into a contemporary ceramist's studio where ancient techniques coexist with new tools. The original wood-fired kiln, manual wheels and new electric kilns share a space that has grown over the years."
+taller_evo_title: Design
+taller_evo_text: "The potter's aim was to produce utilitarian pieces used in every home. He followed the designs demanded in the area and applied himself to making them as well as he could. They were anonymous, and known by the place they came from: Quart ceramics, Verdú, La Bisbal, Breda, Miravet…\n\nIn the past, potters made pieces for very specific functions: funnels, chestnut roasters, animal drinkers, bed warmers, hand warmers for market sellers to place under their skirts, smokers for removing beehives, or chafing dishes to keep food warm.\n\nThe earthenware pitcher (càntir) is an example of anonymous, perfect design. It serves as a water container while keeping water cool, and provides a hygienic, practical way for anyone to drink. Nobody contaminates the water and no glasses are needed. Pottery was a vital resource for many communities for centuries.\n\nAt the end of the 20th century, with the arrival of plastic, pottery became dispensable. Washbowls, draining racks, mató moulds, animal feeders, drinkers, containers of all kinds were made of plastic — cheaper, lighter, and unbreakable. Pots and casseroles became metal, plates became glass (Duralex).\n\nThis led ceramists to begin designing other kinds of pieces, perhaps less utilitarian and more decorative. Design mattered more, and pieces began to be signed: Llorenç Artigues, Jordi Aguadé, Francesc Albors, the Serra family, Emilia Xargay, and even Joan Miró and Picasso. The way of working clay changed greatly in a short time."
 
-taller_estructura_title: Structure
-taller_estructura_text: "The workshop has dedicated spaces for each phase of the process: clay storage, kneading and wheel area, drying area, glazing and finally the kiln area. Every corner of the workshop serves a specific purpose, the result of decades of experience."
+taller_estructura_title: The Space
+taller_estructura_text: "The potter needed considerable space for production. To store and prepare the clay chunks that arrived from construction excavations and transform them into the clay needed for the wheel and the estec. The basins for drying it. The barrers for drying the pieces once made, an enormous kiln for firing them, ample space for storing the wood for firing and another place for the shop where they sold them.\n\nNormally, workshops were located in rural areas or away from houses, since the kilns gave off a lot of smoke and could disturb neighbours. It took about a month of work to fill the kiln and 3 to 5 days to fire a batch.\n\nThe ceramist was a craftsperson who did not need as much space. They bought clay ready to use and, since it arrived wrapped in plastic, could stack a lot in a small space. The workspace varied according to the procedures they used. In principle they had the wheel and the estec like the potters, but they needed many tables for the slip-casting process. Like the potter, the ceramist also needed barrers for drying pieces and shelves.\n\nThe ceramist's kiln was electric — no need for wood storage — and much smaller. It could also run on diesel or gas, with sizes ranging from 40 cm³ usable for the smallest to 1 m³ for the largest. They were also cleaner. At first they only had a temperature reader supplemented by Seguer cones, and later they came with an automatic pyrometer that regulated temperature according to a programmed curve. They were lined with refractory blanket or refractory bricks."
 
-taller_construccions_title: Constructions
-taller_construccions_text: "The workshop constructions have adapted to changing needs. From the primitive wood-fired kiln built with refractory bricks to the modern electrical installations, each expansion tells a chapter of the workshop's story."
+taller_eines_gerrer_title: Potter's Materials, Tools and Machines
+taller_eines_gerrer_text: "Before letting the sludge into the basin, it was swept clean and a layer of ash from the kiln, passed through a sieve, was spread on the bottom so the clay would not stick. Once the sludge entered the basin, the water that overflowed through holes at different heights drained into the sewer.\n\nWhen no water remained on top of the clay, it was marked with a reed tipped with a metal rod, making a grid that, as it dried further, separated into squares along the lines. The soft clay slabs were stacked, soft side against the drier top, covered with borrasses and hosed down when needed.\n\nAll pieces were made on the wheel or with the estec. The botxes —the thrown part of the pitchers— and the trimming, which was done by hand. Guarnir means adding the handle, spout and rim of the pitchers, that is, finishing the pieces after the main part was thrown on the wheel.\n\nThe potter needed few materials. The clay, which he made himself. The moulds for making pieces with the estec with their corresponding templates, and the wood. Galena for glazing, and the ball mill for grinding the galena, which was mixed with starch to give it adhesion. The firing materials: tarros, planos, pixulins, borregos, fòtils and rodells. Llemutja and engalba for covering the supports.\n\nThe machines: the clay mixer; the pugmill; the crusher; the rollers and the pot-making machine; the estec; and the kick wheel.\n\nTo prepare the clay, the pugmill has an intake mouth with two cylinders that feed the clay inside, where the auger carries it to the outlet, to which different dies can be attached — usually round for making cylinders, but they can also be rectangular, square, solid or hollow. Once the clay came out of the pugmill, it moved along wooden rollers that allowed a good length of the chosen form to be produced. At the arch visible at the outlet there is a wire for cutting the emerging clay.\n\nThe kiln was very large, Arabic-style masonry, with vaulted ceilings and external rings if necessary. The temperature was determined by the colour of the fire. Pyrometers did not exist. Firing was a matter of experience passed down from fathers to sons.\n\nThe estec, or mechanical mould-throwing, consisted of a wheel that, instead of a bat, had a metal mould-holder attached to the rotating shaft. The mould-holder carried a standard interchangeable plaster mould depending on the piece to be made. The outside of the plaster mould matched the inside shape of the holder, and the inside was the external profile of what would become the clay piece, at the centre of which a ball of clay of calculated size or weight was placed. The inside shape of the piece was given by a steel or wooden template, also interchangeable, which was half of the internal profile, attached to a lever that descended through the centre of the mould until almost touching it. It had a stop set at the desired thickness to obtain the required wall thickness. The clay rose up along the wall from the original position of the clay ball, thanks to a wooden piece attached to the template, held by an arm clamped to the estec table, descending to the stop with the help of a wet sponge. The moulds used were single-piece and had draft."
+taller_eines_ceramista_title: Ceramist's Materials, Tools and Machines
+taller_eines_text: "The ceramist needed red clay like the potter, but bought it packaged; the slab clay also came packaged; stoneware materials were bought in powder form and porcelain was bought liquid, in drums. Few people made stoneware in artisan workshops in 1970, until the paste was packaged and commercialised.\n\nAt the ceramist's workshop, only stoneware was prepared — weighing the elements of the chosen formula and mixing them with water in an elevated 500-litre tank, inside of which there was a large wall-mounted agitator. The clay became liquid and thick, ready for slip casting. It came out through a tap at the bottom of the tank that connected to the slip-casting hose. If it was to be used for the wheel or the estec, it was passed through the filter press until it reached the desired consistency. Red clay and slab clay were bought packaged, and liquid porcelain in drums.\n\nThe process of making pieces on the wheel was the same in the workshop as in the traditional pottery, except that the ceramist's wheels were more modern, all electric with gears to regulate speed.\n\nThe ceramist used the following machines: the wall agitator, the filter press for making stoneware, the mechanical rotary press and the pneumatic press. The slab roller, first manual then mechanical. The wheels: first kick wheels and then mechanical wheels. The same mechanical wheels were used for the estec, with their corresponding moulds and templates.\n\nThe pugmills: one for red clay, another for slab clay, and for stoneware the stainless steel pugmill. The compressor for the spray gun and the booth with extractor. The materials for stoneware formulas: colouring oxides and enrichments, in powder form. A scale, balance scales and precision scales. Also commercial glazes in powder form. They needed brushes, plastic buckets for dipping pieces, sieves for straining glazes.\n\nFor firing, they had differentiated material depending on whether the batch was high or low temperature. Grooved steatite shelves for low-temperature firing, up to 1000°C, and cordierite, thicker and ungrooved, for high-temperature, up to 1300°C. The posts were made of carborundum in various sizes according to the high-temperature pieces. Stilts and cylindrical spurs, also in different sizes, to separate shelves.\n\nSlip casting was the most commonly used procedure in the workshop. It consisted of fitting the three parts of the plaster mould — the base and the two sides — closing them so the joints matched and securing them with a wide elastic band around the outside. Then they were filled with barbotine or liquid clay to the very top, all the moulds arranged on laminated tables. The plaster absorbed the water from the clay, which thickened against the mould wall. When it was thick enough, the mould was turned over to pour out the excess clay and left to drain on the table sheets. Under the table there was a semi-rigid plastic sheet, inclined toward the end of the table, which collected the excess clay into a bucket.\n\nBefore removing the finished pieces from the mould, the necks were taken off — the top part of the piece that would not be part of it, but which left the edge perfectly finished. It also served to check whether the clay thickness was correct while the mould was still full. The necks were removed with a gesture, first inward and then upward. They came off immediately.\n\nThe pieces were taken out of the moulds when they had enough consistency and placed on boards on the barrers to dry. Once dry, the pieces had to be fettled, that is, removing the seam marks left by the mould joints. This was done with a falzilla, a kind of knife, or with sandpaper, and then finished with a damp sponge."
+
+
+taller_estructura_tf_title: The Terra i Foc Workshop Structure
+taller_estructura_tf_text: "Machines
+
+The kiln suppliers: EMISON, electric with semi-automatic pyrometer. In Valls, the first large 1 m³ kiln was built by CIMA, an auxiliary company of Izard porcelains. Later they bought a NABER. After working at full capacity for years, they reused the NABER shell to build a gas kiln for metallic lustre. They also reused the CIMA kiln shell, converting it into the first diesel kiln with inverted flame, with interior walls of expanded fused alumina high-temperature blanket. For many years they used it for porcelain as well as stoneware and third firings with decals. It had the quality of cooling very quickly.
+
+One of the EMISON kilns, Joan converted to diesel, and later (1976) he built another large diesel kiln, 1 m³ with inverted flame. With the rise in electricity prices, they aimed to fire with diesel. It was high temperature. It ran until renovation work was done for their daughter's house, when it had to be dismantled (1994).
+
+A large NABER high-temperature kiln that ran every day of the week while there were all the workers. After a course Joan took in Madrid (Keller), he converted it to gas for reduction firings that enabled metallic lustre (1978).
+
+The wheels and estecs were FORNS. First only for the estec and later only for wheel throwing.
+
+The auxiliary machines such as the pugmill, rotary press and the original estec were made by Anton Rovira of Esparreguera. The pneumatic press was from PUJOL of L'Hospitalet. An electric slab roller was added in 2007.
+
+After the partnership (SA) dissolved, Ignasi took his kiln. Isabel took the medium kiln home to make jewellery and miniatures. What remained: 1 small Emison kiln, 1 new large Emison kiln, 2 estecs attached to Forns wheels, 2 pugmills (one for red clay, one for slab clay), 1 manual slab roller, 1 mechanical rotary press, 1 filter press bought from Serra de Collbató, 1 compressor, 1 spray gun and booth, 1 large kiln bought from Izard of Valls (converted to diesel inverted flame in 1976, two diagonal burners, high temperature), 1 pump for raising clay from the tanks to the slip casting hose.
+
+The spray booth with its turntable for placing the piece. Beside it, the spray guns hanging. On the booth ceiling and inside, the extractor, and next to it, the water sink.
+
+The tank for preparing and storing slip casting clay. Inside the tank and fixed to the wall, the giant agitator, and below, two more buried tanks for storing clay. At the bottom of the tank, the tap where they connected the hose, which also had a dispenser like a petrol pump for filling moulds with barbotine.
+
+The slip casting tables at Terra i Foc without the moulds. The bottom of the sheets slanted toward the bucket that collected excess clay from the pour.
+
+Moulds
+
+The mould maker Guimerà of Sants made the plaster moulds until he retired. Curiously, a magpie wandered around the workshop, which in the middle of Barcelona was unusual.
+
+He himself recommended the Claramunt brothers from Carrer Déu i Mata. Both made moulds for porcelain factories and did excellent work.
+
+The company Cambres Modelos of Badalona also made moulds for the press. They were specialists.
+
+Clay bodies
+
+The workshop's main supplier was Jordi Ancil. First at Carrer Comtal in Barcelona with Villegas; then at Fast on Carrer Bruc, and his son continued under Anper in Rubí, but without leaving Barcelona, where they still sell kilns, wheels and accessories, plus materials for pastes and glazes. They mainly bought coloured transparent glazes for slab clay.
+
+Red clay was bought already packaged from Collet or Ancil and originated from El Papiol.
+
+Slab clay was bought from Valencia from Diez e hijos and Vicar. It came soft in 25 kg bags.
+
+Stoneware components arrived in powder form; after weighing the formula quantities, they were poured into a large uralite tank with the necessary water and mixed with the giant wall agitator. It reached a consistency like barbotine*, ready for slip casting. If needed for the wheel or estec, it had to go through the filter press to become soft and less liquid.
+
+Stoneware and porcelain paste components were bought from Àlvic: magnesium carbonate, chalk, kaolin, feldspar and silica, in powder form. Kaolin was also brought from Burela.
+
+From the 90s onwards, they could buy different types of packaged clay — stoneware, refractory and porcelain — in 12.5 kg packages from Collet d'Esparreguera or Anper de Rubí. Slab clay and stoneware came in 25 kg soft bags from Valencia (Díaz e hijos), and porcelain came liquid in drums.
+
+Some white pastes (slab, stoneware and porcelain) were bought from Lorda i Roig, Montesa or Díez of Valencia.
+
+They bought paste elements from Mario Pilato Blat, Poulenc and Ferro Enamel Española, initially through Mr. Carbonell and later through Jordi Ancil, who represented them. From Elcom they bought high-temperature colourants.
+
+Glazes and colourants
+
+In the early years they bought glazes and especially colourants from Pujol Baucis of L'Hospitalet. They also bought from Campi i Jover, who distributed products (especially bases) of the German brand Degussa, and finally from Jordi Ancil (Anper) or Àngela Colls for other glazes for slab and red clay, and some bases they later modified. From Microglas they bought a leather-coloured glaze, aventurines*, a low-temperature green transparent and a transparent base to help melt colourants.
+
+From Elcom they bought high-temperature colourants. All glazes used for stoneware and porcelain were made in-house at the workshop.
+
+Rediva of Vilafranca supplied tints and lustres when they didn't glaze the pieces themselves."
+
+taller_primers_anys_title: The Early Years (1969-1972)
+taller_primers_anys_text: "After marrying in 1969, and both having completed their studies at Escola Massana in Barcelona — and Joan his military service — they began working in their workshop.
+
+Joan and Isabel started by making estalvis* (savings tiles) with dry cord glazing*, from 20 x 20 cm red clay tiles that they bought fired. They made coasters and trivets from a cut slab of soft clay with glazed or engobe incisions and decoration. Also hanging dolls, glazed with dry cord or decorated underglaze* with engobes*.
+
+Those first Christmases, they made a small nativity set: St. Joseph, the Virgin and Baby Jesus, about 5 cm high, thrown and glazed, and the three kings of the same size. They presented them wrapped in cellophane, sold in groups of 3 to hang on the tree or as gifts for secret Santa.
+
+In 1970, Terra i Foc made its first coffee set that could be served with a teapot and matching breakfast cups. They also made a set of three bowls in three sizes and a fruit bowl.
+
+Still in Barcelona, they began working with slab clay to achieve more vivid colours, which worked well, but when they ordered slab clay once in Penedès, the new batch didn't accept the matte colours and they couldn't make them."
+
+taller_treballadors_title: The Workers
+taller_treballadors_text: "At the beginning of the workshop, Joan's parents liked to spend time there in case they could help with their experience. In 1970-1971, in Barcelona, the Hindu ceramist Himmat asked to work at the workshop for a small wage and lodging in their home, and they took him in.
+
+Once settled in Penedès in 1973, Ignasi Mayoles brought to the SA his workers from Sant Pau: Eudald Vendrell, Dolors Baqués, Tonet Guilera and Matilde Massana. Later, Quico Mallofré, his sister Mercè Mallofré, Jaume Puig de Telèfons and Joni Puig joined the new workshop with Joan.
+
+In 1974 the SA was dissolved. Ignasi rented a space in Lavern and Joan kept the one in El Pago. The workers could choose whom to stay with.
+
+With Ignasi went: Tonet Guilera and Matilde Massana, and a woman from Lavern.
+
+Staying with Joan permanently: Quico Mallofré and Eudald Vendrell (after military service), Jaume Puig and Joni Puig. Mercè, Quico's sister, started part-time and later became permanent.
+
+Working part-time: Montse Mata and Carme Massana from Carrer de la Font, Mensi, Josep Cols, and occasionally Àngels Suñé and Salvador Mallofré from cal Pepus.
+
+Joan Esteve from ca la Soledat and Montse Albet cast miniatures with prepared clay and moulds brought to their home. Many who worked only part-time were studying.
+
+The person in charge of keeping the office, washroom and changing room clean was Elvira Miret.
+
+Ramon Xena helped Joan with the bank accounts."
+
+taller_dia_title: A Day at the Workshop
+taller_dia_text: "First thing, all the boys started filling the plaster moulds — prepared the day before — with liquid clay on the laminated tables. When the clay reached the necessary thickness, they turned the moulds and let them drain. The excess clay fell onto a rigid sloping plastic sheet that directed it into a bucket. The clay could be red, slab*, stoneware* or porcelain*. Red clay was usually not slip-cast.
+
+Meanwhile, the women workers, Dolors and Mercè, dip-glazed the bisque pieces and left them ready for another firing. While the slip-cast pieces were setting, they went for breakfast at El Recer, the restaurant bar about two minutes from the workshop, only ordering drinks since they brought their own sandwiches.
+
+Back at the workshop, one of them removed the clay collars* from the moulds, pulling the clay — already separating — first inward and then upward. Then they removed the elastic band securing the three mould parts, opened the mould sideways on the table, first removing the bottom piece, then one mould half, and finally the cast piece — firm enough — placing it on planks to dry. They stood the moulds back up, closed with bands, ready for the next day. This work and preparing the slip casting clay was what Quico liked most, as with all physically demanding tasks.
+
+The estecs* were operated by Quico and Joni on one, Jaume and Mensi and also Tonet on the other. One placed the clay in the mould and the other made the piece, lowering the arm holding the iron template and wetting the clay with a sponge while the mould spun. The one placing clay also removed the piece when it began separating from the mould, tapping it with hand or rubber mallet, and refilled with another ball of soft clay for the next one. There were enough moulds that they didn't have to wait. Tonet liked varied tasks.
+
+Eudald, in the morning, removed the previous day's fired pieces from the kiln and then loaded pieces that were already dry and polished for bisque or glaze firing. Jaume also did this when needed, especially unloading.
+
+When unloading glazed pieces, they stacked them by model and/or colour on shelves. They also packed sets by model in custom-made boxes, labelled them, ready for dispatch. Organising the stock and distribution was the job Eudald liked most and did well.
+
+This alternated with polishing raw pieces, done by part-time workers and everyone else when possible. Some used sandpaper to remove seams, others used a damp sponge over the whole piece. Maria Tetes, in the early years, also worked at the workshop glazing dry cord tiles that sold as savings tiles.
+
+Every so often, they started the flowerpot machine — a rotary press*. In one day they could make about 500 plates and 500 cups from a coffee set (F-5). Two people were needed to run it. Finished pieces were left on barrer* planks and when dry, as they were polished, stacked ready for firing. The corresponding lids were made with slip casting* using three-piece moulds where the spout was already formed, requiring a handle on each and drilling the spout hole. Handles were made by hand from slab rolled from the pugmill*, cut to shape and attached before the cups dried. If needed, cups were covered with plastic to keep them from drying.
+
+When making other models with slip-cast stoneware, teapot spouts were made separately. One or several holes were made in the body before attaching the spout: one large hole for coffee, marked on the body, and several smaller ones for tea or infusion, acting as a strainer. Handles always came with the piece. Sugar bowl and coffee pot lids were made separately. Milk jugs were made in one piece.
+
+Eudald or Isabel prepared the week's glaze formulas in sufficient quantity, ready in covered 30-litre buckets. Pieces were glazed by dipping* or spraying*. The spray gun for spray glazing was operated by Joan.
+
+Terra i Foc attended several fairs. In January: Madrid, March: Valencia, September: Expo-Hogar in Barcelona. Eudald remembers the early days, setting up with everything loaded into the Sava van they used for deliveries: display pieces, structure, pedestals, tables, lights, posters... The journeys, the stops... They didn't always exhibit alone; sometimes they shared the stand with other ceramists.
+
+Joan and Isabel decorated all the pieces. Orders were prepared with Eudald.
+
+Joan handled the workshop's administration and banking.
+
+Every worker kept their area clean. Every Saturday they finished half an hour early and together swept the entire workshop with sawdust.
+
+With the 1978 oil crisis, Joan asked workers to find other jobs if they could. Quico left for military service, Joni went to work as a carpenter with his uncle, Jaume and Mensi went to distribute wine in Barcelona.
+
+Quico and Maria, besides working at the workshop, also studied at the Art School of Sant Sadurní, where Isabel taught ceramics."
+
+taller_embalatge_title: Packaging and Distribution
+taller_embalatge_text: "Pieces were wrapped one by one in tissue paper and packed by set, with wooden shavings in between. The box bore the client's name and contents on an adhesive label on the outside.
+
+Later, cardboard boxes with flaps and cardboard dividers were used for other pieces, eliminating the need for wood shavings.
+
+Later still, vases and larger or delicate pieces were separated by filling empty spaces with small pieces of expanded polystyrene.
+
+When they had clients throughout Spain, they used the La Guipuscoana transport agency. Each package had a packing list containing the invoice, delivery note, number of boxes and client name.
+
+The cardboard boxes were made by Cartonatges Arbós, first in Vilafranca then in Pacs. Also by Cartonatges Font of Torrelavit.
+
+Expanded polystyrene was bought from a company in Sant Feliu del Llobregat.
+
+Etika-fix supplied adhesive labels, cardboard labels and printed sealing tape.
+
+From 1974, they made special effort to ensure orders arrived as quickly as possible without problems. Distribution was done with their own van, taking responsibility for any issues, charging 3% on each invoice for packaging and shipping. The client knew that if there was an incident, the piece would be replaced immediately. Sometimes they drove to Barcelona for a single piece. Other workshops typically didn't charge shipping themselves — the transport company collected it on delivery.
+
+When selling nationwide, they contracted La Guipuscoana for distribution. The agency collected both the order value and shipping. Shipping went to the carrier and the order value to the workshop. If the client didn't pay, the order wasn't delivered."
+
+taller_admin_title: Administration
+taller_admin_text: "Joan handled invoicing and banking, with Ramon Xena from Crèdit Balear helping during busier times. Invoices were first done with a typewriter, later with a computer and continuous paper, using a programme written by Isabel's brother Jordi."
 
 taller_dades_title: Data
 taller_dades_intro: "Figures that tell the evolution of the workshop."
@@ -46,7 +199,57 @@ section_collab_label: — 04
 section_collab_title: Collaborations
 section_collab_subtitle: "Artists, artisans and commissions that have shaped the journey."
 
-collab_text: "Over the years, Terra i Foc has collaborated with artists, designers and artisans from various fields. Each collaboration has been an exchange — a way to learn and create pieces that could not arise from a single perspective."
+collab_text: "Terra i Foc collaborated with various ceramists, sculptors, painters and artisans. It also had a network of representatives who brought the pieces throughout Spain and the Balearic Islands."
+
+collab_dedicacio_text: "We dedicate this book to all those who have collaborated in making this collection of the work done at the workshop over more than forty years.\n\nTo our children and grandchildren, so they may remember the part they lived.\n\nTo Dolors Albós for proofreading the text and to Dolors Bosch for helping make the writing understandable for people unfamiliar with the craft.\n\nAlso to record how parents and grandparents worked the craft differently, and to thank them for their shared experience.\n\nEl Pago, August 2022"
+collab_credits_title: Credits
+collab_credits_text: |+
+  <p class="copyright">Copyright © Isabel Serres</p>
+  <ul class="credits-list">
+  <li><b>Texts:</b> Isabel Serres with the help of Dolors Bosch</li>
+  <li><b>Layout:</b> Veva Barba and Isabel Serres</li>
+  <li><b>Documentation and images:</b> Joan Martínez and Isabel Serres</li>
+  <li><b>Language advice:</b> Dolors Albós</li>
+  <li><b>Web adaptation:</b> Joan Mz Serres</li>
+  </ul>
+collab_casadevall_title: Joaquim Casadevall i Vergés
+collab_casadevall_text: "4. Joaquim Casadevall i Vergés (1895–1974)\n\nJoaquim Casadevall was born in Olot, very close to Joaquim Vayreda. His parents were the Vayreda family's tenant farmers, and as a child he was tasked with cleaning the painter's brushes. This is how he learned the craft. He was more interested in sculpture and practised it in Barcelona. He lived in the Sagrada Família neighbourhood and had a small workshop near the Dam factory. He would fire his clay pieces at the workshop of Joan's parents. Joan remembers they carried the pieces in a bundle tied in a handkerchief, stacked in three or four layers. They went by bus, sometimes with his wife who helped him.\n\nWe know he sold his work at the Montfalcon shops in Barcelona and also at the Hotel Colón. His best-known works are Saint George on Horseback and the Last Supper. He probably died in the mid-20th century. Despite being a good sculptor, after his father's workshop closed no further references were found.\n\nWe wish to pay tribute to him here, because we consider him a great sculptor."
+collab_manosa_title: Salvador Mañosa
+collab_manosa_text: "3. Salvador Mañosa Jané (1945–2022)\n\nOriginally from Cerdanyola del Vallès but deeply rooted in Barberà del Vallès, Salvador Mañosa began as an apprentice at age 15 in the workshop of Francesc Juventeny, combining this traditional workshop training with studies at the Escola Massana in Barcelona. There he had Eudald Serra as a teacher, a prominent figure of Catalan modernity from the 1930s to the 1960s.\n\nMañosa's technique shows a knowledge of the traditional craft, with clay and later bronze as characteristic materials of his work, coexisting with more modern techniques without losing the artisanal essence characteristic of the sculptor.\n\nHis female nudes stand out, with a careful technique that seems to have endowed them with movement. Mañosa has also dedicated much of his work to large-scale public sculpture in many cities across Catalonia and Spain, as well as in Brazil, Russia, France, Japan, Germany, and the United States.\n\nSalvador Mañosa died on 15 November 2022 at the age of 77. He dedicated part of his time to teaching specific subjects of his profession, sharing his knowledge and experience in the art of sculpture, stating that \"it is a great satisfaction and the best reward to see how some of my students are now exhibiting around the world.\"\n\nMore information: <a href=\"https://www.cerdanyola.cat/actualitat/salvador-manosa-lescultor-de-cerdanyola\" target=\"_blank\" rel=\"noopener\">Salvador Mañosa, l'escultor de Cerdanyola</a>"
+collab_benet_title: Benet Ferrer Bolunya
+collab_benet_text: "2. Benet Ferrer Bolunya (Sabadell, 25 April 1945)\n\nA Catalan artist. He studied at the Escola Industrial d'Arts i Oficis in Sabadell (1962–1966) and at the Escola Massana (1966), and soon became interested in ceramics as a sculptural medium. Connected from a young age to the avant-garde, the most important part of his work — the exact representation of everyday objects — is hyperrealist in orientation. He has also carried out happenings and various collective actions with public participation. In 1969 he began teaching at the Escola Massana.\n\nIn 1976 he presented an exhibition of terracotta sculptures at Galeria G. At Espai 10 of the Fundació Joan Miró in 1980 he introduced an unfired clay structure that extended out of the room, as if crossing the glass wall, spreading outward into the olive tree courtyard. According to Daniel Giralt-Miracle, this exhibition was a key moment in the artist's career.\n\nIn 1977 he created the ceramic mural on the Ebro motorway at Fraga. He has extensive experience in ceramics; from the 1970s he experimented with meta-objects that played with reality through visual and tactile fiction, later moving to works linked to conceptual art and marquetry objects.\n\nIn 1985 he received a grant from the Department of Plastic Arts of the Government of Catalonia for furniture pieces. In 1987 he became a member of the Académie Internationale de la Céramique in Geneva. In 1988 he created the Campoamor sculpture in Sabadell.\n\nMore information: <a href=\"https://ca.wikipedia.org/wiki/Benet_Ferrer_Bolunya\" target=\"_blank\" rel=\"noopener\">Benet Ferrer Bolunya — Wikipedia</a>"
+collab_maties_title: Maties Palau Ferré
+collab_maties_text: "9 — Collaborating artists of the workshop\n\n1. Maties Palau Ferré\n\nThe life of painter, sculptor and ceramist Maties Palau Ferré (1921–2000) is a love story for art distorted by the baseness and miseries of greed and bad faith. With the added disadvantage that the unwanted and not purely artistic notoriety he acquired between the early 1970s and mid-1980s has harmed his posterity. At least it has made him less well-known than he seems to deserve given the success he enjoyed in life. With The Painter Who Burned His Paintings. Biographical Essay of Maties Palau Ferré, historian Francesc Marco-Palau (Tarragona, 1989), a grand-nephew of the artist, seeks to help recover his figure and work.\n\nKnown to some as «the second Picasso» —an enormous compliment that the artist, reasonably, did not appreciate: «I am the first Palau Ferré», he would reply—, Maties Palau Ferré was born in Montblanc in 1921 into a family of merchants and espadrille makers. They also owned land and had certain cultural interests. Palau Ferré was clear about his artistic vocation very early on and, after the civil war —he narrowly avoided being mobilised with the quinta del biberón—, he won a position at the Institut de Previsió that allowed him to settle in Barcelona. The job was only an excuse: if he had gone to Barcelona, it was to train as an artist and make a place for himself in the art world. He enrolled at the Escola de Belles Arts Sant Jordi and gradually made a place for himself within the Barcelona art circuit.\n\nMore information: <a href=\"https://es.wikipedia.org/wiki/Mat%C3%ADas_Palau_Ferr%C3%A9\" target=\"_blank\" rel=\"noopener\">Matías Palau Ferré — Wikipedia</a>"
+collab_ceramistes_title: Collaborating Ceramists
+collab_ceramistes_text: "<ul>
+<li><a href=\"#collab-benet\">Benet Ferrer</a>, friend, schoolmate, ceramist and professor at Escola Massana</li>
+<li>Josep Sanahuja, ceramist from Olesa de Montserrat</li>
+<li>Manel Serran, ceramist from Monistrol de Montserrat</li>
+<li><a href=\"#collab-manosa\">Salvador Manyosa</a>, sculptor</li>
+<li><a href=\"#collab-maties\">Maties Palau Ferrer</a>, painter and ceramist</li>
+<li>Rovira brothers of Esparreguera, mechanics and potters</li>
+<li>Echevarria, as a refractory thrower</li>
+<li>Delpeix of Sant Sadurní, and Fernando, as throwers and for bisque</li>
+<li>For the ceramist Sedó of Esparreguera, they cast and bisque-fired orders that he finished</li>
+</ul>"
+
+collab_representants_title: Representatives
+collab_representants_text: "The representatives provided orders to Terra i Foc. First only in Barcelona, then the whole province, and later throughout the peninsula and the islands.
+
+<ul>
+<li><b>Robert Aresté and wife</b> — Barcelona and nearby towns, 1969–1994</li>
+<li><b>Ramon Fàbregas</b> — Barcelona, 1973–1974</li>
+<li><b>Josep Boada</b> (Vilafranca) — Wholesaler from 1975 to 2000 for Terra i Foc, Josep Sanahuja, and Manel Serran. He distributed throughout the Peninsula and the Balearics except Barcelona.</li>
+<li><b>Agustí Monte Montornès</b> — Barcelona, 1995–1997</li>
+<li><b>Elia Herranz</b> — Barcelona, 1998–1999</li>
+<li><b>Joaquim Rambla</b> — Catalonia, 1995–1996</li>
+<li><b>Manuel Coscolla</b> — Valencia, Alicante, Murcia and Castelló, 1995–1999</li>
+<li><b>Antoni Albert</b> — Galicia and Basque Country, 1995–1996</li>
+<li><b>Miguel Moreno</b> — Madrid, 1994–1998</li>
+<li><b>Enrique Carlos Añino</b> — Seville, 1995–2000</li>
+<li><b>Ángel Hidalgo</b> — Córdoba, 1995–2000</li>
+<li><b>Joan Martínez</b> — Balearics, 1994–2007</li>
+</ul>"
 
 section_glossari_label: — 05
 section_glossari_title: Glossary
@@ -68,6 +271,9 @@ form_message: Message
 form_ok: Thanks! We received your message.
 form_error: Could not send. Please try again.
 
+nav_aria_label: Main navigation
+skip_link: Skip to content
+scroll_top: Back to top
 footer_desc: Artisan Ceramics Workshop
 footer_address: "C. Verge de Montserrat, 17 · El Pago (Subirats) · Barcelona"
 footer_email: hola@terraifoc.cat

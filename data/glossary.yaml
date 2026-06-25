@@ -1,5 +1,8 @@
 ca:
   entries:
+    - term: Estec
+      def: Tornejat mecànic amb motlle de guix. Tècnica per produir peces repetitives amb forma definida per un motlle.
+
     - term: Argila
       def: Material natural que s'extreu de la terra. Barrejada amb aigua es torna plàstica i permet modelar-la. Un cop cuita al forn es torna dura i permanent.
     - term: Esmalt
@@ -14,9 +17,160 @@ ca:
       def: Primera cuita de la peça sense esmalt. La deixa porosa i preparada per rebre l'esmalt.
     - term: Refractari
       def: Material que suporta temperatures molt elevades sense deformar-se. S'utilitza per construir forns.
+    - term: Terral
+      def: Lloc on es deixaven els terrossos procedents dels rebaixos abans de fer-los servir.
+    - term: Bassó
+      def: Forat quadrat enfondit a terra d'1'5 x 1'5 m de superfície i 1 m de profunditat, que recollia el primer fang que sortia.
+    - term: Borrassa
+      def: Espècie de manta gruixuda de cànem o de jute que feien servir per posar sobre el fang i ruixaven amb aigua, perquè no se'ls assequés el fang.
+    - term: Barrer
+      def: Estructura de llates de fusta d'uns 8 cm² de secció que clavats a la paret, separats 1,5 m entre elles per parelles i foradades cada 25 cm, amb forats perpendiculars a la paret on si posen barres cilíndriques d'1,5 cm de diàmetre. Serveixen per aguantar els taulons amb les peces fetes, perquè s'eixuguin. Les barres són extraïbles per aconseguir l'alçada desitjada.
+    - term: Galletera
+      def: Màquina per pastar el fang i deixar-lo tou a punt per treballar al torn; per fer estec, per a la laminadora o per reciclar-lo. Disposa d'una boca d'entrada amb dos cilindres que introdueixen el fang cap a l'interior on es troba el bisenfí que el porta fins a la sortida.
+    - term: Molí de boles
+      def: Recipient de porcellana o metàl·lic que es fa girar amb unes boles de pedra molt dures a dins, aigua, midó i galena per desfer la galena o qualsevol material sòlid que s'hagi de desfer, com les frites.
+    - term: Engalba
+      def: Barbotina que serveix sobretot per tapar el suport cru i decorar-lo. Pot ser blanca o acolorida amb òxids o colorants.
+    - term: Llemutja
+      def: Restes de fang que es fan al polir les peces al torn.
+    - term: Filtre premsa
+      def: Màquina que separa l'aigua del fang líquid mitjançant pressió, per obtenir la consistència adequada per al torn o l'estec.
+    - term: Colls de fang
+      def: Part superior de fang que es treu de la peça colada abans de desmotllar-la. En treure'ls es comprovava si el gruix de la peça era correcte mentre el motlle encara era ple.
+    - term: Botxa
+      def: Part tornejada dels càntirs.
+    - term: Guarnir
+      def: Posar l'ansa, el broc i el brec dels càntirs; acabar les peces després de fer la part principal al torn.
+    - term: Barbotina
+      def: Barreja d'argila amb aigua. Crema d'argila. Serveix per encolar un fang amb un altre, o per fer lliscar el fang entre les mans mentre es torneja.
+    - term: Galena
+      def: Mineral, sulfur de plom (PbS), de color gris blavenc amb lluïssor metàl·lica.
+    - term: Envernissar
+      def: Donar un recobriment fundent i transparent a la peça de fang per tapar els porus i impermeabilitzar-lo un cop cuit.
+    - term: Mono cocció
+      def: Coure el fang cru i el vernís a la mateixa fornada.
+    - term: Duresa de cuir
+      def: Punt d'assecatge del fang en què la peça és prou ferma per manipular-se però encara conté prou humitat per ser treballada.
+    - term: Sedàs
+      def: Cèrcol generalment de fusta proveït d'un fons de teixit més o menys clar de cerres, de fil de seda o metàl·lic, que serveix per separar les partícules de diferent grandària dels components dels esmalts.
+    - term: Esmaltar per immersió
+      def: Submergir la peça bescuitada dins d'un cubell d'esmalt durant uns segons fins que l'esmalt agafa el gruix desitjat.
+    - term: Esmaltar per aspersió
+      def: Ruixar la peça amb esmalt amb l'ajuda d'un compressor i una pistola acoblada a un dipòsit d'esmalt, dins d'una cabina amb extractor per evitar respirar els elements nocius.
+    - term: Torneta
+      def: Plat metàl·lic que volta sobre un eix. Per esmaltar es posa dins la cabina d'aspersió.
+    - term: Sobre coberta
+      def: Decoració que s'aplica sobre el vernís o l'esmalt cru, abans de la segona fornada.
+    - term: Sota coberta
+      def: Decoració que s'aplica sobre el fang cru o bescuitat i sota una base transparent que és la coberta.
+    - term: Cons de Seguer
+      def: Piràmides de fang d'uns 5 cm d'alçada, de diferents composicions, que fonien en arribar a una temperatura determinada. Inventades per Seguer el 1886.
+    - term: Tarro
+      def: Tub cilíndric d'uns 25 cm de diàmetre amb forats per sostenir bastonets de terra cuita on descansaven les peces al forn.
+    - term: Plega
+      def: Conjunt de testos que es posen l'un dins de l'altre per aprofitar al màxim l'espai del forn.
+    - term: Pila
+      def: Manera d'enfornar els testos d'una mateixa mida formant una columna.
+    - term: Fòtils
+      def: Suport per enfornar que es feia servir en els forns de llenya.
+    - term: Forca
+      def: Peça de fusta en forma de forca, especialment llarga, usada per ficar llenya en un forn.
+    - term: Cendrer
+      def: Espai inferior del forn on es fa el foc.
+    - term: Fogaina
+      def: Espai del forn situat sobre el cendrer, on s'accedeix per una porta soterrada.
+    - term: Borrego
+      def: Suport de terra cuita per enfornar, que permet la circulació del foc.
+    - term: Piròmetre
+      def: Instrument que mesura la temperatura de l'interior del forn i la mostra en un lector analògic o digital situat a fora. Els més moderns són automàtics i es poden programar.
+    - term: Aspersió
+      def: Procediment d'esmaltar la peça amb l'ajuda d'un aspersor amb dipòsit per a l'esmalt connectat a un compressor.
+    - term: Apretón
+      def: Tècnica de pressionar el fang tou contra la paret del guix d'un motlle per obtenir la forma del mateix. El dibuix o la textura feta abans incidint el guix amb un punxó o altres eines, quedarà marcada en relleu.
+    - term: Bany electrolític
+      def: Conjunt de fenòmens que s'esdevenen en el si d'una solució electrolítica que deixa la peça de resina amb un bany metàl·lic d'or, plata, coure o bronze.
+    - term: Bisenfí o cargol sense fi
+      def: Mecanisme de cargol sense fi. Un vis sense fi és un mecanisme que transmet moviment recte i relatiu entre dos elements fent-los girar l'un dins de l'altre.
+    - term: Calcomania
+      def: Decoració amb una calca especial amb pigments ceràmics que es couen en una 3a cuita.
+    - term: Colatge o colada
+      def: Procediment per fer peces seriades de fang amb motlle de guix i barbotina.
+    - term: Colorants
+      def: Òxids metàl·lics cuits (fritats) i en pols, sols o amb mescles d'altres, que donen color als vernissos, als esmalts i a les pastes.
+    - term: Columnes
+      def: Suports de diferent alçada de material refractari que serveixen per construir els pisos de la fornada, aguantant les plaques.
+    - term: Corda seca
+      def: Línia feta amb llapis carbó o gras o amb pintura a l'oli barrejada amb una mica d'òxid que serveix per separar bé els esmalts. S'aplica sobre la peça bescuitada.
+    - term: Corda seca alçada
+      def: Tècnica que consisteix a incidir la línia del dibuix en el guix o sobre linòleum perquè quedi alçada un cop hi haguem premut el fang a sobre.
+    - term: Decorat a mà
+      def: Es fa normalment a pinzell, però es pot fer amb espàtula, esponges, tampons i altres estris. S'aplica sobre o sota la coberta d'esmalt.
+    - term: Duralex
+      def: Marca de vidre molt resistent que s'utilitzà a partir dels anys 1950.
+    - term: Esgrafiar
+      def: Ratllar amb punxó o altres eines la superfície del fang per deixar veure el de sota que pot ser de color diferent, quan encara no s'ha cuit.
+    - term: Esmalts industrials
+      def: Tot tipus d'esmalts ja preparats, que es poden comprar en indústries especialitzades.
+    - term: Estalvis
+      def: Peça de ceràmica o metall que es fa servir per no cremar les estovalles al servir a taula menjar calent, sortint del foc.
+    - term: Falzilla
+      def: Estri de metall o fulla esmolada que serveix per treure rebaves del fang quan surten del motlle i per polir tant el fang com l'esmalt.
+    - term: Fang
+      def: "El fang pot ser de vàries textures. Les principals que es fan servir aquí són: argila o fang vermell, llosa blanca de València, el gres de Galícia o fet pel ceramista, porcellana fabricada, no natural d'aquí i els refractaris, també fabricats."
+    - term: Fetge de vaca
+      def: Terra més vermella que s'afegia per donar plasticitat a la que feien servir dels rebaixos.
+    - term: Òxid enriquidor
+      def: L'element mineral, natural i cru que serveix per modificar la qualitat i/o textura de la superfície dels esmalts.
+    - term: Pastar
+      def: Treballar el fang amb les mans per eliminar l'aire que hi pugui haver.
+    - term: Planos
+      def: Mena de rajoles ranurades que es feien servir com a suports, per a tapar els tarros en el forn de llenya.
+    - term: Piló o cap de pastor
+      def: Tros de fang de forma cònica que posa el torner al centre del torn per començar a centrar la peça.
+    - term: Pixulins
+      def: Peça petita que feien servir per enfornar els gerrers.
+    - term: Polir a mà
+      def: Es diu de passar paper de vidre i esponja a les peces fetes a colatge.
+    - term: Polir al torn
+      def: Acabat d'una peça en estat de duresa de cuir al torn amb eines especials. És el moment en què els ceramistes enfonsen el centre de la base de fora per a poder-la esmaltar després.
+    - term: Premsa rotativa
+      def: Màquina que permet fer moltes peces al dia mitjançant un motlle metàl·lic (femella) que fa l'exterior de la peça pujant i baixant per un eix, mentre a la part de dalt el rep amb un altre motlle metàl·lic que fa la part de dins (mascle). Quan baixa per l'eix la peça feta, ho fa fins un topall que la deixa al descobert per poder-la agafar i posar la porció de fang dins el motlle per fer la peça següent. La peça es fa doncs amb pressió i rotació.
+    - term: Quartejat
+      def: Esquerdes més o menys evidents sobre la superfície de l'esmalt o del vernís degudes al diferent coeficient de dilatació del suport i la coberta.
+    - term: Rakú
+      def: Tècnica japonesa de coure la peça feta amb fang refractari i que un cop esmaltada es cou directament a la temperatura de 900º durant poc temps, es treu sense deixar refredar el forn i es passa a un recipient amb vegetals o altres elements que provoquen una atmosfera reductora i transformen l'esmalt molts cops amb reflexos metàl·lics.
+    - term: Reflexos metàl·lics
+      def: Tècnica àrab per donar reflexos metàl·lics a les peces, amb fornada d'atmosfera reductora.
+    - term: Relleu amb cola
+      def: Tècnica decorativa que consisteix a fer un dibuix amb cola blanca sobre el suport cru i quan està ben sec, es frega amb una esponja humida. Allà on hi ha el dibuix queda en relleu.
+    - term: Reserves
+      def: Tècnica de decoració sota coberta. Les reserves poden ser amb llapis plom, llapis gras o pintura, per separar els colors en el suport. De paper o de cera, per reservar superfícies.
+    - term: Rodells
+      def: Suports plans i rodons d'uns 25 cm. Els de fang, els feien servir els gerrers per enfornar. Si són de guix, els fan servir els ceramistes per posar-hi les peces grans al damunt, al sortir del torn o mentre les treballaven.
+    - term: Suport
+      def: Així com el pintor té la tela com a suport, el ceramista té la peça de fang per aplicar-hi la decoració i l'esmalt o coberta transparent o opaca acolorida.
+    - term: Suports
+      def: Elements de material refractari que es posen sota les peces esmaltades per impedir que s'enganxin a les plaques mentre es couen. Poden tenir vàries formes com ara les parnetes i els 3 peus o potes de gall, cilindres foradats.
+    - term: Terracota
+      def: Argila cuita a baixa temperatura (900-950 °C) sense envernissar.
+    - term: Tibor
+      def: Recipient de ceràmica amb tapa i aixeta.
+    - term: Tints
+      def: Són els mateixos que es fan servir per tenyir la fusta i que es posen en algunes peces de decoració en comptes d'esmalt.
+    - term: Topis
+      def: Suports per enfornar les peces de material refractari i en forma de prisma, que aguantaven els pisos en el forn de llenya que feien servir els gerrers.
+    - term: Trencadora
+      def: Màquina que servia per trencar els trossos de fang que trien dels rebaixos de les construccions i deixar-lo a punt per desfer-lo amb aigua.
+    - term: Venturines
+      def: Vidre amb inclusions de làmines de coure amb formes triangulars o pseudohexagonals, que amb els reflexos metàl·lics produeix un efecte òptic molt característic.
+    - term: Vernís
+      def: Recobriment fundent i transparent que es dona a les peces per evitar la porositat de les mateixes. Es pot acolorir amb òxids o colorants, sobretot si el suport és blanc (llosa, gres o porcellana). Consisteix en una pols que es barreja amb aigua per a poder-la aplicar a pistola, banyant la peça o a pinzell.
 
 en:
   entries:
+    - term: Estec
+      def: Mechanical throwing using a plaster mould. Technique for producing repeat pieces shaped by a mould.
+
     - term: Clay
       def: Natural material extracted from the earth. Mixed with water it becomes plastic and can be shaped. Once fired in the kiln it becomes hard and permanent.
     - term: Glaze
@@ -31,3 +185,105 @@ en:
       def: First firing of the piece without glaze. Makes it porous and ready to receive glaze.
     - term: Refractory
       def: Material that withstands very high temperatures without deforming. Used to build kilns.
+    - term: Terral
+      def: Place where clay chunks from excavations were left before being processed.
+    - term: Bassó
+      def: Square hole dug in the ground, 1.5 × 1.5 m surface and 1 m deep, that collected the first clay that came out.
+    - term: Borrassa
+      def: A thick hemp or jute blanket placed over the clay, sprinkled with water to keep it from drying out.
+    - term: Barrer
+      def: Structure of wooden slats, about 8 cm² cross-section, nailed to the wall in pairs 1.5 m apart, with holes every 25 cm perpendicular to the wall where 1.5 cm diameter cylindrical rods are placed. Used to hold boards with finished pieces for drying. The rods are removable to achieve the desired height.
+    - term: Pugmill
+      def: Machine for kneading clay and making it soft and ready for the wheel; for the estec, the slab roller, or for recycling. It has an intake mouth with two cylinders that feed the clay inside where an auger carries it to the outlet.
+    - term: Ball mill
+      def: Porcelain or metal container that rotates with very hard stone balls inside, water, starch and galena to grind the galena or any solid material that needs to be ground, such as frits.
+    - term: Engalba
+      def: Slip used mainly to coat the raw support and decorate it. It can be white or coloured with oxides or dyes.
+    - term: Llemutja
+      def: Clay trimmings produced when polishing pieces on the wheel.
+    - term: Filter press
+      def: Machine that separates water from liquid clay using pressure, to obtain the right consistency for the wheel or the estec.
+    - term: Clay collar
+      def: Upper part of clay removed from the cast piece before demoulding. Removing them also checked whether the piece thickness was correct while the mould was still full.
+    - term: Botxa
+      def: The thrown (wheel-turned) part of pitchers.
+    - term: Guarnir
+      def: Adding the handle, spout and rim to pitchers; finishing pieces after the main part has been thrown on the wheel.
+    - term: Barbotina
+      def: Mixture of clay and water. Clay cream. Used to join two pieces of clay together, or to lubricate hands while throwing.
+    - term: Galena
+      def: Mineral, lead sulphide (PbS), greyish-blue with metallic lustre.
+    - term: Glazing
+      def: Applying a fluxed, transparent coating to a clay piece to seal pores and make it waterproof after firing.
+    - term: Single firing
+      def: Firing raw clay and glaze together in a single kiln cycle.
+    - term: Leather-hard
+      def: Stage of clay drying where the piece is firm enough to handle but still contains enough moisture to be worked.
+    - term: Sieve
+      def: A frame, usually wooden, with a mesh of varying fineness (bristles, silk thread or metal) used to separate particles of different sizes from glaze components.
+    - term: Dip glazing
+      def: Immersing the bisque piece in a bucket of glaze for a few seconds until the glaze reaches the desired thickness.
+    - term: Spray glazing
+      def: Spraying the piece with glaze using a compressor and spray gun attached to a glaze container, inside a booth with an extractor to avoid inhaling harmful elements.
+    - term: Banding wheel
+      def: A metal disc that rotates on a spindle. Used inside the spray booth for glazing.
+    - term: On-glaze
+      def: Decoration applied on top of the raw glaze, before the second firing.
+    - term: Under-glaze
+      def: Decoration applied onto raw or bisque clay, under a transparent glaze coating.
+    - term: Seguer cones
+      def: Pyramids of clay about 5 cm high, with different compositions, that melt at specific temperatures. Invented by Seguer in 1886.
+    - term: Tarro
+      def: Cylindrical tube about 25 cm in diameter with holes to hold clay rods on which pieces rested in the kiln.
+    - term: Plega
+      def: Stack of pots placed one inside another to maximise kiln space.
+    - term: Pila
+      def: Method of stacking pots of the same size in a column for firing.
+    - term: Fòtils
+      def: Kiln furniture used in wood-fired kilns.
+    - term: Forca
+      def: Long, forked wooden tool used to feed wood into the kiln.
+    - term: Cendrer
+      def: Lower chamber of the kiln where the fire is made.
+    - term: Fogaina
+      def: Kiln chamber above the cendrer, accessed through a sunken doorway.
+    - term: Borrego
+      def: Firing support made of fired clay that allows fire circulation.
+    - term: Pyrometer
+      def: Instrument that measures the temperature inside the kiln and displays it on an analogue or digital reader outside. Modern ones are automatic and programmable.
+    - term: Spray glazing
+      def: Procedure for glazing a piece using a spray gun with a glaze container connected to a compressor.
+    - term: Apretón
+      def: Technique of pressing soft clay against the plaster wall of a mould to obtain its shape. The drawing or texture made beforehand by incising the plaster with a punch or other tools will be marked in relief.
+    - term: Electrolytic bath
+      def: A set of phenomena that occur within an electrolytic solution that coats a resin piece with a metallic layer of gold, silver, copper or bronze.
+    - term: Auger or Archimedes screw
+      def: A screw mechanism that transmits rectilinear and relative motion between two elements by rotating one inside the other.
+    - term: Decal
+      def: Decoration using a special transfer with ceramic pigments that are fired in a third firing.
+    - term: Slip casting
+      def: Procedure for making serial clay pieces using a plaster mould and barbotine.
+    - term: Colourants
+      def: Fired (fritted) metal oxides in powder form, alone or mixed with others, that give colour to varnishes, glazes and pastes.
+    - term: Columns
+      def: Supports of different heights made of refractory material used to build the layers of the kiln load, holding up the shelves.
+    - term: Dry cord
+      def: Line made with charcoal or grease pencil or with oil paint mixed with a little oxide, used to separate glazes cleanly. Applied onto the bisque piece.
+    - term: Raised dry cord
+      def: Technique of incising the drawing line into plaster or linoleum so that it stands proud once the clay has been pressed onto it.
+    - term: Hand decoration
+      def: Normally done with a brush, but can also be done with spatula, sponges, stamps and other tools. Applied on top of or under the glaze coating.
+    - term: Duralex
+      def: Brand of very durable glass used from the 1950s onwards.
+    - term: Sgraffito
+      def: Scratching with a punch or other tools through the clay surface to reveal the layer underneath, which may be a different colour, while still unfired.
+    - term: Industrial glazes
+      def: All kinds of ready-made glazes that can be purchased from specialised industries.
+    - term: Trivet
+      def: Ceramic or metal piece used to protect tablecloths when serving hot food straight from the fire.
+    - term: Falzilla
+      def: Metal tool or sharp blade used to remove burrs from clay when it comes out of the mould and to polish both clay and glaze.
+    - term: Clay
+      def: "Clay can have several textures. The main ones used here are: red clay or earthenware, white slab clay from Valencia, stoneware from Galicia or made by the ceramist, manufactured porcelain (not natural to this area), and refractories, also manufactured."
+    - term: Cow liver
+      def: "Redder earth that was added to improve the plasticity of clay sourced from excavations."

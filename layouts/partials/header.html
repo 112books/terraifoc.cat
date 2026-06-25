@@ -6,7 +6,7 @@
     <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}" class="nav-brand-scrolled">
       <img src="/img/terraifoc-logo.svg" alt="Terra i Foc" class="nav-scrolled-logo">
     </a>
-    <nav class="nav-links" aria-label="{{ if eq .Language.Lang "ca" }}Navegació principal{{ else }}Main navigation{{ end }}">
+    <nav class="nav-links" aria-label="{{ i18n "nav_aria_label" }}">
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#joan">{{ i18n "nav_joan" }}</a>
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#familia">{{ i18n "nav_familia" }}</a>
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#taller">{{ i18n "nav_taller" }}</a>

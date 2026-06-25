@@ -3,10 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-src https://www.youtube.com; base-uri 'self'">
   <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
   {{ range .Translations }}
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
   {{ end }}
@@ -17,9 +18,33 @@
   <meta property="og:type" content="website">
   <meta property="og:locale" content="{{ if eq .Language.Lang "ca" }}ca_ES{{ else }}en_GB{{ end }}">
   <meta property="og:site_name" content="{{ i18n "hero_brand" }}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}img/terraifoc-mark.svg">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="{{ if .IsHome }}{{ i18n "hero_brand" }}{{ else }}{{ .Title }}{{ end }}">
   <meta name="twitter:description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
+  <meta name="twitter:image" content="{{ .Site.BaseURL }}img/terraifoc-mark.svg">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Terra i Foc",
+    "description": "{{ i18n "hero_desc" }}",
+    "image": "{{ .Site.BaseURL }}img/terraifoc-mark.svg",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "C. Verge de Montserrat, 17",
+      "addressLocality": "El Pago, Subirats",
+      "addressRegion": "Barcelona",
+      "addressCountry": "ES"
+    },
+    "email": "{{ .Site.Params.email }}",
+    "url": "{{ .Site.BaseURL }}",
+    "telephone": "",
+    "foundingDate": "1969",
+    "foundingLocation": "Barcelona",
+    "knowsLanguage": ["ca", "en"]
+  }
+  </script>
   <meta name="theme-color" content="#361712">
   <link rel="icon" href="/img/terraifoc-mark.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/img/terraifoc-mark.svg">
@@ -36,7 +61,7 @@
   <script>(function(){var p=sessionStorage.getItem('tf_pass');if(p!=='ok'){var r=prompt('Terra i Foc · obrador de ceràmica\nIntrodueix la contrasenya:');if(r==='LinuxBCN2026'){sessionStorage.setItem('tf_pass','ok')}else{document.body.innerHTML='<style>body{background:#f5f0eb;color:#361712;font-family:Jost,sans-serif;display:flex;justify-content:center;align-items:center;min-height:100vh;margin:0;text-align:center;padding:2em;}</style><div><h1>Terra i Foc</h1><p>Lloc web en construcció.</p></div>';throw new Error('Accés denegat')}}})()</script>
 </head>
 <body>
-  <a href="#main-content" class="skip-link">{{ if eq .Language.Lang "ca" }}Salta al contingut{{ else }}Skip to content{{ end }}</a>
+  <a href="#main-content" class="skip-link">{{ i18n "skip_link" }}</a>
   {{ partial "header.html" . }}
   <main id="main-content" tabindex="-1">
     {{ block "main" . }}{{ end }}
@@ -77,12 +102,24 @@
     var lightboxImg = document.getElementById('lightboxImg');
     var lightboxClose = document.getElementById('lightboxClose');
     if (galleryImages.length && lightbox && lightboxImg && lightboxClose) {
+      function trapFocus(e) {
+        if (!lightbox.classList.contains('lightbox--open')) return;
+        var focusable = lightbox.querySelectorAll('button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])');
+        if (!focusable.length) return;
+        var first = focusable[0];
+        var last = focusable[focusable.length - 1];
+        if (e.key === 'Tab') {
+          if (e.shiftKey && document.activeElement === first) { e.preventDefault(); last.focus(); }
+          else if (!e.shiftKey && document.activeElement === last) { e.preventDefault(); first.focus(); }
+        }
+      }
       galleryImages.forEach(function(img) {
         img.addEventListener('click', function() {
           lightboxImg.src = this.src;
           lightboxImg.alt = this.alt;
           lightbox.classList.add('lightbox--open');
           document.body.style.overflow = 'hidden';
+          setTimeout(function(){ lightboxClose.focus(); }, 100);
         });
       });
       function closeLightbox() {
@@ -95,6 +132,7 @@
       });
       document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') closeLightbox();
+        trapFocus(e);
       });
     }
   })();

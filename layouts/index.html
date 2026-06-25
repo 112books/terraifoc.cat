@@ -3,10 +3,21 @@
 <section class="hero">
   <div class="hero-bg"></div>
   <div class="hero-inner">
-    <h1 class="hero-title"><img src="/img/terraifoc-logo.svg" alt="Terra i Foc" class="hero-logo"></h1>
+    <h1 class="sr-only">{{ i18n "hero_brand" }}</h1>
+    <figure><img src="/img/terraifoc-logo.svg" alt="Terra i Foc" class="hero-logo"><figcaption class="sr-only">Terra i Foc</figcaption></figure>
     <p class="hero-tagline">{{ i18n "hero_tagline" }}</p>
     <div class="hero-line"></div>
     <p class="hero-desc">{{ i18n "hero_desc" }}</p>
+  </div>
+</section>
+
+<div class="section-divider"></div>
+
+<section class="section section--alt section-reveal" id="cita" style="padding: 48px 20px;">
+  <div class="section-inner" style="max-width: 720px; text-align: center;">
+    <blockquote style="font-size: 1.1rem; line-height: 1.6; font-style: italic; color: var(--text-dim); margin: 0; border: none; padding: 0;">
+      <p>{{ i18n "hero_cita" }}</p>
+    </blockquote>
   </div>
 </section>
 
@@ -18,7 +29,7 @@
     <div class="cols cols--split">
       <div class="profile">
         <div class="profile-photo">
-          <img src="/img/portada.jpg" alt="Joan Martínez Peidro" loading="lazy">
+          <img src="/img/curriculum/JoanMartinezPeidro.png" alt="Joan Martínez Peidro" loading="lazy" style="width:100%;max-width:400px;display:block;border-radius:8px;">
         </div>
         <h3 class="profile-name">Joan Martínez Peidro</h3>
         <p class="profile-role">{{ i18n "profile_role" | default "Ceramista · Fundador" }}</p>
@@ -27,10 +38,18 @@
         <p class="content-text">{{ i18n "joan_intro" }}</p>
       </div>
     </div>
+    <div style="margin-top: 48px;">
+      <h3 style="font-family: Jost, sans-serif; font-weight: 500; font-size: 1.1rem; margin-bottom: 16px;">{{ i18n "joan_curriculum_title" }}</h3>
+      <ul class="curriculum-list">
+        {{ range $line := split (i18n "joan_curriculum") "\n" }}
+        <li>{{ $line }}</li>
+        {{ end }}
+      </ul>
+    </div>
     <div class="mini-gallery" style="margin-top: 48px;">
-      <img src="/img/joan-retrats/img_6732.jpg" alt="Retrat de Joan" loading="lazy">
-      <img src="/img/joan-retrats/img_8406.jpg" alt="Retrat de Joan" loading="lazy">
-      <img src="/img/joan-retrats/img_8445.jpg" alt="Retrat de Joan" loading="lazy">
+      <figure><img src="/img/joan-retrats/img_6732.jpg" alt="Retrat de Joan" loading="lazy"><figcaption>Retrat de Joan</figcaption></figure>
+      <figure><img src="/img/joan-retrats/img_8406.jpg" alt="Retrat de Joan" loading="lazy"><figcaption>Retrat de Joan</figcaption></figure>
+      <figure><img src="/img/joan-retrats/img_8445.jpg" alt="Retrat de Joan" loading="lazy"><figcaption>Retrat de Joan</figcaption></figure>
     </div>
   </div>
 </section>
@@ -47,17 +66,60 @@
         <p>{{ i18n "familia_text" }}</p>
       </div>
       <div>
-        <img src="/img/familia/familia.jpg" alt="Família Martínez" style="width:100%;height:auto;border-radius:4px;" loading="lazy">
+        <figure><img src="/img/familia/familia.jpg" alt="Família Martínez" style="width:100%;height:auto;border-radius:4px;" loading="lazy"><figcaption>Família Martínez</figcaption></figure>
       </div>
     </div>
-    <div class="gallery-grid" style="margin-top: 48px;">
-      <div class="gallery-item"><img src="/img/historiques/01-avia-lola-avi-joan.jpg" alt="Àvia Lola i Avi Joan" loading="lazy"></div>
-      <div class="gallery-item"><img src="/img/historiques/02-avi-joan-de-petit.jpg" alt="Avi Joan de petit" loading="lazy"></div>
-      <div class="gallery-item"><img src="/img/historiques/03-avui-joan-amb-la-seva-mare-lola.jpg" alt="Avui Joan amb la seva mare Lola" loading="lazy"></div>
-      <div class="gallery-item"><img src="/img/historiques/04-amb-la-mare.jpg" alt="Amb la mare" loading="lazy"></div>
-      <div class="gallery-item"><img src="/img/historiques/05-avui-joan-mab-fills.jpg" alt="Avui Joan amb els fills" loading="lazy"></div>
-      <div class="gallery-item"><img src="/img/historiques/06-avi-joan-al-taller.jpg" alt="Avi Joan al taller" loading="lazy"></div>
-      <div class="gallery-item"><img src="/img/historiques/07-a-menorca.jpg" alt="A Menorca" loading="lazy"></div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;">
+      <div>
+        <h3 class="col-title" style="margin-bottom: 16px;">{{ i18n "familia_pare_visio_title" }}</h3>
+        <p class="content-text">{{ i18n "familia_pare_visio_text" }}</p>
+      </div>
+      <div class="col-gallery" style="margin-top: 0;">
+        <figure><img src="/img/pecoes-obrador/09-avi-joan-de-petit.jpg" alt="Avi Joan de petit" loading="lazy"><figcaption>Avi Joan de petit</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;">
+      <div>
+        <h3 class="col-title" style="margin-bottom: 16px;">{{ i18n "familia_pare_feina_title" }}</h3>
+        <p class="content-text">{{ i18n "familia_pare_feina_text" }}</p>
+      </div>
+      <div class="col-gallery" style="margin-top: 0;">
+        <figure><img src="/img/pecoes-obrador/10-orinal-partera.png" alt="Orinal de partera" loading="lazy"><figcaption>Orinal de partera</figcaption></figure>
+        <figure><img src="/img/pecoes-obrador/11-cossi-aigua-tornejar.png" alt="Cossi per a posar l'aigua al tornejar" loading="lazy"><figcaption>Cossi per a posar l'aigua al tornejar</figcaption></figure>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;">
+      <div>
+        <p class="content-text">{{ i18n "familia_pare_malaltia_text" }}</p>
+      </div>
+      <div class="col-gallery" style="margin-top: 0;">
+        <figure><img src="/img/pecoes-obrador/12-avui-joan-amb-la-seva-mare-lola.jpg" alt="Joan amb la seva mare Lola" loading="lazy"><figcaption>Joan amb la seva mare Lola</figcaption></figure>
+      </div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title" style="margin-bottom: 16px;">{{ i18n "familia_pecoes_title" }}</h3>
+      <p class="content-text" style="max-width: 640px;">{{ i18n "familia_pecoes_text" }}</p>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/01-escorredor-01.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/02-escorredor-02.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/03-bomba-beuredor.png" alt="Bomba de beuredor" loading="lazy"><figcaption>Bomba de beuredor</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/04-germans-comunio.png" alt="Els 4 germans Martínez Peidro" loading="lazy"><figcaption>Els 4 germans Martínez Peidro</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/05-gerro.png" alt="Gerro" loading="lazy"><figcaption>Gerro</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/7-beurador-plat.png" alt="Beurador de plat" loading="lazy"><figcaption>Beurador de plat</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/07-maquina-testos.png" alt="Màquina de fer testos" loading="lazy"><figcaption>Màquina de fer testos</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/08-20000-pessetes.png" alt="20.000 pessetes" loading="lazy"><figcaption>20.000 pessetes</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/gibrells-estec.png" alt="Gibrells fets per la mare del Joan amb l'estec" loading="lazy"><figcaption>Gibrells fets per la mare del Joan amb l'estec</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cassola.png" alt="Cassola" loading="lazy"><figcaption>Cassola</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/test-quart.png" alt="Test de quart" loading="lazy"><figcaption>Test de quart</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cossi-aigua-tornejar.png" alt="Cossi per a posar l'aigua al tornejar" loading="lazy"><figcaption>Cossi per a posar l'aigua al tornejar</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/orinal-partera.png" alt="Orinal de partera" loading="lazy"><figcaption>Orinal de partera</figcaption></figure></div>
+      </div>
     </div>
   </div>
 </section>
@@ -65,59 +127,151 @@
 <div class="section-divider"></div>
 
 <section class="section section--alt section-reveal" id="taller">
-  <div class="section-inner">
+    <div class="section-inner">
     <p class="section-label">{{ i18n "section_taller_label" }}</p>
     <h2 class="section-title section-title--large">{{ i18n "section_taller_title" }}</h2>
     <p class="section-subtitle">{{ i18n "section_taller_subtitle" }}</p>
 
-    <div class="cols cols--gap-lg" style="margin-top: 64px;">
-      <div>
-        <h3 class="col-title">{{ i18n "taller_evo_title" }}</h3>
-        <p class="content-text">{{ i18n "taller_evo_text" }}</p>
-      </div>
-      <div>
-        <h3 class="col-title">{{ i18n "taller_estructura_title" }}</h3>
-        <p class="content-text">{{ i18n "taller_estructura_text" }}</p>
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_evo_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_evo_text" }}</div>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/pecoes/test-quart.png" alt="Test de quart" loading="lazy"><figcaption>Test de quart</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/cassola.png" alt="Cassola" loading="lazy"><figcaption>Cassola</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/gibrells-estec.png" alt="Gibrells fets amb l'estec" loading="lazy"><figcaption>Gibrells fets amb l'estec</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/peces-utilitaries.png" alt="Peces utilitàries" loading="lazy"><figcaption>Peces utilitàries</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/peces-decoratives.png" alt="Peces decoratives" loading="lazy"><figcaption>Peces decoratives</figcaption></figure></div>
       </div>
     </div>
 
-    <div class="cols cols--gap-lg" style="margin-top: 48px;">
-      <div>
-        <h3 class="col-title">{{ i18n "taller_construccions_title" }}</h3>
-        <p class="content-text">{{ i18n "taller_construccions_text" }}</p>
-      </div>
-      <div>
-        <h3 class="col-title">{{ i18n "taller_dades_title" }}</h3>
-        <p class="content-text" style="margin-bottom: 24px;">{{ i18n "taller_dades_intro" }}</p>
-        <table class="data-table">
-          <thead>
-            <tr>
-              <th>{{ i18n "taller_table_any" }}</th>
-              <th>{{ i18n "taller_table_fet" }}</th>
-              <th>{{ i18n "taller_table_forn" }}</th>
-              <th>{{ i18n "taller_table_produccio" }}</th>
-            </tr>
-          </thead>
-          <tbody>
-            {{ range .Params.dades_taller }}
-            <tr>
-              <td><strong>{{ .any }}</strong></td>
-              <td>{{ .fita }}</td>
-              <td>{{ .forn }}</td>
-              <td>{{ .produccio }}</td>
-            </tr>
-            {{ end }}
-          </tbody>
-        </table>
+    <div style="margin-top: 64px; border: 3px solid blue; padding: 10px;">
+      <h3 class="col-title">{{ i18n "taller_estructura_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_estructura_text" }}</div>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/taller/forn.png" alt="El forn" loading="lazy"><figcaption>El forn</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/bassa-delta.png" alt="Bassa moderna" loading="lazy"><figcaption>Bassa moderna</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/pare-joan-pere.png" alt="El pare del Joan amb el seu fill Pere" loading="lazy"><figcaption>El pare del Joan amb el seu fill Pere</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/terra-trencadora.png" alt="La terra després de la trencadora" loading="lazy"><figcaption>La terra després de la trencadora</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/taula-colatge.png" alt="Taula de colatge" loading="lazy"><figcaption>Taula de colatge</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/entrada-pago.png" alt="Entrada del taller al Pago" loading="lazy"><figcaption>Entrada del taller al Pago</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/cos-principal.png" alt="Cos principal del taller" loading="lazy"><figcaption>Cos principal del taller</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/IMG_8570.jpg" alt="Vista del taller" loading="lazy"><figcaption>Vista del taller</figcaption></figure></div>
       </div>
     </div>
-  </div>
-  <div class="gallery-grid" style="margin-top: 80px;">
-    <div class="gallery-item gallery-item--wide"><img src="/img/taller/IMG_8570.jpg" alt="Vista del taller" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/mans/IMG_8525.jpg" alt="Mans treballant" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/mans/IMG_8532.jpg" alt="Mans treballant" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/fent-feina/IMG_8598.jpg" alt="Joan treballant al taller" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/fent-feina/IMG_8638.jpg" alt="Joan treballant al taller" loading="lazy"></div>
+
+    <div style="margin-top: 64px; border: 3px solid green; padding: 10px;">
+      <h3 class="col-title">{{ i18n "taller_eines_gerrer_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_eines_gerrer_text" }}</div>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/taller/galletera.png" alt="La galletera" loading="lazy"><figcaption>La galletera</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/roda.png" alt="La roda" loading="lazy"><figcaption>La roda</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/estec.png" alt="L'estec" loading="lazy"><figcaption>L'estec</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/obrador-gerrer-01.png" alt="De l'obrador del gerrer" loading="lazy"><figcaption>De l'obrador del gerrer</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/obrador-gerrer-02.png" alt="De l'obrador del gerrer" loading="lazy"><figcaption>De l'obrador del gerrer</figcaption></figure></div>
+        <div class="gallery-item gallery-item--wide gallery-item--vid">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/7Jv1hP8Aito" title="Com es coïa al forn de llenya àrab" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 64px; border: 3px solid orange; padding: 10px;">
+      <h3 class="col-title">{{ i18n "taller_eines_ceramista_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_eines_text" }}</div>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/taller/fang-envasat.png" alt="Fang envasat i apilat" loading="lazy"><figcaption>Fang envasat i apilat</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/galletera-gres.png" alt="Galletera petita d'acer pel gres" loading="lazy"><figcaption>Galletera petita d'acer pel gres</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/motlle-encaixos.png" alt="Motlle amb els encaixos" loading="lazy"><figcaption>Motlle amb els encaixos</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/torn-electric.png" alt="El torn elèctric del taller" loading="lazy"><figcaption>El torn elèctric del taller</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/polint-peu-bol.png" alt="Polint el peu d'un bol al torn" loading="lazy"><figcaption>Polint el peu d'un bol al torn</figcaption></figure></div>
+        <div class="gallery-item gallery-item--wide gallery-item--vid">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/1ouz5_vwgIY" title="Com es fa una peça al torn" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="gallery-item gallery-item--wide gallery-item--vid">
+          <div class="video-embed">
+            <iframe src="https://www.youtube.com/embed/zw8rN3x5iLA" title="Tot el procés: torn, esmalt, cocció — Florian Gadsby" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+        <div class="gallery-item"><figure><img src="/img/mans/IMG_8525.jpg" alt="Mans treballant" loading="lazy"><figcaption>Mans treballant</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/mans/IMG_8532.jpg" alt="Mans treballant" loading="lazy"><figcaption>Mans treballant</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/fent-feina/IMG_8598.jpg" alt="Joan treballant" loading="lazy"><figcaption>Joan treballant</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/fent-feina/IMG_8638.jpg" alt="Joan treballant" loading="lazy"><figcaption>Joan treballant</figcaption></figure></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_estructura_tf_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_estructura_tf_text" }}</div>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/taller/IMG_8570.jpg" alt="Vista del taller" loading="lazy"><figcaption>Vista del taller</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/entrada-pago.png" alt="Entrada del taller al Pago" loading="lazy"><figcaption>Entrada del taller al Pago</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/cos-principal.png" alt="Cos principal del taller" loading="lazy"><figcaption>Cos principal del taller</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/taula-colatge.png" alt="Taula de colatge" loading="lazy"><figcaption>Taula de colatge</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/forn.png" alt="El forn" loading="lazy"><figcaption>El forn</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/taller/fang-envasat.png" alt="Fang envasat i apilat" loading="lazy"><figcaption>Fang envasat i apilat</figcaption></figure></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_primers_anys_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_primers_anys_text" }}</div>
+      <div class="gallery-grid" style="margin-top: 32px;">
+        <div class="gallery-item"><figure><img src="/img/pecoes/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/escorredor-01.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes/gibrells-estec.png" alt="Gibrells fets amb l'estec" loading="lazy"><figcaption>Gibrells fets amb l'estec</figcaption></figure></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_treballadors_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_treballadors_text" }}</div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_dia_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_dia_text" }}</div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_embalatge_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_embalatge_text" }}</div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_admin_title" }}</h3>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_admin_text" }}</div>
+    </div>
+
+    <div style="margin-top: 64px;">
+      <h3 class="col-title">{{ i18n "taller_dades_title" }}</h3>
+      <div class="content-text" style="max-width: 640px; margin-bottom: 24px;">{{ i18n "taller_dades_intro" }}</div>
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>{{ i18n "taller_table_any" }}</th>
+            <th>{{ i18n "taller_table_fet" }}</th>
+            <th>{{ i18n "taller_table_forn" }}</th>
+            <th>{{ i18n "taller_table_produccio" }}</th>
+          </tr>
+        </thead>
+        <tbody>
+          {{ range .Params.dades_taller }}
+          <tr>
+            <td><strong>{{ .any }}</strong></td>
+            <td>{{ .fita }}</td>
+            <td>{{ .forn }}</td>
+            <td>{{ .produccio }}</td>
+          </tr>
+          {{ end }}
+        </tbody>
+      </table>
+    </div>
   </div>
 </section>
 
@@ -130,6 +284,87 @@
     <p class="section-subtitle">{{ i18n "section_collab_subtitle" }}</p>
     <div class="content-text">
       <p>{{ i18n "collab_text" }}</p>
+    </div>
+    <div class="cols cols--gap-lg" style="margin-top: 48px;">
+      <div>
+        <h3 class="col-title">{{ i18n "collab_ceramistes_title" }}</h3>
+        <div class="content-text">{{ i18n "collab_ceramistes_text" | safeHTML }}</div>
+      </div>
+      <div>
+        <h3 class="col-title">{{ i18n "collab_representants_title" }}</h3>
+        <div class="content-text">{{ i18n "collab_representants_text" | safeHTML }}</div>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;" id="collab-maties">
+      <div>
+        <h3 class="col-title">{{ i18n "collab_maties_title" }}</h3>
+        <p class="content-text">{{ i18n "collab_maties_text" | safeHTML }}</p>
+      </div>
+      <div>
+        <div class="col-gallery">
+          <div class="gallery-item"><figure><img src="/img/colaboradors/maties-palau-ferrer-01.png" alt="Maties Palau Ferré" loading="lazy"><figcaption>Maties Palau Ferré</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/maties-palau-ferrer-02.png" alt="Maties Palau Ferré" loading="lazy"><figcaption>Maties Palau Ferré</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/maties-palau-ferrer-03.png" alt="Maties Palau Ferré al seu taller" loading="lazy"><figcaption>Maties Palau Ferré al seu taller</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/maties-palau-ferrer-04.png" alt="Maties Palau Ferré — obra" loading="lazy"><figcaption>Maties Palau Ferré — obra</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/maties-palau-ferrer-05.png" alt="Maties Palau Ferré — obra" loading="lazy"><figcaption>Maties Palau Ferré — obra</figcaption></figure></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;" id="collab-benet">
+      <div>
+        <h3 class="col-title">{{ i18n "collab_benet_title" }}</h3>
+        <p class="content-text">{{ i18n "collab_benet_text" | safeHTML }}</p>
+      </div>
+      <div>
+        <div class="col-gallery">
+          <div class="gallery-item"><figure><img src="/img/colaboradors/BenetFerrerBolunya-retrat01.png" alt="Benet Ferrer Bolunya" loading="lazy"><figcaption>Benet Ferrer Bolunya</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/BenetFerrerBolunya-retrat02.png" alt="Benet Ferrer Bolunya" loading="lazy"><figcaption>Benet Ferrer Bolunya</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Art%20conceptual%20del%20Benet.%20(principis%20dels%2070).png" alt="Art conceptual del Benet (principis dels 70)" loading="lazy"><figcaption>Art conceptual del Benet (principis dels 70)</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Anvers%20i%20revers%20d'uns%20plats%20per%20l'escola%20Massana.png" alt="Anvers i revers d'uns plats per l'Escola Massana" loading="lazy"><figcaption>Anvers i revers d'uns plats per l'Escola Massana</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Plats%20i%20rajoles%20per%20la%20cuina%20del%20Pago.png" alt="Plats i rajoles per la cuina del Pago" loading="lazy"><figcaption>Plats i rajoles per la cuina del Pago</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Cap%20per%20una%20%C3%B2ptica.png" alt="Cap per una òptica" loading="lazy"><figcaption>Cap per una òptica</figcaption></figure></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;" id="collab-manosa">
+      <div>
+        <h3 class="col-title">{{ i18n "collab_manosa_title" }}</h3>
+        <p class="content-text">{{ i18n "collab_manosa_text" | safeHTML }}</p>
+      </div>
+      <div>
+        <div class="col-gallery">
+          <div class="gallery-item"><figure><img src="/img/colaboradors/SalvadorMan%CC%83osa-01.png" alt="Salvador Mañosa" loading="lazy"><figcaption>Salvador Mañosa</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Els%20nets%20del%20Joan%20i%20la%20Isabel%20la%20Laia%20i%20Arnau%20Page%CC%80s.png" alt="Els nets del Joan i la Isabel: la Laia i l'Arnau Pagès" loading="lazy"><figcaption>Els nets del Joan i la Isabel: la Laia i l'Arnau Pagès</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Migdiada.png" alt="Migdiada" loading="lazy"><figcaption>Migdiada</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Jesu%CC%81sBolinyaga.png" alt="Jesús Bolinyaga" loading="lazy"><figcaption>Jesús Bolinyaga</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/La%20Repu%CC%81blica%20a%20Cerdanyola.png" alt="La República a Cerdanyola" loading="lazy"><figcaption>La República a Cerdanyola</figcaption></figure></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="cols cols--gap-lg" style="margin-top: 64px;" id="collab-casadevall">
+      <div>
+        <h3 class="col-title">{{ i18n "collab_casadevall_title" }}</h3>
+        <p class="content-text">{{ i18n "collab_casadevall_text" }}</p>
+      </div>
+      <div>
+        <div class="col-gallery">
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Joaquim%20Casadevall%20i%20Verge%CC%81s%2001.png" alt="Joaquim Casadevall i Vergés" loading="lazy"><figcaption>Joaquim Casadevall i Vergés</figcaption></figure></div>
+          <div class="gallery-item"><figure><img src="/img/colaboradors/Joaquim%20Casadevall%20i%20Verge%CC%81s%2002.png" alt="Joaquim Casadevall i Vergés" loading="lazy"><figcaption>Joaquim Casadevall i Vergés</figcaption></figure></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content-text" style="margin-top: 64px; font-style: italic; max-width: 640px; margin-left: auto; margin-right: auto; text-align: center;">
+      <p>{{ i18n "collab_dedicacio_text" }}</p>
+    </div>
+
+    <div class="content-text" style="margin-top: 48px; max-width: 480px; margin-left: auto; margin-right: auto; text-align: center; font-size: 0.85rem; color: var(--text-dim);">
+      <h3 class="col-title" style="text-align: center; margin-bottom: 16px;">{{ i18n "collab_credits_title" }}</h3>
+      <div>{{ i18n "collab_credits_text" | safeHTML }}</div>
     </div>
   </div>
 </section>
@@ -162,13 +397,13 @@
     <p class="section-subtitle">{{ i18n "section_galeria_subtitle" }}</p>
   </div>
   <div class="gallery-grid" style="margin-top: 0;">
-    <div class="gallery-item"><img src="/img/automat/automat-001.jpg" alt="Instantània Automat" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/automat/automat-005.jpg" alt="Instantània Automat" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/automat/automat-012.jpg" alt="Instantània Automat" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/automat/automat-017.jpg" alt="Instantània Automat" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/automat/automat-018.jpg" alt="Instantània Automat" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/automat/automat-026.jpg" alt="Instantània Automat" loading="lazy"></div>
-    <div class="gallery-item"><img src="/img/automat/automat-036.jpg" alt="Instantània Automat" loading="lazy"></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-001.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-005.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-012.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-017.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-018.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-026.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
+    <div class="gallery-item"><figure><img src="/img/automat/automat-036.jpg" alt="Instantània Automat" loading="lazy"><figcaption>Instantània Automat</figcaption></figure></div>
   </div>
 </section>
 
