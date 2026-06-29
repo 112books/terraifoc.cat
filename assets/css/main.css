@@ -304,10 +304,10 @@ main[tabindex="-1"]:focus { outline: none; }
   color: var(--text);
   line-height: 1.8;
   max-width: var(--content-narrow);
-  white-space: pre-line;
 }
 
-.content-text p { margin-bottom: 16px; }
+.content-text p { margin-bottom: 1.2em; }
+.content-text p:last-child { margin-bottom: 0; }
 
 /* DIVIDER */
 .section-divider {

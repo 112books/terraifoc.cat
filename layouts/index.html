@@ -35,7 +35,7 @@
         <p class="profile-role">{{ i18n "profile_role" | default "Ceramista · Fundador" }}</p>
       </div>
       <div>
-        <p class="content-text">{{ i18n "joan_intro" }}</p>
+        <div class="content-text">{{ i18n "joan_intro" | markdownify }}</div>
       </div>
     </div>
     <div style="margin-top: 48px;">
@@ -62,18 +62,16 @@
     <h2 class="section-title">{{ i18n "section_familia_title" }}</h2>
     <p class="section-subtitle">{{ i18n "section_familia_subtitle" }}</p>
     <div class="cols cols--gap-lg" style="margin-top: 32px;">
-      <div class="content-text">
-        <p>{{ i18n "familia_text" }}</p>
-      </div>
+      <div class="content-text">{{ i18n "familia_text" | markdownify }}</div>
       <div>
-        <figure><img src="/img/familia/familia.jpg" alt="Família Martínez" style="width:100%;height:auto;border-radius:4px;" loading="lazy"><figcaption>Família Martínez</figcaption></figure>
+        <figure><img src="/img/familia/familia-martinez-serres.jpg" alt="Família Martínez" style="width:100%;height:auto;border-radius:4px;" loading="lazy"><figcaption>Família Martínez</figcaption></figure>
       </div>
     </div>
 
     <div class="cols cols--gap-lg" style="margin-top: 64px;">
       <div>
         <h3 class="col-title" style="margin-bottom: 16px;">{{ i18n "familia_pare_visio_title" }}</h3>
-        <p class="content-text">{{ i18n "familia_pare_visio_text" }}</p>
+        <div class="content-text">{{ i18n "familia_pare_visio_text" | markdownify }}</div>
       </div>
       <div class="col-gallery" style="margin-top: 0;">
         <figure><img src="/img/pecoes-obrador/09-avi-joan-de-petit.jpg" alt="Avi Joan de petit" loading="lazy"><figcaption>Avi Joan de petit</figcaption></figure>
@@ -83,7 +81,7 @@
     <div class="cols cols--gap-lg" style="margin-top: 64px;">
       <div>
         <h3 class="col-title" style="margin-bottom: 16px;">{{ i18n "familia_pare_feina_title" }}</h3>
-        <p class="content-text">{{ i18n "familia_pare_feina_text" }}</p>
+        <div class="content-text">{{ i18n "familia_pare_feina_text" | markdownify }}</div>
       </div>
       <div class="col-gallery" style="margin-top: 0;">
         <figure><img src="/img/pecoes-obrador/10-orinal-partera.png" alt="Orinal de partera" loading="lazy"><figcaption>Orinal de partera</figcaption></figure>
@@ -93,7 +91,7 @@
 
     <div class="cols cols--gap-lg" style="margin-top: 64px;">
       <div>
-        <p class="content-text">{{ i18n "familia_pare_malaltia_text" }}</p>
+        <div class="content-text">{{ i18n "familia_pare_malaltia_text" | markdownify }}</div>
       </div>
       <div class="col-gallery" style="margin-top: 0;">
         <figure><img src="/img/pecoes-obrador/12-avui-joan-amb-la-seva-mare-lola.jpg" alt="Joan amb la seva mare Lola" loading="lazy"><figcaption>Joan amb la seva mare Lola</figcaption></figure>
@@ -102,7 +100,7 @@
 
     <div style="margin-top: 64px;">
       <h3 class="col-title" style="margin-bottom: 16px;">{{ i18n "familia_pecoes_title" }}</h3>
-      <p class="content-text" style="max-width: 640px;">{{ i18n "familia_pecoes_text" }}</p>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "familia_pecoes_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
         <div class="gallery-item"><figure><img src="/img/pecoes-obrador/01-escorredor-01.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/pecoes-obrador/02-escorredor-02.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
@@ -117,8 +115,8 @@
         <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cassola.png" alt="Cassola" loading="lazy"><figcaption>Cassola</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/pecoes-obrador/test-quart.png" alt="Test de quart" loading="lazy"><figcaption>Test de quart</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cossi-aigua-tornejar.png" alt="Cossi per a posar l'aigua al tornejar" loading="lazy"><figcaption>Cossi per a posar l'aigua al tornejar</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/orinal-partera.png" alt="Orinal de partera" loading="lazy"><figcaption>Orinal de partera</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/11-cossi-aigua-tornejar.png" alt="Cossi per a posar l'aigua al tornejar" loading="lazy"><figcaption>Cossi per a posar l'aigua al tornejar</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/10-orinal-partera.png" alt="Orinal de partera" loading="lazy"><figcaption>Orinal de partera</figcaption></figure></div>
       </div>
     </div>
   </div>
@@ -134,13 +132,13 @@
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_evo_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_evo_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_evo_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
-        <div class="gallery-item"><figure><img src="/img/pecoes/test-quart.png" alt="Test de quart" loading="lazy"><figcaption>Test de quart</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/cassola.png" alt="Cassola" loading="lazy"><figcaption>Cassola</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/gibrells-estec.png" alt="Gibrells fets amb l'estec" loading="lazy"><figcaption>Gibrells fets amb l'estec</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/test-quart.png" alt="Test de quart" loading="lazy"><figcaption>Test de quart</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cassola.png" alt="Cassola" loading="lazy"><figcaption>Cassola</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/gibrells-estec.png" alt="Gibrells fets amb l'estec" loading="lazy"><figcaption>Gibrells fets amb l'estec</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/taller/peces-utilitaries.png" alt="Peces utilitàries" loading="lazy"><figcaption>Peces utilitàries</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/taller/peces-decoratives.png" alt="Peces decoratives" loading="lazy"><figcaption>Peces decoratives</figcaption></figure></div>
       </div>
@@ -148,7 +146,7 @@
 
     <div style="margin-top: 64px; border: 3px solid blue; padding: 10px;">
       <h3 class="col-title">{{ i18n "taller_estructura_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_estructura_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_estructura_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
         <div class="gallery-item"><figure><img src="/img/taller/forn.png" alt="El forn" loading="lazy"><figcaption>El forn</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/taller/bassa-delta.png" alt="Bassa moderna" loading="lazy"><figcaption>Bassa moderna</figcaption></figure></div>
@@ -163,7 +161,7 @@
 
     <div style="margin-top: 64px; border: 3px solid green; padding: 10px;">
       <h3 class="col-title">{{ i18n "taller_eines_gerrer_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_eines_gerrer_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_eines_gerrer_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
         <div class="gallery-item"><figure><img src="/img/taller/galletera.png" alt="La galletera" loading="lazy"><figcaption>La galletera</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/taller/roda.png" alt="La roda" loading="lazy"><figcaption>La roda</figcaption></figure></div>
@@ -180,7 +178,7 @@
 
     <div style="margin-top: 64px; border: 3px solid orange; padding: 10px;">
       <h3 class="col-title">{{ i18n "taller_eines_ceramista_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_eines_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_eines_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
         <div class="gallery-item"><figure><img src="/img/taller/fang-envasat.png" alt="Fang envasat i apilat" loading="lazy"><figcaption>Fang envasat i apilat</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/taller/galletera-gres.png" alt="Galletera petita d'acer pel gres" loading="lazy"><figcaption>Galletera petita d'acer pel gres</figcaption></figure></div>
@@ -206,7 +204,7 @@
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_estructura_tf_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_estructura_tf_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_estructura_tf_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
         <div class="gallery-item"><figure><img src="/img/taller/IMG_8570.jpg" alt="Vista del taller" loading="lazy"><figcaption>Vista del taller</figcaption></figure></div>
         <div class="gallery-item"><figure><img src="/img/taller/entrada-pago.png" alt="Entrada del taller al Pago" loading="lazy"><figcaption>Entrada del taller al Pago</figcaption></figure></div>
@@ -219,38 +217,38 @@
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_primers_anys_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_primers_anys_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_primers_anys_text" | markdownify }}</div>
       <div class="gallery-grid" style="margin-top: 32px;">
-        <div class="gallery-item"><figure><img src="/img/pecoes/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/escorredor-01.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
-        <div class="gallery-item"><figure><img src="/img/pecoes/gibrells-estec.png" alt="Gibrells fets amb l'estec" loading="lazy"><figcaption>Gibrells fets amb l'estec</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/matoneres.png" alt="Matoneres" loading="lazy"><figcaption>Matoneres</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/01-escorredor-01.png" alt="Escorredor" loading="lazy"><figcaption>Escorredor</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/cantir-oli.png" alt="Càntir per l'oli" loading="lazy"><figcaption>Càntir per l'oli</figcaption></figure></div>
+        <div class="gallery-item"><figure><img src="/img/pecoes-obrador/gibrells-estec.png" alt="Gibrells fets amb l'estec" loading="lazy"><figcaption>Gibrells fets amb l'estec</figcaption></figure></div>
       </div>
     </div>
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_treballadors_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_treballadors_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_treballadors_text" | markdownify }}</div>
     </div>
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_dia_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_dia_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_dia_text" | markdownify }}</div>
     </div>
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_embalatge_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_embalatge_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_embalatge_text" | markdownify }}</div>
     </div>
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_admin_title" }}</h3>
-      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_admin_text" }}</div>
+      <div class="content-text" style="max-width: 640px;">{{ i18n "taller_admin_text" | markdownify }}</div>
     </div>
 
     <div style="margin-top: 64px;">
       <h3 class="col-title">{{ i18n "taller_dades_title" }}</h3>
-      <div class="content-text" style="max-width: 640px; margin-bottom: 24px;">{{ i18n "taller_dades_intro" }}</div>
+      <div class="content-text" style="max-width: 640px; margin-bottom: 24px;">{{ i18n "taller_dades_intro" | markdownify }}</div>
       <table class="data-table">
         <thead>
           <tr>
@@ -282,9 +280,7 @@
     <p class="section-label">{{ i18n "section_collab_label" }}</p>
     <h2 class="section-title">{{ i18n "section_collab_title" }}</h2>
     <p class="section-subtitle">{{ i18n "section_collab_subtitle" }}</p>
-    <div class="content-text">
-      <p>{{ i18n "collab_text" }}</p>
-    </div>
+    <div class="content-text">{{ i18n "collab_text" | markdownify }}</div>
     <div class="cols cols--gap-lg" style="margin-top: 48px;">
       <div>
         <h3 class="col-title">{{ i18n "collab_ceramistes_title" }}</h3>
@@ -359,7 +355,7 @@
     </div>
 
     <div class="content-text" style="margin-top: 64px; font-style: italic; max-width: 640px; margin-left: auto; margin-right: auto; text-align: center;">
-      <p>{{ i18n "collab_dedicacio_text" }}</p>
+      {{ i18n "collab_dedicacio_text" | markdownify }}
     </div>
 
     <div class="content-text" style="margin-top: 48px; max-width: 480px; margin-left: auto; margin-right: auto; text-align: center; font-size: 0.85rem; color: var(--text-dim);">
