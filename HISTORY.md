@@ -8,10 +8,18 @@ Registre cronològic de canvis, decisions i tasques realitzades.
 
 ### Navegació mòbil amb icones de línia
 - **Arxius:** `layouts/partials/header.html`, `assets/css/main.css`
-- **Canvi:** Cada secció de la nav té un icona SVG de línia (persona, gent, quadrícula, llibre, estrella, imatge, sobre).
-- A mòbil (< 768px): barra fixa a baix de 4 columnes, icones + text petit.
-- A escriptori: icones + text en fila.
-- **Botó idioma diferenciat:** Fons sutile, bordet, `border-radius: 4px`. A mòbil es queda fix a dalt a la dreta, fora de la barra d'icones.
+- **Canvi:** Cada secció de la nav té un icona SVG de línia (persona, gent, edifici, llibre, estrella, imatge, sobre).
+- A mòbil (< 768px): barra fixa a baix, scrollable horitzontal, sense labels. Icona d'idioma (CA/EN) al final de la barra amb bordet.
+- A escriptori: icones + text en fila, botó idioma amb fons i bordet.
+
+### Secció activa amb color foc
+- **Arxius:** `layouts/_default/baseof.html`, `assets/css/main.css`
+- **JS:** IntersectionObserver detecta quina secció és visible i afegeix `nav-icon-active` a l'enllaç corresponent.
+- **CSS:** Icona activa canvia a `var(--foc)` ( vermell ).
+
+### Icona Taller canviada
+- **Arxiu:** `layouts/partials/header.html`
+- **Canvi:** Icona de quadrícula → edifici (`<path d="M3 21h18..."/>`).
 
 ### Correcció analytics GoatCounter
 - **Arxiu:** `.github/workflows/fetch-analytics.yml`
