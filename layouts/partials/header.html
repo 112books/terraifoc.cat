@@ -16,7 +16,7 @@
         <span class="nav-icon-label">{{ i18n "nav_familia" }}</span>
       </a>
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#taller" class="nav-icon-link" aria-label="{{ i18n "nav_taller" }}">
-        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M3 9h18"/><path d="M9 21V9"/></svg>
+        <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18"/><path d="M5 21V7l7-4 7 4v14"/><path d="M9 21v-6h6v6"/></svg>
         <span class="nav-icon-label">{{ i18n "nav_taller" }}</span>
       </a>
       <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}#collaboracions" class="nav-icon-link" aria-label="{{ i18n "nav_collaboracions" }}">
@@ -39,11 +39,11 @@
         <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/></svg>
         <span class="nav-icon-label">{{ i18n "nav_contacte" }}</span>
       </a>
-      <div class="header-lang">
+      <div class="nav-lang-mobile">
         {{ if eq .Language.Lang "ca" }}
-          <a href="/en/" class="lang-link">{{ i18n "nav_lang" }}</a>
+          <a href="/en/" class="lang-link" aria-label="English">EN</a>
         {{ else }}
-          <a href="/" class="lang-link">{{ i18n "nav_lang" }}</a>
+          <a href="/" class="lang-link" aria-label="Català">CA</a>
         {{ end }}
       </div>
     </nav>
