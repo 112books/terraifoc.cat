@@ -141,7 +141,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 500;
   color: var(--text-dim);
   letter-spacing: 0.06em;
-  text-transform: uppercase;
+  text-transform: none;
   transition: color 0.3s;
   padding: 4px 0;
   position: relative;
@@ -170,7 +170,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 500;
   color: var(--text-dim);
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
   transition: color 0.3s;
 }
 
@@ -219,7 +219,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 400;
   color: var(--text-dim);
   letter-spacing: 0.25em;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 24px;
 }
 
@@ -268,7 +268,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: 0.15em;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--foc);
   margin-bottom: 12px;
 }
@@ -337,7 +337,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-size: 0.9rem;
   font-weight: 600;
   letter-spacing: 0.12em;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 16px;
   color: var(--foc);
 }
@@ -406,7 +406,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 500;
   color: var(--foc);
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
   margin-top: -16px;
 }
 
@@ -558,7 +558,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 500;
   font-size: 0.75rem;
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
   color: var(--cendra);
 }
 
@@ -649,7 +649,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 500;
   color: var(--text-dim);
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
   margin-bottom: 6px;
 }
 
@@ -685,7 +685,7 @@ main[tabindex="-1"]:focus { outline: none; }
   font-weight: 500;
   color: var(--terra);
   letter-spacing: 0.08em;
-  text-transform: uppercase;
+  text-transform: none;
   cursor: pointer;
   transition: background 0.3s, color 0.3s;
 }
