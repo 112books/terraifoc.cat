@@ -25,6 +25,19 @@ Registre cronològic de canvis, decisions i tasques realitzades.
 - **Arxiu:** `.github/workflows/fetch-analytics.yml`
 - **Problema:** `END=$(date +%Y-%m-%d)` passava la data sense hora. GoatCounter interpretava `00:00:00` i la query SQL no retornava hits (issue [#836](https://github.com/arp242/goatcounter/issues/836)).
 - **Solució:** `END=$(date +%Y-%m-%dT23:59:59Z)` — inclou tot el dia.
+- **Nota:** El workflow encara no ha executat amb la correcció (és horari, cada hora a :00).
+
+### Botó idioma visible a les dues versions
+- **Arxius:** `layouts/partials/header.html`, `assets/css/main.css`
+- **Problema:** `.header-lang` estava dins `nav-links` i no es veia a cap versió.
+- **Solució:** `.header-lang` mogut fora de `nav-links`, al header directament.
+- Desktop: al final de la fila de nav, amb `margin-left: auto`.
+- Mòbil: fixa a dalt a la dreta (`position: fixed`, `z-index: 101`).
+
+### Foto Joan+Lola full-width a mòbil
+- **Arxius:** `assets/css/main.css`
+- `.col-gallery` a mòbil canviat a `grid-template-columns: 1fr` (abans forçava 2 columnes).
+- Figura i imatge a `width: 100%`, `height: auto`.
 
 ### Contingut correcció punts 1–6 (CA+EN)
 - **Arxius:** `i18n/ca.yaml`, `i18n/en.yaml`, `layouts/index.html`
