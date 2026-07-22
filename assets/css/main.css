@@ -187,7 +187,7 @@ main[tabindex="-1"]:focus { outline: none; }
 .nav-icon-active .nav-icon { stroke: var(--foc); }
 .nav-icon-active::after { display: none; }
 
-.header-lang { margin-left: auto; }
+.header-lang { margin-left: 20px; }
 
 .header-lang .lang-link {
   font-family: var(--font-display);
