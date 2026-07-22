@@ -1,0 +1,29 @@
+# Terra i Foc — humans.txt
+
+## EQUIP
+Responsable: Joan Mz Serres
+Adaptació web: Joan Mz Serres
+
+## CONTINGUTS
+Textos: Isabel Serres amb l'ajuda de Dolors Bosch
+Maquetació: Veva Barba i Isabel Serres
+Documentació i imatges: Joan Martínez i Isabel Serres
+Assessorament lingüístic: Dolors Albós
+
+## TECNOLOGIA
+Framework: Hugo
+CSS: Custom
+Font: Jost (Google Fonts)
+Desplegament: GitHub Pages
+Formulari de contacte: Formspree
+
+## LOCALITZACIÓ
+Adreça: Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona
+Email: hola@terraifoc.cat
+Instagram: https://www.instagram.com/terraifoc/
+
+## COOKIES
+No utilitza cookies de rastreig.
+
+## Llicència
+Copyright © Isabel Serres. Tots els drets reservats.
