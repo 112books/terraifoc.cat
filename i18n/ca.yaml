@@ -1,6 +1,6 @@
 hero_brand: Terra i Foc
 hero_tagline: Obrador de ceràmica artesanal
-hero_desc: Peces fetes a mà amb argila, esmalt i foc. Al Penedès des de 1969.
+hero_desc: "Fundat per Joan Martínez Peidro el 1969. Ceràmica artesanal feta a mà al Penedès, amb l'ajuda de la seva esposa Isabel Serres i artistes col·laboradors."
 hero_cita: "L'artesania és la capacitat de què disposen els humans de produir objectes amb les mans o amb l'ajut d'utillatges o màquines simples. Els artesans també poden fer produccions seriades, però es diferencien de les industrials perquè les peces artesanals s'elaboren amb les mans, d'una en una, i això fa que l'objecte sigui únic."
 
 nav_joan: Joan
@@ -15,6 +15,7 @@ nav_lang: EN
 section_joan_label: — 01
 section_joan_title: "El Joan i el seu currículum"
 section_joan_subtitle: "Una vida dedicada a la ceràmica artesanal."
+profile_role: "Ceramista · Fundador"
 joan_intro: "Joan Martínez Peidro, nascut a Barcelona el 1945, fill, net i besnet de terrissers, l'any 1969 s'establia al carrer Escultor Ordóñez 32-34 de Barcelona, al local propietat dels seus pares per a crear el seu lloc de treball, un taller de ceràmica que es diria Terra i foc. Això passava el 1969 quan es va casar amb Isabel Serres i van anar a viure a l'edifici del costat, als números 28-30, de lloguer a un pis de propietat dels pares. Aquesta és la seva història.\n\nEl 1966 es van edificar, sobre el terreny on hi havia hagut la terrisseria del seu pare, dos blocs de pisos amb quatre portes a cada replà i els seus corresponents locals. Quatre anys més tard d'instal·lar-s'hi en Joan i la Isabel, el taller se'ls va fer petit i l'any 1973 es van traslladar definitivament al Pago, municipi de Subirats de la comarca de l'Alt Penedès."
 joan_curriculum_title: Currículum
 joan_curriculum: "1945 – Joan Martínez Peidro neix al barri de la Sagrera, Barcelona\n— (1959) – L'educació bàsica la rep a l'Acadèmia Sta. Eulàlia del barri de Vilapicina. El 1959 aconsegueix el títol de comerç a l'Escola Pràctica\n1960-1967 – Estudia a l'Escola Massana amb beca especial\n1962 – Treballa a Moldesa\n1965 – Entra al taller de ceràmica Loki del ceramista Francesc Albors\n1966 – Entra a Cerámicas San Joaquin de Badalona\n1967 – Fa el servei militar\n1969 – Es casa amb Isabel Serres i crea el seu propi taller Terra i Foc, a Barcelona\n1973-1974 – Trasllada el taller Terra i Foc al Pago del municipi de Subirats, fent una S.A.\n1975 – Es dissol la S.A. i el Joan segueix al taller Terra i Foc fins a la jubilació\n1987 – Participa en el 7è concurs de disseny a Expohogar de Barcelona i guanya una medalla per als seus dissenys\n1987-1997 – Col·labora amb diverses empreses fent part de la producció: Casa Bohèmia, Carosa disseny, Elisa...\n1994 – Exposa amb el col·lectiu de Ceramistes Catalans a Madrid\n1995-1997 – Exposa a la fira de ceràmica i objectes de regal de Madrid amb el grup de Ceràmica Artística Catalana\n2007-2010 – Es dedica a fer bescuit per al Manel Serran a més dels encàrrecs que anaven arribant\n2010 – Es jubila"
@@ -164,7 +165,7 @@ section_galeria_subtitle: "Instantànies Automat."
 
 section_contact_label: — 07
 section_contact_title: Contacte
-contact_text: "Si vols visitar l'obrador, encarregar una peça o simplement saber-ne més, escriu-nos."
+contact_text: "L'obrador segueix actiu de forma testimonial. Joan Martínez i Serres, fill del fundador, manté viu el llegat de l'Avi Joan. Si vols visitar-nos, encarregar una peça o simplement saber-ne més, escriu-nos."
 contact_email: hola@terraifoc.cat
 contact_address: "Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona"
 contact_cta: Enviar
@@ -177,6 +178,6 @@ form_error: No s'ha pogut enviar. Prova-ho de nou.
 nav_aria_label: Navegació principal
 skip_link: Salta al contingut
 scroll_top: Torna a dalt
-footer_desc: Obrador de ceràmica artesanal
+footer_desc: "Obrador de ceràmica artesanal · Fundat el 1969 per Joan Martínez Peidro"
 footer_address: "C. Verge de Montserrat, 17 · El Pago (Subirats) · Barcelona"
 footer_email: hola@terraifoc.cat

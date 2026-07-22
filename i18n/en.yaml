@@ -1,6 +1,6 @@
 hero_brand: Terra i Foc
 hero_tagline: Artisan Ceramics Workshop
-hero_desc: Handmade pieces with clay, glaze and fire. In Penedès since 1969.
+hero_desc: "Founded by Joan Martínez Peidro in 1969. Handmade artisan ceramics in Penedès, with the help of his wife Isabel Serres and collaborating artists."
 hero_cita: "Craftsmanship is the human capacity to produce objects by hand or with the help of simple tools or machines. Artisans can also produce serial works, but they differ from industrial production in that each piece is made by hand, one by one, and this makes every object unique."
 
 nav_joan: Joan
@@ -15,6 +15,7 @@ nav_lang: CA
 section_joan_label: — 01
 section_joan_title: "Joan and his résumé"
 section_joan_subtitle: "A lifetime dedicated to artisan ceramics."
+profile_role: "Ceramist · Founder"
 joan_intro: "Joan Martínez Peidro, born in Barcelona in 1945, son, grandson and great-grandson of potters, established himself in 1969 at Carrer Escultor Ordóñez 32-34 in Barcelona, in the premises owned by his parents, to create his workplace — a ceramics workshop that would be called Terra i Foc. This happened in 1969 when he married Isabel Serres and they went to live in the building next door, at numbers 28-30, renting a flat owned by his parents. This is his story.\n\nIn 1966, on the land where his father's pottery had stood, two blocks of flats were built with four doors per landing and their corresponding premises. Four years after Joan and Isabel settled in, the workshop became too small and in 1973 they moved permanently to El Pago, municipality of Subirats in the Alt Penedès region."
 joan_curriculum_title: Résumé
 joan_curriculum: "1945 – Joan Martínez Peidro is born in the Sagrera neighbourhood, Barcelona\n— (1959) – Primary education at Acadèmia Sta. Eulàlia in Vilapicina. In 1959 he earns his commerce diploma at Escola Pràctica\n1960-1967 – Studies at Escola Massana on a special scholarship\n1962 – Works at Moldesa\n1965 – Joins the Loki ceramics workshop of ceramist Francesc Albors\n1966 – Joins Cerámicas San Joaquin in Badalona\n1967 – Completes military service\n1969 – Marries Isabel Serres and founds his own workshop Terra i Foc, Barcelona\n1973-1974 – Moves the Terra i Foc workshop to El Pago, municipality of Subirats, forming an S.A.\n1975 – The S.A. is dissolved and Joan continues at Terra i Foc until retirement\n1987 – Participates in the 7th design competition at Expohogar Barcelona and wins a medal for his designs\n1987-1997 – Collaborates with several companies on production: Casa Bohèmia, Carosa disseny, Elisa...\n1994 – Exhibits with the Ceramistes Catalans collective in Madrid\n1995-1997 – Exhibits at the ceramics and gift fair in Madrid with the Ceràmica Artística Catalana group\n2007-2010 – Produces bisque for Manel Serran in addition to incoming commissions\n2010 – Retires"
@@ -261,7 +262,7 @@ section_galeria_subtitle: "Automat snapshots."
 
 section_contact_label: — 07
 section_contact_title: Contact
-contact_text: "If you'd like to visit the workshop, commission a piece, or just learn more, drop us a line."
+contact_text: "The workshop remains active on a testimonial basis. Joan Martínez i Serres, the founder's son, keeps alive the legacy of Grandfather Joan. If you'd like to visit us, commission a piece, or just learn more, drop us a line."
 contact_email: hola@terraifoc.cat
 contact_address: "Carrer de la Verge de Montserrat, 17, El Pago (Subirats), Barcelona"
 contact_cta: Send
@@ -274,6 +275,6 @@ form_error: Could not send. Please try again.
 nav_aria_label: Main navigation
 skip_link: Skip to content
 scroll_top: Back to top
-footer_desc: Artisan Ceramics Workshop
+footer_desc: "Artisan Ceramics Workshop · Founded in 1969 by Joan Martínez Peidro"
 footer_address: "C. Verge de Montserrat, 17 · El Pago (Subirats) · Barcelona"
 footer_email: hola@terraifoc.cat
