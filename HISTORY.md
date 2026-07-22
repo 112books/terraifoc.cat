@@ -39,6 +39,16 @@ Registre cronològic de canvis, decisions i tasques realitzades.
 - `.col-gallery` a mòbil canviat a `grid-template-columns: 1fr` (abans forçava 2 columnes).
 - Figura i imatge a `width: 100%`, `height: auto`.
 
+### Hamburguesa mòbil + overlay de navegació
+- **Arxius:** `layouts/partials/header.html`, `assets/css/main.css`, `layouts/_default/baseof.html`
+- **Botó hamburger:** Visible només a mòbil (`display: none` a escriptori).
+- **Overlay:** Pantalla completa amb llistat de seccions en text gran + botó idioma.
+- **JS:** Toggle `is-open` amb tancament per clic a enllaç, Escape, i `aria-expanded`.
+- **Icones bottom bar:** Sense text (`nav-icon-label: display: none`), `flex: 1 1 0` per ajustar-se.
+
+### Neteja CSS
+- Eliminat `.header-lang .lang-link` duplicat (línia 269-283).
+
 ### Contingut correcció punts 1–6 (CA+EN)
 - **Arxius:** `i18n/ca.yaml`, `i18n/en.yaml`, `layouts/index.html`
 - Punt 1: 3× `<figcaption>Retrat de Joan</figcaption>` eliminat de la mini-galeria.
