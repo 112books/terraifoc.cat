@@ -740,24 +740,27 @@ main[tabindex="-1"]:focus { outline: none; }
 }
 
 .footer-logo-img {
-  height: 56px;
+  height: 72px;
   width: auto;
-  margin-bottom: 8px;
+  margin-bottom: 10px;
 }
 
 .footer-desc {
-  font-size: 0.85rem;
-  color: var(--text-dim);
+  font-size: 0.88rem;
+  color: rgba(54, 23, 18, 0.78);
+  font-weight: 400;
 }
 
 .footer-address {
-  font-size: 0.8rem;
-  color: var(--text-dim);
+  font-size: 0.82rem;
+  color: rgba(54, 23, 18, 0.78);
+  font-weight: 400;
 }
 
 .footer-copy {
-  font-size: 0.8rem;
-  color: var(--text-dim);
+  font-size: 0.82rem;
+  color: rgba(54, 23, 18, 0.78);
+  font-weight: 400;
   margin-top: 4px;
 }
 
@@ -775,14 +778,16 @@ main[tabindex="-1"]:focus { outline: none; }
 }
 
 .footer-legal-links span[aria-hidden="true"] {
-  color: var(--text-faint);
-  font-size: 0.72rem;
-  opacity: 0.6;
+  color: rgba(54, 23, 18, 0.78);
+  font-size: 0.85rem;
+  line-height: 1;
+  display: inline-block;
+  transform: translateY(-0.15em);
 }
 
 .footer-legal-links a {
   font-size: 0.85rem;
-  color: var(--text-dim);
+  color: rgba(54, 23, 18, 0.78);
   position: relative;
   padding-bottom: 2px;
   transition: color 0.3s, opacity 0.3s;
