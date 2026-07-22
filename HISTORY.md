@@ -50,9 +50,16 @@ Registre cronològic de canvis, decisions i tasques realitzades.
 - Eliminat `.header-lang .lang-link` duplicat (línia 269-283).
 
 ### Ajustos d'espaiat i mida
-- **Desktop:** `.nav-links` amb `margin-left: 24px` per separar del logo.
+- **Desktop:** `.nav-links` amb `margin-left: 24px` per separar del logo. `.header-lang` amb `margin-left: 20px` per separar del nav.
 - **Mòbil:** icones reduïdes a 20px (18px a ≤480px). Padding barra inferior ajustat.
 - **Hamburguesa:** `width: 36px`, `height: 36px`, `flex-direction: column` explícit al mòbil.
+- **≤480px:** overlay més compacte (padding 60px/24px, gap 18px, font 1.05rem).
+
+### Analytics GoatCounter — SOLUCIONAT
+- **Arxiu:** `.github/workflows/fetch-analytics.yml`
+- **Causa:** `END=$(date +%Y-%m-%d)` → GoatCounter interpretava `00:00:00` i la query SQL no retornava hits.
+- **Solució:** `END=$(date +%Y-%m-%dT23:59:59Z)` — inclou tot el dia.
+- **Resultat:** 11 visites comptades després de la correcció. Workflow executat manualment amb `gh workflow run fetch-analytics.yml`.
 
 ### Contingut correcció punts 1–6 (CA+EN)
 - **Arxius:** `i18n/ca.yaml`, `i18n/en.yaml`, `layouts/index.html`
