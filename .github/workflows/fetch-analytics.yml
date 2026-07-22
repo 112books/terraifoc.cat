@@ -18,7 +18,7 @@ jobs:
           GC_TOKEN: ${{ secrets.GC_API_KEY }}
           GC_ACCOUNT: "terraifoc-cat"
         run: |
-          END=$(date +%Y-%m-%d)
+          END="$(date +%Y-%m-%dT23:59:59Z)"
           START=$(date -d '365 days ago' +%Y-%m-%d)
           BASE="https://${GC_ACCOUNT}.goatcounter.com/api/v0"
           AUTH="Authorization: Bearer ${GC_TOKEN}"

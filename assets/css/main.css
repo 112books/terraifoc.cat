@@ -135,7 +135,11 @@ main[tabindex="-1"]:focus { outline: none; }
   align-items: center;
 }
 
-.nav-links a {
+.nav-icon-link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
   font-family: var(--font-display);
   font-size: 0.78rem;
   font-weight: 500;
@@ -147,9 +151,19 @@ main[tabindex="-1"]:focus { outline: none; }
   position: relative;
 }
 
-.nav-links a:hover { color: var(--terra); opacity: 1; }
+.nav-icon {
+  width: 20px;
+  height: 20px;
+}
 
-.nav-links a::after {
+.nav-icon-label {
+  font-size: 0.72rem;
+  line-height: 1;
+}
+
+.nav-icon-link:hover { color: var(--terra); opacity: 1; }
+
+.nav-icon-link::after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -160,21 +174,25 @@ main[tabindex="-1"]:focus { outline: none; }
   transition: width 0.3s;
 }
 
-.nav-links a:hover::after { width: 100%; }
+.nav-icon-link:hover::after { width: 100%; }
 
-.header-lang { margin-left: 24px; }
+.header-lang { margin-left: 16px; }
 
 .header-lang .lang-link {
   font-family: var(--font-display);
-  font-size: 0.7rem;
-  font-weight: 500;
-  color: var(--text-dim);
-  letter-spacing: 0.08em;
+  font-size: 0.65rem;
+  font-weight: 600;
+  color: var(--terra);
+  letter-spacing: 0.1em;
   text-transform: none;
-  transition: color 0.3s;
+  transition: background 0.3s, color 0.3s;
+  padding: 5px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 4px;
+  background: rgba(54, 23, 18, 0.04);
 }
 
-.header-lang .lang-link:hover { color: var(--foc); opacity: 1; }
+.header-lang .lang-link:hover { background: var(--terra); color: #fff; border-color: var(--terra); opacity: 1; }
 
 /* HERO */
 .hero {
@@ -858,28 +876,64 @@ main[tabindex="-1"]:focus { outline: none; }
 }
 
 @media (max-width: 768px) {
-  .site-header { padding: 20px 24px; }
-  .header-scrolled { padding: 10px 24px; }
+  .site-header { padding: 16px 20px; }
+  .header-scrolled { padding: 10px 20px; }
 
-  .header-inner {
-    flex-wrap: wrap;
-    gap: 12px;
-  }
+  .header-inner { justify-content: space-between; }
 
   .nav-links {
-    gap: 16px;
-    flex-wrap: wrap;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: var(--bg);
+    border-top: 1px solid var(--border);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    padding: 8px 0 env(safe-area-inset-bottom, 8px);
+    z-index: 100;
+    justify-items: center;
+    box-shadow: 0 -2px 12px rgba(0,0,0,0.06);
   }
 
-  .nav-links a { font-size: 0.7rem; }
+  .nav-icon-link {
+    flex-direction: column;
+    gap: 3px;
+    padding: 6px 4px;
+    text-decoration: none;
+  }
+  .nav-icon-link::after { display: none; }
 
-  .header-lang { margin-left: 0; }
+  .nav-icon { width: 22px; height: 22px; }
 
-  .hero { padding: 140px 24px 80px; }
-  .hero-logo { max-width: 220px; }
+  .nav-icon-label {
+    font-size: 0.55rem;
+    line-height: 1;
+    letter-spacing: 0;
+  }
 
-  .section { padding: 80px 24px; }
-  .section-contact { padding: 80px 24px; }
+  .header-lang {
+    margin-left: 0;
+    position: fixed;
+    top: 16px;
+    right: 20px;
+    z-index: 101;
+  }
+
+  .header-lang .lang-link {
+    font-size: 0.6rem;
+    padding: 4px 8px;
+    border-radius: 3px;
+  }
+
+  body { padding-bottom: 72px; }
+
+  .hero { padding: 120px 20px 80px; }
+  .hero-logo { max-width: 200px; }
+
+  .section { padding: 64px 20px; }
+  .section-contact { padding: 64px 20px; }
 
   .cols,
   .cols--split { grid-template-columns: 1fr; gap: 32px; }
@@ -889,9 +943,7 @@ main[tabindex="-1"]:focus { outline: none; }
     gap: 20px;
   }
 
-  .gallery-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+  .gallery-grid { grid-template-columns: 1fr 1fr; }
 
   .gallery-item--wide,
   .gallery-item--full,
@@ -900,11 +952,9 @@ main[tabindex="-1"]:focus { outline: none; }
     grid-row: span 1;
   }
 
-  .glossary-item {
-    gap: 4px;
-  }
+  .glossary-item { grid-template-columns: 1fr; gap: 4px; }
 
-  .site-footer { padding: 32px 24px; }
+  .site-footer { padding: 32px 20px; padding-bottom: 88px; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .footer-right { align-items: flex-start; }
 }
