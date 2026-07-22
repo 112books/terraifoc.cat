@@ -716,6 +716,17 @@ main[tabindex="-1"]:focus { outline: none; }
   color: var(--foc);
 }
 
+.legal-content h2 {
+  margin-top: 2em;
+  margin-bottom: 1em;
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.15rem;
+  color: var(--terra);
+}
+
+.legal-content h2:first-of-type { margin-top: 0; }
+
 /* FOOTER */
 .site-footer {
   padding: 48px;
