@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src 'self'; frame-src https://www.youtube.com; base-uri 'self'">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; style-src 'self' fonts.googleapis.com 'unsafe-inline'; font-src fonts.gstatic.com; script-src 'self' 'unsafe-inline' gc.zgo.at; img-src 'self' data:; connect-src 'self' https://terraifoc-cat.goatcounter.com; frame-src https://www.youtube.com; base-uri 'self'">
   <title>{{ if .IsHome }}{{ i18n "hero_brand" }} · {{ i18n "hero_tagline" }}{{ else }}{{ .Title }} · {{ i18n "hero_brand" }}{{ end }}</title>
   <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ i18n "hero_tagline" }}{{ end }}">
   <link rel="canonical" href="{{ .Permalink }}">
@@ -42,9 +42,34 @@
     "telephone": "",
     "foundingDate": "1969",
     "foundingLocation": "Barcelona",
-    "knowsLanguage": ["ca", "en"]
+    "knowsLanguage": ["ca", "en"],
+    "sameAs": [
+      "{{ .Site.Params.instagram }}"
+    ]
   }
   </script>
+  {{ if not .IsHome }}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "{{ i18n "hero_brand" }}",
+        "item": "{{ .Site.BaseURL }}"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "{{ .Title }}",
+        "item": "{{ .Permalink }}"
+      }
+    ]
+  }
+  </script>
+  {{ end }}
   <meta name="theme-color" content="#361712">
   <link rel="icon" href="/img/terraifoc-mark.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="/img/terraifoc-mark.svg">
@@ -58,7 +83,8 @@
   </noscript>
   {{ $css := resources.Get "css/main.css" | resources.Minify }}
   <link rel="stylesheet" href="{{ $css.RelPermalink }}">
-  
+  <script data-goatcounter="https://terraifoc-cat.goatcounter.com/count"
+          async src="//gc.zgo.at/count.js"></script>
 </head>
 <body>
   <a href="#main-content" class="skip-link">{{ i18n "skip_link" }}</a>

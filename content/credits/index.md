@@ -1,5 +1,6 @@
 ---
 title: "Crèdits"
+description: "Crèdits del web Terra i Foc. Textos d'Isabel Serres, adaptació al web de Joan Mz Serres."
 ---
 
 <p class="copyright">Copyright © Isabel Serres</p>

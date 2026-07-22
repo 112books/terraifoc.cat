@@ -1,5 +1,6 @@
 ---
 title: "Credits"
+description: "Terra i Foc website credits. Texts by Isabel Serres, web adaptation by Joan Mz Serres."
 ---
 
 <p class="copyright">Copyright © Isabel Serres</p>

@@ -32,7 +32,7 @@ Hugo static site for **Terra i Foc**, an artisan ceramics workshop in El Pago (S
 │   ├── ca.yaml                    # Catalan translations (all UI strings)
 │   └── en.yaml                    # English translations
 ├── layouts/
-│   ├── _default/baseof.html       # Base template (CSP, SEO meta, password gate, lightbox, JS)
+│   ├── _default/baseof.html       # Base template (CSP, SEO meta, lightbox, JS)
 │   ├── index.html                 # Homepage layout (all sections: hero, joan, familia, taller, collab, glossari, galeria, contacte)
 │   └── partials/
 │       ├── header.html            # Fixed header with nav + language switcher
@@ -40,6 +40,8 @@ Hugo static site for **Terra i Foc**, an artisan ceramics workshop in El Pago (S
 │       └── progress.html          # Reading progress bar + scroll-to-top button
 ├── static/
 │   ├── CNAME                      # terraifoc.cat
+│   ├── admin/
+│   │   └── index.html             # GoatCounter analytics dashboard (public, no auth)
 │   └── img/                       # All images (logos, portraits, workshop, gallery)
 ├── sync-terraifoc.sh              # Dev/management script (menu-driven)
 └── .github/workflows/deploy.yml   # GitHub Actions deploy to Pages
@@ -211,6 +213,19 @@ Output is deployed to GitHub Pages at `https://terraifoc.cat/` via the CNAME rec
 | Body size | 17px | Base font size |
 | Body weight | 350 | Base font weight |
 
+## GoatCounter Analytics
+
+- **Account:** `terraifoc-cat` (https://terraifoc-cat.goatcounter.com)
+- **Tracking script:** In `baseof.html` `<head>`, loads from `gc.zgo.at`
+- **Dashboard:** `static/admin/index.html` — public, no password
+  - Fetches `analytics.json` from the same directory
+  - Chart.js for temporal charts, Canvas 2D for visualizations
+  - Earth-tone palette matching main site (`--foc: #c81111`)
+  - Catalan UI, tabs: Temporal / Pàgines / Dispositius
+  - Sections mapped: Joan, Família, Taller, Col·laboracions, Glossari, Crèdits, Galeria, Contacte
+- **CSP:** `script-src` includes `gc.zgo.at`, `connect-src` includes `terraifoc-cat.goatcounter.com`
+- **TODO:** Create GitHub Actions workflow to fetch `analytics.json` from GC API (requires `GC_API_KEY` secret)
+
 ## Contact
 
 - **Email:** hola@terraifoc.cat
@@ -219,4 +234,4 @@ Output is deployed to GitHub Pages at `https://terraifoc.cat/` via the CNAME rec
 
 ---
 
-**Important:** Always run `hugo --minify` before committing to verify no build errors. The site is bilingual — any new text must be added to both `ca.yaml` and `en.yaml`. The password gate (`LinuxBCN2026`) is a soft gate and should NOT be relied on for actual access control.
+**Important:** Always run `hugo --minify` before committing to verify no build errors. The site is bilingual — any new text must be added to both `ca.yaml` and `en.yaml`. The admin stats page (`/admin`) is public and has no password protection.
