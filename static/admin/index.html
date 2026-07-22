@@ -230,6 +230,7 @@
       <div class="topbar-gen" id="topbar-gen">carregant…</div>
     </div>
     <div class="topbar-actions">
+      <a class="btn-sm" href="https://terraifoc.cat" target="_blank" rel="noopener noreferrer">← terraifoc.cat</a>
       <a id="gc-link" class="btn-sm" href="https://terraifoc-cat.goatcounter.com" target="_blank" rel="noopener noreferrer">↗ GoatCounter</a>
     </div>
   </div>
@@ -267,6 +268,10 @@
       </div>
       <div class="chart-wrap"><canvas id="chart-canvas"></canvas></div>
       <div class="chart-summary" id="chart-summary"></div>
+
+      <h2 class="section-title" style="margin-top:2rem">visites per dia de setmana</h2>
+      <div id="weekday-bars" class="bars"></div>
+
       <div id="insight-temporal" class="insight" style="display:none">
         <span class="label">// observació</span>
         <div id="insight-temporal-body"></div>
@@ -398,6 +403,7 @@ function renderAll(data) {
   document.getElementById('topbar-gen').innerHTML = 'Actualitzat: <strong>' + gen + '</strong>';
 
   renderChart(data);
+  renderWeekdays(data);
   renderLang(data);
   renderSections(data);
   renderPages(data);
@@ -504,6 +510,34 @@ function groupHits(days, groupBy) {
     label: groupBy==='week' ? 'S.'+fmtDateShort(k) : fmtMonth(k),
     count: buckets[k],
   }));
+}
+
+/* ══ WEEKDAYS ════════════════════════════════════════════════ */
+function renderWeekdays(data) {
+  const hbd = data.hits_by_day || [];
+  const el = document.getElementById('weekday-bars');
+  if (!el || !hbd.length) return;
+
+  const DAY_NAMES = ['Dilluns','Dimarts','Dimecres','Dijous','Divendres','Dissabte','Diumenge'];
+  const counts = [0,0,0,0,0,0,0];
+  let total = 0;
+  hbd.forEach(d => {
+    const dt = new Date(d.date+'T12:00:00');
+    const dow = (dt.getDay() + 6) % 7;
+    counts[dow] += d.count || 0;
+    total += d.count || 0;
+  });
+  const max = Math.max(...counts, 1);
+
+  el.innerHTML = DAY_NAMES.map((name, i) => {
+    const pct = total > 0 ? Math.round(counts[i]/total*100) : 0;
+    const w = Math.round(counts[i]/max*100);
+    return '<div class="bar-row"><span class="bar-label">' + name + '</span><div class="bar-track"><div class="bar-fill" data-w="' + w + '" style="width:0"></div></div><span class="bar-val">' + fmt(counts[i]) + '</span><span class="bar-pct">' + pct + '%</span></div>';
+  }).join('');
+
+  requestAnimationFrame(() => {
+    el.querySelectorAll('[data-w]').forEach(b => { b.style.width = b.dataset.w + '%'; });
+  });
 }
 
 /* ══ PÀGINES TAB ═════════════════════════════════════════════ */
@@ -732,12 +766,12 @@ function renderBars(containerId, items, opts = {}) {
 
 /* ══ UTILITATS ═══════════════════════════════════════════════ */
 const fmt      = n => (n==null||isNaN(n)) ? '—' : Number(n).toLocaleString('ca-ES');
-const isoToday = () => new Date().toISOString().slice(0,10);
+const isoToday = () => { const d = new Date(); return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0'); };
 const setText  = (id, v) => { const el = document.getElementById(id); if (el) el.textContent = v; };
 
 function daysAgo(n) {
   const d = new Date(); d.setDate(d.getDate()-n);
-  return d.toISOString().slice(0,10);
+  return d.getFullYear()+'-'+String(d.getMonth()+1).padStart(2,'0')+'-'+String(d.getDate()).padStart(2,'0');
 }
 function sumDays(hbd, from, to) {
   return (hbd||[]).filter(d => d.date>=from && d.date<=to).reduce((s,d) => s+(d.count||0), 0);
