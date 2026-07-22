@@ -8,6 +8,7 @@ nav_familia: Família
 nav_taller: Taller
 nav_collaboracions: Col·laboracions
 nav_glossari: Glossari
+nav_credits: Crèdits
 nav_galeria: Galeria
 nav_contacte: Contacte
 nav_lang: EN
@@ -159,11 +160,11 @@ section_glossari_label: — 05
 section_glossari_title: Glossari
 section_glossari_subtitle: "Termes de l'ofici de ceramista."
 
-section_galeria_label: — 06
+section_galeria_label: — 05
 section_galeria_title: Galeria
 section_galeria_subtitle: "Instantànies Automat."
 
-section_contact_label: — 07
+section_contact_label: — 06
 section_contact_title: Contacte
 contact_text: "L'obrador segueix actiu de forma testimonial. Joan Martínez i Serres, fill del fundador, manté viu el llegat de l'Avi Joan. Si vols visitar-nos, encarregar una peça o simplement saber-ne més, escriu-nos."
 contact_email: hola@terraifoc.cat

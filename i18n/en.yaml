@@ -8,6 +8,7 @@ nav_familia: Family
 nav_taller: Workshop
 nav_collaboracions: Collaborations
 nav_glossari: Glossary
+nav_credits: Credits
 nav_galeria: Gallery
 nav_contacte: Contact
 nav_lang: CA
@@ -256,11 +257,11 @@ section_glossari_label: — 05
 section_glossari_title: Glossary
 section_glossari_subtitle: "Terms of the ceramic craft."
 
-section_galeria_label: — 06
+section_galeria_label: — 05
 section_galeria_title: Gallery
 section_galeria_subtitle: "Automat snapshots."
 
-section_contact_label: — 07
+section_contact_label: — 06
 section_contact_title: Contact
 contact_text: "The workshop remains active on a testimonial basis. Joan Martínez i Serres, the founder's son, keeps alive the legacy of Grandfather Joan. If you'd like to visit us, commission a piece, or just learn more, drop us a line."
 contact_email: hola@terraifoc.cat
