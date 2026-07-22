@@ -57,9 +57,12 @@ Registre cronològic de canvis, decisions i tasques realitzades.
 
 ### Analytics GoatCounter — SOLUCIONAT
 - **Arxiu:** `.github/workflows/fetch-analytics.yml`
-- **Causa:** `END=$(date +%Y-%m-%d)` → GoatCounter interpretava `00:00:00` i la query SQL no retornava hits.
-- **Solució:** `END=$(date +%Y-%m-%dT23:59:59Z)` — inclou tot el dia.
-- **Resultat:** 11 visites comptades després de la correcció. Workflow executat manualment amb `gh workflow run fetch-analytics.yml`.
+- **Causa API:** `END=$(date +%Y-%m-%d)` → GoatCounter interpretava `00:00:00` i la query SQL no retornava hits.
+- **Solució API:** `END=$(date +%Y-%m-%dT23:59:59Z)` — inclou tot el dia.
+- **Causa KPIs a zero:** `isoToday()` usava `toISOString()` (UTC). A la nit a Barcelona (després de les 22:00 UTC+2) el dia UTC ja era l'endemà,从而 no coincidia amb les dades.
+- **Solució KPIs:** `isoToday()` i `daysAgo()` ara usen hora local (`getFullYear`, `getMonth`, `getDate`).
+- **Resultat:** 11 visites comptades. Workflow executat manualment amb `gh workflow run fetch-analytics.yml`.
+- **Nou:** Stats per dia de setmana (barres amb visites + percentatges) a la pestanya Temporal.
 
 ### Contingut correcció punts 1–6 (CA+EN)
 - **Arxius:** `i18n/ca.yaml`, `i18n/en.yaml`, `layouts/index.html`
