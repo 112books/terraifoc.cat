@@ -1039,6 +1039,9 @@ main[tabindex="-1"]:focus { outline: none; }
   .gallery-grid { grid-template-columns: 1fr; }
   .nav-icon { width: 18px; height: 18px; }
   .nav-links { padding: 6px 2px env(safe-area-inset-bottom, 6px); }
+  .nav-overlay { padding: 60px 24px 32px; }
+  .nav-overlay-links { gap: 18px; }
+  .nav-overlay-links a { font-size: 1.05rem; }
 }
 
 /* ANIMATIONS */
