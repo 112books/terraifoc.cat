@@ -768,13 +768,61 @@ main[tabindex="-1"]:focus { outline: none; }
   gap: 8px;
 }
 
-.footer-email a {
-  font-size: 0.82rem;
-  color: var(--text-dim);
+.footer-legal-links {
+  display: flex;
+  gap: 16px;
+}
+
+.footer-legal-links a {
+  font-size: 0.72rem;
+  color: var(--text-faint);
+  position: relative;
+  padding-bottom: 2px;
+  transition: color 0.3s, opacity 0.3s;
+}
+
+.footer-legal-links a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 1px;
+  background: var(--foc);
+  transition: width 0.3s ease;
+}
+
+.footer-legal-links a:hover { color: var(--text); opacity: 1; }
+.footer-legal-links a:hover::after { width: 100%; }
+
+.footer-powered { text-align: right; }
+
+.footer-powered-link {
+  text-decoration: none;
+  font-size: 0.72rem;
+  color: var(--text-faint);
   transition: color 0.3s;
 }
 
-.footer-email a:hover { color: var(--foc); opacity: 1; }
+.footer-powered-link strong { font-weight: 600; }
+
+.footer-powered-link:hover { color: var(--foc); opacity: 1; }
+
+.footer-powered-services {
+  margin: 0.25rem 0 0;
+  font-size: 0.68rem;
+  color: var(--text-faint);
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, opacity 0.3s ease, margin 0.3s ease;
+}
+
+.footer-powered:hover .footer-powered-services {
+  max-height: 2rem;
+  opacity: 1;
+  margin-top: 0.25rem;
+}
 
 /* RESPONSIVE */
 @media (max-width: 1024px) {
