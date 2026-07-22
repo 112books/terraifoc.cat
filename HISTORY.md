@@ -49,6 +49,11 @@ Registre cronològic de canvis, decisions i tasques realitzades.
 ### Neteja CSS
 - Eliminat `.header-lang .lang-link` duplicat (línia 269-283).
 
+### Ajustos d'espaiat i mida
+- **Desktop:** `.nav-links` amb `margin-left: 24px` per separar del logo.
+- **Mòbil:** icones reduïdes a 20px (18px a ≤480px). Padding barra inferior ajustat.
+- **Hamburguesa:** `width: 36px`, `height: 36px`, `flex-direction: column` explícit al mòbil.
+
 ### Contingut correcció punts 1–6 (CA+EN)
 - **Arxius:** `i18n/ca.yaml`, `i18n/en.yaml`, `layouts/index.html`
 - Punt 1: 3× `<figcaption>Retrat de Joan</figcaption>` eliminat de la mini-galeria.
