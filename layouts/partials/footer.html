@@ -9,8 +9,12 @@
     <div class="footer-right">
       <nav class="footer-legal-links" aria-label="{{ i18n "footer_legal_aria" }}">
         <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}legal/aviso/">{{ i18n "footer_legal_aviso" }}</a>
+        <span aria-hidden="true">|</span>
         <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}legal/privacitat/">{{ i18n "footer_legal_privacitat" }}</a>
+        <span aria-hidden="true">|</span>
         <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}legal/cookies/">{{ i18n "footer_legal_cookies" }}</a>
+        <span aria-hidden="true">|</span>
+        <a href="/{{ if eq .Language.Lang "en" }}en/{{ end }}legal/accessibilitat/">{{ i18n "footer_legal_accessibilitat" }}</a>
       </nav>
       <div class="footer-powered">
         <a href="https://linuxbcn.com" target="_blank" rel="noopener noreferrer" class="footer-powered-link">Powered by <strong>LinuxBCN.com</strong></a>
