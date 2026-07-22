@@ -185,7 +185,7 @@ main[tabindex="-1"]:focus { outline: none; }
 .nav-icon-active .nav-icon { stroke: var(--foc); }
 .nav-icon-active::after { display: none; }
 
-.header-lang { margin-left: 20px; margin-right: auto; }
+.header-lang { margin-left: auto; }
 
 .header-lang .lang-link {
   font-family: var(--font-display);
@@ -202,21 +202,69 @@ main[tabindex="-1"]:focus { outline: none; }
 
 .header-lang .lang-link:hover { background: var(--terra); color: #fff; border-color: var(--terra); }
 
-.header-lang .lang-link {
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 8px;
+  margin-left: 16px;
+  flex-shrink: 0;
+}
+.nav-toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: var(--terra);
+  margin: 4px 0;
+  transition: transform 0.3s, opacity 0.3s;
+}
+.nav-toggle[aria-expanded="true"] span:nth-child(1) { transform: translateY(6px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2) { opacity: 0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3) { transform: translateY(-6px) rotate(-45deg); }
+
+.nav-overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: var(--bg);
+  z-index: 200;
+  padding: 80px 40px 40px;
+  overflow-y: auto;
+}
+.nav-overlay.is-open { display: flex; align-items: center; justify-content: center; }
+
+.nav-overlay-links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+.nav-overlay-links a {
   font-family: var(--font-display);
-  font-size: 0.65rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: var(--terra);
+  text-decoration: none;
+  letter-spacing: 0.04em;
+  transition: color 0.3s;
+}
+.nav-overlay-links a:hover { color: var(--foc); }
+.nav-overlay-lang { margin-top: 24px; }
+.nav-overlay-lang .lang-link {
+  font-size: 0.85rem;
   font-weight: 600;
   color: var(--terra);
-  letter-spacing: 0.1em;
-  text-transform: none;
-  transition: background 0.3s, color 0.3s;
-  padding: 5px 10px;
+  padding: 8px 16px;
   border: 1px solid var(--border-strong);
   border-radius: 4px;
   background: rgba(54, 23, 18, 0.04);
+  transition: background 0.3s, color 0.3s;
 }
-
-.header-lang .lang-link:hover { background: var(--terra); color: #fff; border-color: var(--terra); opacity: 1; }
+.nav-overlay-lang .lang-link:hover { background: var(--terra); color: #fff; }
 
 /* HERO */
 .hero {
@@ -915,7 +963,7 @@ main[tabindex="-1"]:focus { outline: none; }
     display: flex;
     gap: 0;
     margin-left: 0;
-    padding: 10px 8px env(safe-area-inset-bottom, 10px);
+    padding: 8px 4px env(safe-area-inset-bottom, 8px);
     z-index: 100;
     overflow-x: auto;
     overflow-y: hidden;
@@ -929,7 +977,7 @@ main[tabindex="-1"]:focus { outline: none; }
     flex: 1 1 0;
     flex-direction: column;
     gap: 2px;
-    padding: 6px 2px;
+    padding: 4px 0;
     text-decoration: none;
     min-width: 0;
     text-align: center;
@@ -940,21 +988,11 @@ main[tabindex="-1"]:focus { outline: none; }
 
   .nav-icon-label { display: none; }
 
-  .header-lang {
-    margin-left: 0;
-    position: fixed;
-    top: 16px;
-    right: 20px;
-    z-index: 101;
-  }
+  .header-lang { display: none; }
 
-  .header-lang .lang-link {
-    font-size: 0.6rem;
-    padding: 4px 8px;
-    border-radius: 3px;
-  }
+  .nav-toggle { display: flex; align-items: center; }
 
-  body { padding-bottom: 72px; }
+  body { padding-bottom: 64px; }
 
   .hero { padding: 120px 20px 80px; }
   .hero-logo { max-width: 200px; }
@@ -985,14 +1023,14 @@ main[tabindex="-1"]:focus { outline: none; }
 
   .glossary-item { grid-template-columns: 1fr; gap: 4px; }
 
-  .site-footer { padding: 32px 20px; padding-bottom: 88px; }
+  .site-footer { padding: 32px 20px; padding-bottom: 80px; }
   .footer-inner { flex-direction: column; align-items: flex-start; }
   .footer-right { align-items: flex-start; }
 }
 
 @media (max-width: 480px) {
   .gallery-grid { grid-template-columns: 1fr; }
-  .nav-links { gap: 12px; }
+  .nav-icon { width: 20px; height: 20px; }
 }
 
 /* ANIMATIONS */
