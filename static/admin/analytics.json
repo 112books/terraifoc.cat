@@ -1,21 +1,25 @@
 {
-  "generated": "2026-07-23T02:46:21.030276Z",
+  "generated": "2026-07-23T05:48:41.696665Z",
   "period": {
     "start": "2025-07-23",
     "end": "2026-07-23"
   },
-  "total": 11,
+  "total": 12,
   "total_unique": 0,
   "hits_by_day": [
     {
       "date": "2026-07-22",
       "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 6
+      "count": 7
     },
     {
       "path": "/credits",
@@ -32,7 +36,7 @@
   ],
   "by_lang": {},
   "by_section": {
-    "": 6,
+    "": 7,
     "credits": 2,
     "legal": 2,
     "glossari": 1
@@ -42,6 +46,11 @@
       "name": "Safari",
       "id": "Safari",
       "count": 11
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 1
     }
   ],
   "systems": [
@@ -54,17 +63,22 @@
       "name": "iOS",
       "id": "iOS",
       "count": 5
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 1
     }
   ],
   "sizes": [
     {
-      "name": "phone",
-      "id": "phone",
-      "count": 5
-    },
-    {
       "name": "desktophd",
       "id": "desktophd",
+      "count": 6
+    },
+    {
+      "name": "phone",
+      "id": "phone",
       "count": 5
     },
     {
@@ -78,6 +92,11 @@
       "name": "Spain",
       "id": "ES",
       "count": 11
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
     }
   ],
   "refs": [
@@ -85,6 +104,11 @@
       "name": "?",
       "id": "?",
       "count": 6
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
     },
     {
       "name": "linuxbcn.com",
