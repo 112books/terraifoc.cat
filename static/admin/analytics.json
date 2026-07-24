@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-24T14:49:50.408627Z",
+  "generated": "2026-07-24T16:34:10.455490Z",
   "period": {
     "start": "2025-07-24",
     "end": "2026-07-24"
@@ -10,7 +10,23 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
-  "browsers": [],
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 22
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 5
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 1
+    }
+  ],
   "systems": [
     {
       "name": "iOS",
