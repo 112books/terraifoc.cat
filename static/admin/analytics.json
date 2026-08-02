@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-02T11:57:52.494308Z",
+  "generated": "2026-08-02T13:23:23.514074Z",
   "period": {
     "start": "2025-08-02",
     "end": "2026-08-02"
   },
-  "total": 34,
+  "total": 37,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -30,12 +30,16 @@
     {
       "date": "2026-08-01",
       "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 24
+      "count": 27
     },
     {
       "path": "/credits",
@@ -58,7 +62,7 @@
     "en": 1
   },
   "by_section": {
-    "": 25,
+    "": 28,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -67,12 +71,12 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 24
+      "count": 25
     },
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 9
+      "count": 11
     },
     {
       "name": "Firefox",
@@ -84,7 +88,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 17
+      "count": 18
     },
     {
       "name": "macOS",
@@ -99,14 +103,14 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 1
+      "count": 3
     }
   ],
   "sizes": [
     {
       "name": "phone",
       "id": "phone",
-      "count": 17
+      "count": 19
     },
     {
       "name": "desktop",
@@ -121,14 +125,14 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 1
+      "count": 2
     }
   ],
   "locations": [
     {
       "name": "Spain",
       "id": "ES",
-      "count": 23
+      "count": 26
     },
     {
       "name": "United States",
@@ -145,12 +149,12 @@
     {
       "name": "?",
       "id": "?",
-      "count": 19
+      "count": 20
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 3
+      "count": 4
     },
     {
       "name": "www.facebook.com",
