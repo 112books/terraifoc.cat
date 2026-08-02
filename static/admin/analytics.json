@@ -1,15 +1,72 @@
 {
-  "generated": "2026-08-02T22:50:18.152921Z",
+  "generated": "2026-08-02T23:53:18.532443Z",
   "period": {
     "start": "2025-08-02",
     "end": "2026-08-02"
   },
-  "total": 0,
+  "total": 37,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-22",
+      "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 3
+    },
+    {
+      "date": "2026-08-01",
+      "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 27
+    },
+    {
+      "path": "/credits",
+      "count": 4
+    },
+    {
+      "path": "/glossari",
+      "count": 3
+    },
+    {
+      "path": "/legal/accessibilitat",
+      "count": 2
+    },
+    {
+      "path": "/en",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 1
+  },
+  "by_section": {
+    "": 28,
+    "credits": 4,
+    "glossari": 3,
+    "legal": 2
+  },
   "browsers": [
     {
       "name": "Safari",
