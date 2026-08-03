@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-02T23:53:18.532443Z",
+  "generated": "2026-08-03T02:12:05.889597Z",
   "period": {
-    "start": "2025-08-02",
-    "end": "2026-08-02"
+    "start": "2025-08-03",
+    "end": "2026-08-03"
   },
-  "total": 37,
+  "total": 38,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -34,12 +34,16 @@
     {
       "date": "2026-08-02",
       "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 27
+      "count": 28
     },
     {
       "path": "/credits",
@@ -62,7 +66,7 @@
     "en": 1
   },
   "by_section": {
-    "": 28,
+    "": 29,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -76,7 +80,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 11
+      "count": 12
     },
     {
       "name": "Firefox",
@@ -103,14 +107,14 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 3
+      "count": 4
     }
   ],
   "sizes": [
     {
       "name": "phone",
       "id": "phone",
-      "count": 19
+      "count": 20
     },
     {
       "name": "desktop",
@@ -140,6 +144,11 @@
       "count": 10
     },
     {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
       "name": "Sweden",
       "id": "SE",
       "count": 1
@@ -149,7 +158,7 @@
     {
       "name": "?",
       "id": "?",
-      "count": 20
+      "count": 21
     },
     {
       "name": "Google",
