@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-12T16:51:50.351134Z",
+  "generated": "2026-08-12T17:53:51.915980Z",
   "period": {
     "start": "2025-08-12",
     "end": "2026-08-12"
@@ -118,7 +118,75 @@
       "count": 4
     }
   ],
-  "sizes": [],
-  "locations": [],
-  "refs": []
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 21
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 10
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 7
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 3
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 28
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 10
+    },
+    {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "?",
+      "id": "?",
+      "count": 22
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 6
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 1
+    }
+  ]
 }
