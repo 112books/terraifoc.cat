@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-17T09:34:59.234575Z",
+  "generated": "2026-08-17T10:25:43.804085Z",
   "period": {
     "start": "2025-08-17",
     "end": "2026-08-17"
   },
-  "total": 47,
+  "total": 49,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -49,13 +49,13 @@
     },
     {
       "date": "2026-08-17",
-      "count": 6
+      "count": 8
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 37
+      "count": 39
     },
     {
       "path": "/credits",
@@ -78,7 +78,7 @@
     "en": 1
   },
   "by_section": {
-    "": 38,
+    "": 40,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -87,7 +87,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 29
+      "count": 31
     },
     {
       "name": "Chrome",
@@ -104,7 +104,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 22
+      "count": 24
     },
     {
       "name": "Windows",
@@ -126,7 +126,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 23
+      "count": 25
     },
     {
       "name": "desktop",
@@ -148,7 +148,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 28
+      "count": 30
     },
     {
       "name": "United States",
@@ -175,7 +175,7 @@
     {
       "name": "?",
       "id": "?",
-      "count": 28
+      "count": 30
     },
     {
       "name": "Google",
