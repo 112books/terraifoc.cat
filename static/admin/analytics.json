@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-17T14:20:59.211962Z",
+  "generated": "2026-08-17T15:19:25.607939Z",
   "period": {
     "start": "2025-08-17",
     "end": "2026-08-17"
@@ -83,45 +83,8 @@
     "glossari": 3,
     "legal": 2
   },
-  "browsers": [
-    {
-      "name": "Safari",
-      "id": "Safari",
-      "count": 31
-    },
-    {
-      "name": "Chrome",
-      "id": "Chrome",
-      "count": 17
-    },
-    {
-      "name": "Firefox",
-      "id": "Firefox",
-      "count": 1
-    }
-  ],
-  "systems": [
-    {
-      "name": "iOS",
-      "id": "iOS",
-      "count": 24
-    },
-    {
-      "name": "Windows",
-      "id": "Windows",
-      "count": 11
-    },
-    {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 10
-    },
-    {
-      "name": "Android",
-      "id": "Android",
-      "count": 4
-    }
-  ],
+  "browsers": [],
+  "systems": [],
   "sizes": [
     {
       "name": "phone",
