@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-19T13:39:18.262273Z",
+  "generated": "2026-08-19T14:26:22.023907Z",
   "period": {
     "start": "2025-08-19",
     "end": "2026-08-19"
   },
-  "total": 49,
+  "total": 50,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -50,6 +50,10 @@
     {
       "date": "2026-08-17",
       "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
     }
   ],
   "hits": [
@@ -66,19 +70,19 @@
       "count": 3
     },
     {
-      "path": "/legal/accessibilitat",
+      "path": "/en",
       "count": 2
     },
     {
-      "path": "/en",
-      "count": 1
+      "path": "/legal/accessibilitat",
+      "count": 2
     }
   ],
   "by_lang": {
-    "en": 1
+    "en": 2
   },
   "by_section": {
-    "": 40,
+    "": 41,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -92,7 +96,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Firefox",
@@ -107,14 +111,14 @@
       "count": 24
     },
     {
-      "name": "Windows",
-      "id": "Windows",
+      "name": "macOS",
+      "id": "macOS",
       "count": 11
     },
     {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 10
+      "name": "Windows",
+      "id": "Windows",
+      "count": 11
     },
     {
       "name": "Android",
@@ -141,7 +145,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 5
+      "count": 6
     }
   ],
   "locations": [
@@ -154,6 +158,11 @@
       "name": "United States",
       "id": "US",
       "count": 16
+    },
+    {
+      "name": "Australia",
+      "id": "AU",
+      "count": 1
     },
     {
       "name": "India",
@@ -175,7 +184,7 @@
     {
       "name": "?",
       "id": "?",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Google",
