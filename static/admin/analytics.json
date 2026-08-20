@@ -1,18 +1,209 @@
 {
-  "generated": "2026-08-20T19:28:55.564415Z",
+  "generated": "2026-08-20T20:21:09.912148Z",
   "period": {
     "start": "2025-08-20",
     "end": "2026-08-20"
   },
-  "total": 0,
+  "total": 51,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
-  "locations": [],
-  "refs": []
+  "hits_by_day": [
+    {
+      "date": "2026-07-22",
+      "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 3
+    },
+    {
+      "date": "2026-08-01",
+      "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 2
+    },
+    {
+      "date": "2026-08-04",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 40
+    },
+    {
+      "path": "/credits",
+      "count": 4
+    },
+    {
+      "path": "/glossari",
+      "count": 3
+    },
+    {
+      "path": "/en",
+      "count": 2
+    },
+    {
+      "path": "/legal/accessibilitat",
+      "count": 2
+    }
+  ],
+  "by_lang": {
+    "en": 2
+  },
+  "by_section": {
+    "": 42,
+    "credits": 4,
+    "glossari": 3,
+    "legal": 2
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 32
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 18
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 1
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 25
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 11
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 11
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 25
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 12
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 7
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 7
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 31
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 16
+    },
+    {
+      "name": "Australia",
+      "id": "AU",
+      "count": 1
+    },
+    {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "?",
+      "id": "?",
+      "count": 31
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 7
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 1
+    }
+  ]
 }
