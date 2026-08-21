@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-21T12:37:04.125368Z",
+  "generated": "2026-08-21T13:39:49.145182Z",
   "period": {
     "start": "2025-08-21",
     "end": "2026-08-21"
@@ -10,9 +10,119 @@
   "hits": [],
   "by_lang": {},
   "by_section": {},
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
-  "locations": [],
-  "refs": []
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 32
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 18
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 1
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 25
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 11
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 11
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 4
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 25
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 12
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 7
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 7
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 31
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 16
+    },
+    {
+      "name": "Australia",
+      "id": "AU",
+      "count": 1
+    },
+    {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "?",
+      "id": "?",
+      "count": 31
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 7
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 1
+    }
+  ]
 }
