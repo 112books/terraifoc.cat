@@ -1,10 +1,10 @@
 {
-  "generated": "2026-08-21T21:17:47.590170Z",
+  "generated": "2026-08-21T22:17:16.839698Z",
   "period": {
     "start": "2025-08-21",
     "end": "2026-08-21"
   },
-  "total": 52,
+  "total": 53,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -61,13 +61,13 @@
     },
     {
       "date": "2026-08-21",
-      "count": 1
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 40
+      "count": 41
     },
     {
       "path": "/credits",
@@ -90,7 +90,7 @@
     "en": 3
   },
   "by_section": {
-    "": 43,
+    "": 44,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -99,7 +99,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 32
+      "count": 33
     },
     {
       "name": "Chrome",
@@ -116,7 +116,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 25
+      "count": 26
     },
     {
       "name": "macOS",
@@ -138,7 +138,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 25
+      "count": 26
     },
     {
       "name": "desktop",
@@ -173,6 +173,11 @@
       "count": 1
     },
     {
+      "name": "Belgium",
+      "id": "BE",
+      "count": 1
+    },
+    {
       "name": "India",
       "id": "IN",
       "count": 1
@@ -202,6 +207,11 @@
     {
       "name": "www.facebook.com",
       "id": "www.facebook.com",
+      "count": 1
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
       "count": 1
     },
     {
