@@ -1,108 +1,15 @@
 {
-  "generated": "2026-08-27T13:36:08.692310Z",
+  "generated": "2026-08-27T23:27:53.539226Z",
   "period": {
     "start": "2025-08-27",
     "end": "2026-08-27"
   },
-  "total": 55,
+  "total": 0,
   "total_unique": 0,
-  "hits_by_day": [
-    {
-      "date": "2026-07-22",
-      "count": 11
-    },
-    {
-      "date": "2026-07-23",
-      "count": 7
-    },
-    {
-      "date": "2026-07-24",
-      "count": 10
-    },
-    {
-      "date": "2026-07-25",
-      "count": 1
-    },
-    {
-      "date": "2026-07-31",
-      "count": 3
-    },
-    {
-      "date": "2026-08-01",
-      "count": 2
-    },
-    {
-      "date": "2026-08-02",
-      "count": 3
-    },
-    {
-      "date": "2026-08-03",
-      "count": 2
-    },
-    {
-      "date": "2026-08-04",
-      "count": 1
-    },
-    {
-      "date": "2026-08-12",
-      "count": 1
-    },
-    {
-      "date": "2026-08-17",
-      "count": 8
-    },
-    {
-      "date": "2026-08-19",
-      "count": 1
-    },
-    {
-      "date": "2026-08-20",
-      "count": 1
-    },
-    {
-      "date": "2026-08-21",
-      "count": 2
-    },
-    {
-      "date": "2026-08-24",
-      "count": 1
-    },
-    {
-      "date": "2026-08-25",
-      "count": 1
-    }
-  ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 42
-    },
-    {
-      "path": "/en",
-      "count": 4
-    },
-    {
-      "path": "/credits",
-      "count": 4
-    },
-    {
-      "path": "/glossari",
-      "count": 3
-    },
-    {
-      "path": "/legal/accessibilitat",
-      "count": 2
-    }
-  ],
-  "by_lang": {
-    "en": 4
-  },
-  "by_section": {
-    "": 46,
-    "credits": 4,
-    "glossari": 3,
-    "legal": 2
-  },
+  "hits_by_day": [],
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Safari",
@@ -117,7 +24,7 @@
     {
       "name": "Firefox",
       "id": "Firefox",
-      "count": 1
+      "count": 2
     }
   ],
   "systems": [
@@ -139,14 +46,14 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 4
+      "count": 5
     }
   ],
   "sizes": [
     {
       "name": "phone",
       "id": "phone",
-      "count": 27
+      "count": 28
     },
     {
       "name": "desktop",
@@ -168,7 +75,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 32
+      "count": 33
     },
     {
       "name": "United States",
@@ -215,7 +122,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 9
+      "count": 10
     },
     {
       "name": "www.facebook.com",
