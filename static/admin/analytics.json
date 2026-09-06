@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-06T13:53:32.799899Z",
+  "generated": "2026-09-06T16:39:03.401955Z",
   "period": {
     "start": "2025-09-06",
     "end": "2026-09-06"
   },
-  "total": 59,
+  "total": 60,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -86,12 +86,16 @@
     {
       "date": "2026-09-02",
       "count": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 46
+      "count": 47
     },
     {
       "path": "/en",
@@ -114,7 +118,7 @@
     "en": 4
   },
   "by_section": {
-    "": 50,
+    "": 51,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -128,7 +132,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 22
+      "count": 23
     },
     {
       "name": "Firefox",
@@ -143,13 +147,13 @@
       "count": 28
     },
     {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 12
-    },
-    {
       "name": "Windows",
       "id": "Windows",
+      "count": 13
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
       "count": 12
     },
     {
@@ -167,7 +171,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 13
+      "count": 14
     },
     {
       "name": "tablet",
@@ -184,7 +188,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 36
+      "count": 37
     },
     {
       "name": "United States",
@@ -231,7 +235,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 13
+      "count": 14
     },
     {
       "name": "www.facebook.com",
