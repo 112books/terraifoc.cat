@@ -1,15 +1,136 @@
 {
-  "generated": "2026-09-07T20:59:57.296091Z",
+  "generated": "2026-09-07T23:23:52.667873Z",
   "period": {
     "start": "2025-09-07",
     "end": "2026-09-07"
   },
-  "total": 0,
+  "total": 62,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-22",
+      "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 3
+    },
+    {
+      "date": "2026-08-01",
+      "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 2
+    },
+    {
+      "date": "2026-08-04",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    },
+    {
+      "date": "2026-08-21",
+      "count": 2
+    },
+    {
+      "date": "2026-08-24",
+      "count": 1
+    },
+    {
+      "date": "2026-08-25",
+      "count": 1
+    },
+    {
+      "date": "2026-08-27",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
+      "count": 1
+    },
+    {
+      "date": "2026-09-01",
+      "count": 1
+    },
+    {
+      "date": "2026-09-02",
+      "count": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 1
+    },
+    {
+      "date": "2026-09-07",
+      "count": 1
+    },
+    {
+      "date": "2026-09-08",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 49
+    },
+    {
+      "path": "/en",
+      "count": 4
+    },
+    {
+      "path": "/credits",
+      "count": 4
+    },
+    {
+      "path": "/glossari",
+      "count": 3
+    },
+    {
+      "path": "/legal/accessibilitat",
+      "count": 2
+    }
+  ],
+  "by_lang": {
+    "en": 4
+  },
+  "by_section": {
+    "": 53,
+    "credits": 4,
+    "glossari": 3,
+    "legal": 2
+  },
   "browsers": [
     {
       "name": "Safari",
@@ -19,7 +140,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 23
+      "count": 25
     },
     {
       "name": "Firefox",
@@ -46,14 +167,19 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 7
+      "count": 8
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
     }
   ],
   "sizes": [
     {
       "name": "phone",
       "id": "phone",
-      "count": 31
+      "count": 32
     },
     {
       "name": "desktop",
@@ -63,7 +189,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 8
+      "count": 9
     },
     {
       "name": "desktophd",
@@ -75,7 +201,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 37
+      "count": 38
     },
     {
       "name": "United States",
@@ -90,6 +216,11 @@
     {
       "name": "Belgium",
       "id": "BE",
+      "count": 1
+    },
+    {
+      "name": "Canada",
+      "id": "CA",
       "count": 1
     },
     {
@@ -117,7 +248,7 @@
     {
       "name": "?",
       "id": "?",
-      "count": 32
+      "count": 34
     },
     {
       "name": "Google",
