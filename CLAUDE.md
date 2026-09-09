@@ -235,3 +235,14 @@ Output is deployed to GitHub Pages at `https://terraifoc.cat/` via the CNAME rec
 ---
 
 **Important:** Always run `hugo --minify` before committing to verify no build errors. The site is bilingual — any new text must be added to both `ca.yaml` and `en.yaml`. The admin stats page (`/admin`) is public and has no password protection.
+
+
+---
+
+## Control horari
+
+Skill actiu: `gestor-hores` — registra automàticament el temps de treball per sessió.
+
+- Logs a `.taques/terraifoc.cat/YYYY-MM-DD.md` (creat automàticament)
+- Comandes: `/time-log [tasca] [hores]`, `/time-report [periode]`, `/time-config [hores] [tarifa]`
+- No modificar manualment els fitxers `.taques/` — són append-only
