@@ -1,20 +1,157 @@
 {
-  "generated": "2026-09-18T07:52:41.347958Z",
+  "generated": "2026-09-18T12:35:45.928314Z",
   "period": {
     "start": "2025-09-18",
     "end": "2026-09-18"
   },
-  "total": 0,
+  "total": 75,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-22",
+      "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 3
+    },
+    {
+      "date": "2026-08-01",
+      "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 2
+    },
+    {
+      "date": "2026-08-04",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    },
+    {
+      "date": "2026-08-21",
+      "count": 2
+    },
+    {
+      "date": "2026-08-24",
+      "count": 1
+    },
+    {
+      "date": "2026-08-25",
+      "count": 1
+    },
+    {
+      "date": "2026-08-27",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
+      "count": 1
+    },
+    {
+      "date": "2026-09-01",
+      "count": 1
+    },
+    {
+      "date": "2026-09-02",
+      "count": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 1
+    },
+    {
+      "date": "2026-09-07",
+      "count": 1
+    },
+    {
+      "date": "2026-09-08",
+      "count": 1
+    },
+    {
+      "date": "2026-09-11",
+      "count": 2
+    },
+    {
+      "date": "2026-09-13",
+      "count": 9
+    },
+    {
+      "date": "2026-09-14",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 61
+    },
+    {
+      "path": "/en",
+      "count": 5
+    },
+    {
+      "path": "/credits",
+      "count": 4
+    },
+    {
+      "path": "/glossari",
+      "count": 3
+    },
+    {
+      "path": "/legal/accessibilitat",
+      "count": 2
+    }
+  ],
+  "by_lang": {
+    "en": 5
+  },
+  "by_section": {
+    "": 66,
+    "credits": 4,
+    "glossari": 3,
+    "legal": 2
+  },
   "browsers": [
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 45
+      "count": 46
     },
     {
       "name": "Chrome",
@@ -31,7 +168,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 38
+      "count": 39
     },
     {
       "name": "Windows",
@@ -58,7 +195,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 44
+      "count": 45
     },
     {
       "name": "desktop",
@@ -108,6 +245,11 @@
       "count": 1
     },
     {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
       "name": "India",
       "id": "IN",
       "count": 1
@@ -132,7 +274,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 16
+      "count": 17
     },
     {
       "name": "chatgpt.com",
