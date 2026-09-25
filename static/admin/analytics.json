@@ -1,168 +1,15 @@
 {
-  "generated": "2026-09-25T17:43:10.344114Z",
+  "generated": "2026-09-25T20:59:38.446844Z",
   "period": {
     "start": "2025-09-25",
     "end": "2026-09-25"
   },
-  "total": 82,
+  "total": 0,
   "total_unique": 0,
-  "hits_by_day": [
-    {
-      "date": "2026-07-22",
-      "count": 11
-    },
-    {
-      "date": "2026-07-23",
-      "count": 7
-    },
-    {
-      "date": "2026-07-24",
-      "count": 10
-    },
-    {
-      "date": "2026-07-25",
-      "count": 1
-    },
-    {
-      "date": "2026-07-31",
-      "count": 3
-    },
-    {
-      "date": "2026-08-01",
-      "count": 2
-    },
-    {
-      "date": "2026-08-02",
-      "count": 3
-    },
-    {
-      "date": "2026-08-03",
-      "count": 2
-    },
-    {
-      "date": "2026-08-04",
-      "count": 1
-    },
-    {
-      "date": "2026-08-12",
-      "count": 1
-    },
-    {
-      "date": "2026-08-17",
-      "count": 8
-    },
-    {
-      "date": "2026-08-19",
-      "count": 1
-    },
-    {
-      "date": "2026-08-20",
-      "count": 1
-    },
-    {
-      "date": "2026-08-21",
-      "count": 2
-    },
-    {
-      "date": "2026-08-24",
-      "count": 1
-    },
-    {
-      "date": "2026-08-25",
-      "count": 1
-    },
-    {
-      "date": "2026-08-27",
-      "count": 1
-    },
-    {
-      "date": "2026-08-31",
-      "count": 1
-    },
-    {
-      "date": "2026-09-01",
-      "count": 1
-    },
-    {
-      "date": "2026-09-02",
-      "count": 1
-    },
-    {
-      "date": "2026-09-06",
-      "count": 1
-    },
-    {
-      "date": "2026-09-07",
-      "count": 1
-    },
-    {
-      "date": "2026-09-08",
-      "count": 1
-    },
-    {
-      "date": "2026-09-11",
-      "count": 2
-    },
-    {
-      "date": "2026-09-13",
-      "count": 9
-    },
-    {
-      "date": "2026-09-14",
-      "count": 1
-    },
-    {
-      "date": "2026-09-18",
-      "count": 1
-    },
-    {
-      "date": "2026-09-19",
-      "count": 2
-    },
-    {
-      "date": "2026-09-21",
-      "count": 2
-    },
-    {
-      "date": "2026-09-23",
-      "count": 1
-    },
-    {
-      "date": "2026-09-25",
-      "count": 2
-    }
-  ],
-  "hits": [
-    {
-      "path": "/",
-      "count": 66
-    },
-    {
-      "path": "/en",
-      "count": 7
-    },
-    {
-      "path": "/credits",
-      "count": 4
-    },
-    {
-      "path": "/glossari",
-      "count": 3
-    },
-    {
-      "path": "/legal/accessibilitat",
-      "count": 2
-    }
-  ],
-  "by_lang": {
-    "en": 7
-  },
-  "by_section": {
-    "": 73,
-    "credits": 4,
-    "glossari": 3,
-    "legal": 2
-  },
+  "hits_by_day": [],
+  "hits": [],
+  "by_lang": {},
+  "by_section": {},
   "browsers": [
     {
       "name": "Safari",
@@ -172,7 +19,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Firefox",
@@ -192,14 +39,14 @@
       "count": 14
     },
     {
-      "name": "Windows",
-      "id": "Windows",
+      "name": "Android",
+      "id": "Android",
       "count": 13
     },
     {
-      "name": "Android",
-      "id": "Android",
-      "count": 12
+      "name": "Windows",
+      "id": "Windows",
+      "count": 13
     },
     {
       "name": "Linux",
@@ -211,7 +58,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 50
+      "count": 51
     },
     {
       "name": "desktop",
@@ -233,7 +80,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 45
+      "count": 46
     },
     {
       "name": "United States",
@@ -295,7 +142,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 19
+      "count": 20
     },
     {
       "name": "chatgpt.com",
