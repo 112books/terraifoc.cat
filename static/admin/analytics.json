@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-27T14:56:34.686183Z",
+  "generated": "2026-09-27T18:53:25.507131Z",
   "period": {
     "start": "2025-09-27",
     "end": "2026-09-27"
   },
-  "total": 84,
+  "total": 85,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -133,13 +133,13 @@
     },
     {
       "date": "2026-09-27",
-      "count": 1
+      "count": 2
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 67
+      "count": 68
     },
     {
       "path": "/en",
@@ -162,7 +162,7 @@
     "en": 8
   },
   "by_section": {
-    "": 75,
+    "": 76,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -176,7 +176,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 33
+      "count": 34
     },
     {
       "name": "Firefox",
@@ -193,7 +193,7 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 14
+      "count": 15
     },
     {
       "name": "macOS",
@@ -215,7 +215,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 52
+      "count": 53
     },
     {
       "name": "desktop",
@@ -237,7 +237,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 47
+      "count": 48
     },
     {
       "name": "United States",
@@ -299,7 +299,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 20
+      "count": 21
     },
     {
       "name": "chatgpt.com",
