@@ -1,10 +1,10 @@
 {
-  "generated": "2026-09-28T14:51:23.070595Z",
+  "generated": "2026-09-28T21:00:36.220006Z",
   "period": {
     "start": "2025-09-28",
     "end": "2026-09-28"
   },
-  "total": 85,
+  "total": 86,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -134,12 +134,16 @@
     {
       "date": "2026-09-27",
       "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 68
+      "count": 69
     },
     {
       "path": "/en",
@@ -162,7 +166,7 @@
     "en": 8
   },
   "by_section": {
-    "": 76,
+    "": 77,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -171,7 +175,7 @@
     {
       "name": "Safari",
       "id": "Safari",
-      "count": 49
+      "count": 50
     },
     {
       "name": "Chrome",
@@ -188,7 +192,7 @@
     {
       "name": "iOS",
       "id": "iOS",
-      "count": 42
+      "count": 43
     },
     {
       "name": "Android",
@@ -215,7 +219,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 53
+      "count": 54
     },
     {
       "name": "desktop",
@@ -237,7 +241,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 48
+      "count": 49
     },
     {
       "name": "United States",
@@ -304,7 +308,7 @@
     {
       "name": "chatgpt.com",
       "id": "chatgpt.com",
-      "count": 4
+      "count": 5
     },
     {
       "name": "www.ecosia.org",
