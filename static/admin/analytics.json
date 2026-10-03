@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-03T01:38:28.035600Z",
+  "generated": "2026-10-03T07:26:47.339778Z",
   "period": {
     "start": "2025-10-03",
     "end": "2026-10-03"
   },
-  "total": 88,
+  "total": 89,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -146,12 +146,16 @@
     {
       "date": "2026-10-02",
       "count": 1
+    },
+    {
+      "date": "2026-10-03",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 71
+      "count": 72
     },
     {
       "path": "/en",
@@ -174,7 +178,7 @@
     "en": 8
   },
   "by_section": {
-    "": 79,
+    "": 80,
     "credits": 4,
     "glossari": 3,
     "legal": 2
@@ -188,7 +192,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 36
+      "count": 37
     },
     {
       "name": "Firefox",
@@ -215,7 +219,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 14
+      "count": 15
     },
     {
       "name": "Linux",
@@ -232,7 +236,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 15
+      "count": 16
     },
     {
       "name": "tablet",
@@ -254,7 +258,7 @@
     {
       "name": "United States",
       "id": "US",
-      "count": 28
+      "count": 29
     },
     {
       "name": "Australia",
@@ -306,7 +310,7 @@
     {
       "name": "?",
       "id": "?",
-      "count": 46
+      "count": 47
     },
     {
       "name": "Google",
