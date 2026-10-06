@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-06T04:21:53.824931Z",
+  "generated": "2026-10-06T11:40:37.775108Z",
   "period": {
     "start": "2025-10-06",
     "end": "2026-10-06"
   },
-  "total": 92,
+  "total": 93,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -154,6 +154,10 @@
     {
       "date": "2026-10-05",
       "count": 1
+    },
+    {
+      "date": "2026-10-06",
+      "count": 1
     }
   ],
   "hits": [
@@ -163,7 +167,7 @@
     },
     {
       "path": "/en",
-      "count": 8
+      "count": 9
     },
     {
       "path": "/credits",
@@ -183,10 +187,10 @@
     }
   ],
   "by_lang": {
-    "en": 8
+    "en": 9
   },
   "by_section": {
-    "": 82,
+    "": 83,
     "credits": 4,
     "glossari": 3,
     "legal": 3
@@ -200,7 +204,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 39
+      "count": 40
     },
     {
       "name": "Firefox",
@@ -220,13 +224,13 @@
       "count": 17
     },
     {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 15
-    },
-    {
       "name": "Windows",
       "id": "Windows",
+      "count": 16
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
       "count": 15
     },
     {
@@ -244,7 +248,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 16
+      "count": 17
     },
     {
       "name": "tablet",
@@ -269,6 +273,11 @@
       "count": 29
     },
     {
+      "name": "France",
+      "id": "FR",
+      "count": 2
+    },
+    {
       "name": "Australia",
       "id": "AU",
       "count": 1
@@ -286,11 +295,6 @@
     {
       "name": "China",
       "id": "CN",
-      "count": 1
-    },
-    {
-      "name": "France",
-      "id": "FR",
       "count": 1
     },
     {
@@ -333,7 +337,7 @@
     {
       "name": "www.ecosia.org",
       "id": "www.ecosia.org",
-      "count": 1
+      "count": 2
     },
     {
       "name": "www.facebook.com",
