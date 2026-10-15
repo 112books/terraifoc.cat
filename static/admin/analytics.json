@@ -1,18 +1,386 @@
 {
-  "generated": "2026-10-15T05:28:13.479986Z",
+  "generated": "2026-10-15T10:42:43.873171Z",
   "period": {
     "start": "2025-10-15",
     "end": "2026-10-15"
   },
-  "total": 0,
+  "total": 104,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
-  "browsers": [],
-  "systems": [],
-  "sizes": [],
-  "locations": [],
-  "refs": []
+  "hits_by_day": [
+    {
+      "date": "2026-07-22",
+      "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 3
+    },
+    {
+      "date": "2026-08-01",
+      "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 2
+    },
+    {
+      "date": "2026-08-04",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    },
+    {
+      "date": "2026-08-21",
+      "count": 2
+    },
+    {
+      "date": "2026-08-24",
+      "count": 1
+    },
+    {
+      "date": "2026-08-25",
+      "count": 1
+    },
+    {
+      "date": "2026-08-27",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
+      "count": 1
+    },
+    {
+      "date": "2026-09-01",
+      "count": 1
+    },
+    {
+      "date": "2026-09-02",
+      "count": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 1
+    },
+    {
+      "date": "2026-09-07",
+      "count": 1
+    },
+    {
+      "date": "2026-09-08",
+      "count": 1
+    },
+    {
+      "date": "2026-09-11",
+      "count": 2
+    },
+    {
+      "date": "2026-09-13",
+      "count": 9
+    },
+    {
+      "date": "2026-09-14",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 1
+    },
+    {
+      "date": "2026-09-19",
+      "count": 2
+    },
+    {
+      "date": "2026-09-21",
+      "count": 2
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 3
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1
+    },
+    {
+      "date": "2026-10-02",
+      "count": 1
+    },
+    {
+      "date": "2026-10-03",
+      "count": 3
+    },
+    {
+      "date": "2026-10-05",
+      "count": 1
+    },
+    {
+      "date": "2026-10-06",
+      "count": 2
+    },
+    {
+      "date": "2026-10-07",
+      "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 1
+    },
+    {
+      "date": "2026-10-10",
+      "count": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 3
+    },
+    {
+      "date": "2026-10-12",
+      "count": 1
+    },
+    {
+      "date": "2026-10-13",
+      "count": 2
+    },
+    {
+      "date": "2026-10-14",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 81
+    },
+    {
+      "path": "/en",
+      "count": 12
+    },
+    {
+      "path": "/credits",
+      "count": 5
+    },
+    {
+      "path": "/glossari",
+      "count": 3
+    },
+    {
+      "path": "/legal/accessibilitat",
+      "count": 2
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 12
+  },
+  "by_section": {
+    "": 93,
+    "credits": 5,
+    "glossari": 3,
+    "legal": 3
+  },
+  "browsers": [
+    {
+      "name": "Safari",
+      "id": "Safari",
+      "count": 54
+    },
+    {
+      "name": "Chrome",
+      "id": "Chrome",
+      "count": 48
+    },
+    {
+      "name": "Firefox",
+      "id": "Firefox",
+      "count": 2
+    }
+  ],
+  "systems": [
+    {
+      "name": "iOS",
+      "id": "iOS",
+      "count": 46
+    },
+    {
+      "name": "Android",
+      "id": "Android",
+      "count": 22
+    },
+    {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 19
+    },
+    {
+      "name": "Windows",
+      "id": "Windows",
+      "count": 16
+    },
+    {
+      "name": "Linux",
+      "id": "Linux",
+      "count": 1
+    }
+  ],
+  "sizes": [
+    {
+      "name": "phone",
+      "id": "phone",
+      "count": 64
+    },
+    {
+      "name": "desktop",
+      "id": "desktop",
+      "count": 18
+    },
+    {
+      "name": "tablet",
+      "id": "tablet",
+      "count": 13
+    },
+    {
+      "name": "desktophd",
+      "id": "desktophd",
+      "count": 9
+    }
+  ],
+  "locations": [
+    {
+      "name": "Spain",
+      "id": "ES",
+      "count": 62
+    },
+    {
+      "name": "United States",
+      "id": "US",
+      "count": 31
+    },
+    {
+      "name": "France",
+      "id": "FR",
+      "count": 2
+    },
+    {
+      "name": "Australia",
+      "id": "AU",
+      "count": 1
+    },
+    {
+      "name": "Belgium",
+      "id": "BE",
+      "count": 1
+    },
+    {
+      "name": "Canada",
+      "id": "CA",
+      "count": 1
+    },
+    {
+      "name": "China",
+      "id": "CN",
+      "count": 1
+    },
+    {
+      "name": "United Kingdom",
+      "id": "GB",
+      "count": 1
+    },
+    {
+      "name": "India",
+      "id": "IN",
+      "count": 1
+    },
+    {
+      "name": "Italy",
+      "id": "IT",
+      "count": 1
+    },
+    {
+      "name": "Netherlands",
+      "id": "NL",
+      "count": 1
+    },
+    {
+      "name": "Sweden",
+      "id": "SE",
+      "count": 1
+    }
+  ],
+  "refs": [
+    {
+      "name": "?",
+      "id": "?",
+      "count": 51
+    },
+    {
+      "name": "Google",
+      "id": "Google",
+      "count": 32
+    },
+    {
+      "name": "chatgpt.com",
+      "id": "chatgpt.com",
+      "count": 5
+    },
+    {
+      "name": "www.ecosia.org",
+      "id": "www.ecosia.org",
+      "count": 2
+    },
+    {
+      "name": "www.facebook.com",
+      "id": "www.facebook.com",
+      "count": 1
+    },
+    {
+      "name": "linuxbcn.com",
+      "id": "linuxbcn.com",
+      "count": 1
+    }
+  ]
 }
