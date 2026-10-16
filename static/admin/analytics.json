@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-16T15:06:32.006264Z",
+  "generated": "2026-10-16T19:12:10.976258Z",
   "period": {
     "start": "2025-10-16",
     "end": "2026-10-16"
   },
-  "total": 111,
+  "total": 114,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -193,17 +193,17 @@
     },
     {
       "date": "2026-10-16",
-      "count": 6
+      "count": 9
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 85
+      "count": 86
     },
     {
       "path": "/en",
-      "count": 15
+      "count": 17
     },
     {
       "path": "/credits",
@@ -223,24 +223,24 @@
     }
   ],
   "by_lang": {
-    "en": 15
+    "en": 17
   },
   "by_section": {
-    "": 100,
+    "": 103,
     "credits": 5,
     "glossari": 3,
     "legal": 3
   },
   "browsers": [
     {
-      "name": "Safari",
-      "id": "Safari",
+      "name": "Chrome",
+      "id": "Chrome",
       "count": 56
     },
     {
-      "name": "Chrome",
-      "id": "Chrome",
-      "count": 53
+      "name": "Safari",
+      "id": "Safari",
+      "count": 56
     },
     {
       "name": "Firefox",
@@ -255,19 +255,19 @@
       "count": 48
     },
     {
+      "name": "macOS",
+      "id": "macOS",
+      "count": 24
+    },
+    {
       "name": "Android",
       "id": "Android",
       "count": 23
     },
     {
-      "name": "macOS",
-      "id": "macOS",
-      "count": 22
-    },
-    {
       "name": "Windows",
       "id": "Windows",
-      "count": 16
+      "count": 17
     },
     {
       "name": "Linux",
@@ -284,12 +284,12 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 19
+      "count": 20
     },
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 16
+      "count": 18
     },
     {
       "name": "desktophd",
@@ -301,12 +301,12 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 63
+      "count": 64
     },
     {
       "name": "United States",
       "id": "US",
-      "count": 35
+      "count": 37
     },
     {
       "name": "Brazil",
@@ -368,7 +368,7 @@
     {
       "name": "?",
       "id": "?",
-      "count": 57
+      "count": 59
     },
     {
       "name": "Google",
@@ -383,7 +383,7 @@
     {
       "name": "www.ecosia.org",
       "id": "www.ecosia.org",
-      "count": 2
+      "count": 3
     },
     {
       "name": "www.facebook.com",
