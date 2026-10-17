@@ -1,20 +1,245 @@
 {
-  "generated": "2026-10-17T00:57:42.214938Z",
+  "generated": "2026-10-17T05:21:47.977703Z",
   "period": {
     "start": "2025-10-17",
     "end": "2026-10-17"
   },
-  "total": 0,
+  "total": 115,
   "total_unique": 0,
-  "hits_by_day": [],
-  "hits": [],
-  "by_lang": {},
-  "by_section": {},
+  "hits_by_day": [
+    {
+      "date": "2026-07-22",
+      "count": 11
+    },
+    {
+      "date": "2026-07-23",
+      "count": 7
+    },
+    {
+      "date": "2026-07-24",
+      "count": 10
+    },
+    {
+      "date": "2026-07-25",
+      "count": 1
+    },
+    {
+      "date": "2026-07-31",
+      "count": 3
+    },
+    {
+      "date": "2026-08-01",
+      "count": 2
+    },
+    {
+      "date": "2026-08-02",
+      "count": 3
+    },
+    {
+      "date": "2026-08-03",
+      "count": 2
+    },
+    {
+      "date": "2026-08-04",
+      "count": 1
+    },
+    {
+      "date": "2026-08-12",
+      "count": 1
+    },
+    {
+      "date": "2026-08-17",
+      "count": 8
+    },
+    {
+      "date": "2026-08-19",
+      "count": 1
+    },
+    {
+      "date": "2026-08-20",
+      "count": 1
+    },
+    {
+      "date": "2026-08-21",
+      "count": 2
+    },
+    {
+      "date": "2026-08-24",
+      "count": 1
+    },
+    {
+      "date": "2026-08-25",
+      "count": 1
+    },
+    {
+      "date": "2026-08-27",
+      "count": 1
+    },
+    {
+      "date": "2026-08-31",
+      "count": 1
+    },
+    {
+      "date": "2026-09-01",
+      "count": 1
+    },
+    {
+      "date": "2026-09-02",
+      "count": 1
+    },
+    {
+      "date": "2026-09-06",
+      "count": 1
+    },
+    {
+      "date": "2026-09-07",
+      "count": 1
+    },
+    {
+      "date": "2026-09-08",
+      "count": 1
+    },
+    {
+      "date": "2026-09-11",
+      "count": 2
+    },
+    {
+      "date": "2026-09-13",
+      "count": 9
+    },
+    {
+      "date": "2026-09-14",
+      "count": 1
+    },
+    {
+      "date": "2026-09-18",
+      "count": 1
+    },
+    {
+      "date": "2026-09-19",
+      "count": 2
+    },
+    {
+      "date": "2026-09-21",
+      "count": 2
+    },
+    {
+      "date": "2026-09-23",
+      "count": 1
+    },
+    {
+      "date": "2026-09-25",
+      "count": 3
+    },
+    {
+      "date": "2026-09-27",
+      "count": 2
+    },
+    {
+      "date": "2026-09-28",
+      "count": 1
+    },
+    {
+      "date": "2026-10-01",
+      "count": 1
+    },
+    {
+      "date": "2026-10-02",
+      "count": 1
+    },
+    {
+      "date": "2026-10-03",
+      "count": 3
+    },
+    {
+      "date": "2026-10-05",
+      "count": 1
+    },
+    {
+      "date": "2026-10-06",
+      "count": 2
+    },
+    {
+      "date": "2026-10-07",
+      "count": 1
+    },
+    {
+      "date": "2026-10-08",
+      "count": 1
+    },
+    {
+      "date": "2026-10-10",
+      "count": 1
+    },
+    {
+      "date": "2026-10-11",
+      "count": 3
+    },
+    {
+      "date": "2026-10-12",
+      "count": 1
+    },
+    {
+      "date": "2026-10-13",
+      "count": 2
+    },
+    {
+      "date": "2026-10-14",
+      "count": 1
+    },
+    {
+      "date": "2026-10-15",
+      "count": 1
+    },
+    {
+      "date": "2026-10-16",
+      "count": 9
+    },
+    {
+      "date": "2026-10-17",
+      "count": 1
+    }
+  ],
+  "hits": [
+    {
+      "path": "/",
+      "count": 87
+    },
+    {
+      "path": "/en",
+      "count": 17
+    },
+    {
+      "path": "/credits",
+      "count": 5
+    },
+    {
+      "path": "/glossari",
+      "count": 3
+    },
+    {
+      "path": "/legal/accessibilitat",
+      "count": 2
+    },
+    {
+      "path": "/legal/privacitat",
+      "count": 1
+    }
+  ],
+  "by_lang": {
+    "en": 17
+  },
+  "by_section": {
+    "": 104,
+    "credits": 5,
+    "glossari": 3,
+    "legal": 3
+  },
   "browsers": [
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 56
+      "count": 57
     },
     {
       "name": "Safari",
@@ -46,7 +271,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 17
+      "count": 18
     },
     {
       "name": "Linux",
@@ -63,7 +288,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 20
+      "count": 21
     },
     {
       "name": "tablet",
@@ -80,7 +305,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 64
+      "count": 65
     },
     {
       "name": "United States",
@@ -162,7 +387,7 @@
     {
       "name": "www.ecosia.org",
       "id": "www.ecosia.org",
-      "count": 3
+      "count": 4
     },
     {
       "name": "www.facebook.com",
