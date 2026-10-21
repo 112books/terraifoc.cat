@@ -1,10 +1,10 @@
 {
-  "generated": "2026-10-21T11:00:06.665951Z",
+  "generated": "2026-10-21T15:54:13.636376Z",
   "period": {
     "start": "2025-10-21",
     "end": "2026-10-21"
   },
-  "total": 120,
+  "total": 121,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -206,12 +206,16 @@
     {
       "date": "2026-10-20",
       "count": 1
+    },
+    {
+      "date": "2026-10-21",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 90
+      "count": 91
     },
     {
       "path": "/en",
@@ -238,7 +242,7 @@
     "en": 19
   },
   "by_section": {
-    "": 109,
+    "": 110,
     "credits": 5,
     "glossari": 3,
     "legal": 3
@@ -288,7 +292,8 @@
       "2026-10-16": 4,
       "2026-10-17": 2,
       "2026-10-18": 1,
-      "2026-10-20": 1
+      "2026-10-20": 1,
+      "2026-10-21": 1
     },
     "/en": {
       "2026-07-23": 1,
@@ -373,7 +378,8 @@
       "2026-10-16": 9,
       "2026-10-17": 3,
       "2026-10-18": 2,
-      "2026-10-20": 1
+      "2026-10-20": 1,
+      "2026-10-21": 1
     },
     "credits": {
       "2026-07-22": 2,
@@ -395,7 +401,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 61
+      "count": 62
     },
     {
       "name": "Safari",
@@ -433,6 +439,11 @@
       "name": "Linux",
       "id": "Linux",
       "count": 2
+    },
+    {
+      "name": "Chrome OS",
+      "id": "Chrome OS",
+      "count": 1
     }
   ],
   "sizes": [
@@ -444,7 +455,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 23
+      "count": 24
     },
     {
       "name": "tablet",
@@ -461,7 +472,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 69
+      "count": 70
     },
     {
       "name": "United States",
@@ -533,7 +544,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 34
+      "count": 35
     },
     {
       "name": "www.ecosia.org",
