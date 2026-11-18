@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-17T19:01:31.099283Z",
+  "generated": "2026-11-18T09:56:09.077510Z",
   "period": {
-    "start": "2025-11-17",
-    "end": "2026-11-17"
+    "start": "2025-11-18",
+    "end": "2026-11-18"
   },
-  "total": 155,
+  "total": 157,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -262,16 +262,24 @@
     {
       "date": "2026-11-14",
       "count": 3
+    },
+    {
+      "date": "2026-11-17",
+      "count": 1
+    },
+    {
+      "date": "2026-11-18",
+      "count": 1
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 119
+      "count": 120
     },
     {
       "path": "/en",
-      "count": 19
+      "count": 20
     },
     {
       "path": "/credits",
@@ -295,10 +303,10 @@
     }
   ],
   "by_lang": {
-    "en": 19
+    "en": 20
   },
   "by_section": {
-    "": 138,
+    "": 140,
     "credits": 8,
     "glossari": 5,
     "legal": 4
@@ -362,7 +370,8 @@
       "2026-11-11": 3,
       "2026-11-12": 8,
       "2026-11-13": 3,
-      "2026-11-14": 1
+      "2026-11-14": 1,
+      "2026-11-17": 1
     },
     "/en": {
       "2026-07-23": 1,
@@ -377,7 +386,8 @@
       "2026-10-13": 2,
       "2026-10-16": 5,
       "2026-10-17": 1,
-      "2026-10-18": 1
+      "2026-10-18": 1,
+      "2026-11-18": 1
     },
     "/credits": {
       "2026-07-22": 2,
@@ -468,7 +478,9 @@
       "2026-11-11": 3,
       "2026-11-12": 8,
       "2026-11-13": 3,
-      "2026-11-14": 1
+      "2026-11-14": 1,
+      "2026-11-17": 1,
+      "2026-11-18": 1
     },
     "credits": {
       "2026-07-22": 2,
@@ -495,7 +507,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 87
+      "count": 89
     },
     {
       "name": "Safari",
@@ -517,12 +529,12 @@
     {
       "name": "Android",
       "id": "Android",
-      "count": 39
+      "count": 40
     },
     {
       "name": "macOS",
       "id": "macOS",
-      "count": 30
+      "count": 31
     },
     {
       "name": "Windows",
@@ -544,7 +556,7 @@
     {
       "name": "phone",
       "id": "phone",
-      "count": 89
+      "count": 90
     },
     {
       "name": "desktop",
@@ -554,7 +566,7 @@
     {
       "name": "tablet",
       "id": "tablet",
-      "count": 21
+      "count": 22
     },
     {
       "name": "desktophd",
@@ -566,7 +578,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 102
+      "count": 103
     },
     {
       "name": "United States",
@@ -581,6 +593,11 @@
     {
       "name": "France",
       "id": "FR",
+      "count": 2
+    },
+    {
+      "name": "India",
+      "id": "IN",
       "count": 2
     },
     {
@@ -614,11 +631,6 @@
       "count": 1
     },
     {
-      "name": "India",
-      "id": "IN",
-      "count": 1
-    },
-    {
       "name": "Italy",
       "id": "IT",
       "count": 1
@@ -633,12 +645,12 @@
     {
       "name": "?",
       "id": "?",
-      "count": 73
+      "count": 74
     },
     {
       "name": "Google",
       "id": "Google",
-      "count": 51
+      "count": 52
     },
     {
       "name": "chatgpt.com",
