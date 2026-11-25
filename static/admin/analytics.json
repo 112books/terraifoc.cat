@@ -1,10 +1,10 @@
 {
-  "generated": "2026-11-24T18:33:23.390398Z",
+  "generated": "2026-11-25T11:59:17.084182Z",
   "period": {
-    "start": "2025-11-24",
-    "end": "2026-11-24"
+    "start": "2025-11-25",
+    "end": "2026-11-25"
   },
-  "total": 163,
+  "total": 164,
   "total_unique": 0,
   "hits_by_day": [
     {
@@ -285,13 +285,13 @@
     },
     {
       "date": "2026-11-24",
-      "count": 2
+      "count": 3
     }
   ],
   "hits": [
     {
       "path": "/",
-      "count": 125
+      "count": 126
     },
     {
       "path": "/en",
@@ -322,7 +322,7 @@
     "en": 21
   },
   "by_section": {
-    "": 146,
+    "": 147,
     "credits": 8,
     "glossari": 5,
     "legal": 4
@@ -391,7 +391,7 @@
       "2026-11-18": 1,
       "2026-11-22": 1,
       "2026-11-23": 1,
-      "2026-11-24": 2
+      "2026-11-24": 3
     },
     "/en": {
       "2026-07-23": 1,
@@ -505,7 +505,7 @@
       "2026-11-20": 1,
       "2026-11-22": 1,
       "2026-11-23": 1,
-      "2026-11-24": 2
+      "2026-11-24": 3
     },
     "credits": {
       "2026-07-22": 2,
@@ -532,7 +532,7 @@
     {
       "name": "Chrome",
       "id": "Chrome",
-      "count": 95
+      "count": 96
     },
     {
       "name": "Safari",
@@ -564,7 +564,7 @@
     {
       "name": "Windows",
       "id": "Windows",
-      "count": 31
+      "count": 32
     },
     {
       "name": "Linux",
@@ -586,7 +586,7 @@
     {
       "name": "desktop",
       "id": "desktop",
-      "count": 41
+      "count": 42
     },
     {
       "name": "tablet",
@@ -603,7 +603,7 @@
     {
       "name": "Spain",
       "id": "ES",
-      "count": 107
+      "count": 108
     },
     {
       "name": "United States",
@@ -685,7 +685,7 @@
     {
       "name": "Google",
       "id": "Google",
-      "count": 54
+      "count": 55
     },
     {
       "name": "chatgpt.com",
